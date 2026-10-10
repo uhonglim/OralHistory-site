@@ -44,6 +44,27 @@
     document.querySelector('#transcript-count').textContent = query ? `${count} matching ${count === 1 ? 'passage' : 'passages'}` : '';
   });
   const players = [...document.querySelectorAll('audio')];
+  const interviewPlayer = document.querySelector('#interview-player');
+  const tracks = [...document.querySelectorAll('[data-clip]')];
+  let playbackRequest = 0;
+  tracks.forEach(track => track.addEventListener('click', async () => {
+    const request = ++playbackRequest;
+    tracks.forEach(item => item.setAttribute('aria-pressed', String(item === track)));
+    document.querySelector('#now-playing').textContent = track.dataset.clipTitle;
+    document.querySelector('#playback-status').textContent = '';
+    interviewPlayer.setAttribute('aria-label', `Interview excerpt: ${track.dataset.clipTitle}`);
+    if (interviewPlayer.getAttribute('src') !== track.dataset.clip) {
+      interviewPlayer.src = track.dataset.clip;
+      interviewPlayer.load();
+    }
+    try {
+      await interviewPlayer.play();
+    } catch (error) {
+      if (request === playbackRequest && error.name !== 'AbortError') {
+        document.querySelector('#playback-status').textContent = 'Use the player to start this excerpt.';
+      }
+    }
+  }));
   players.forEach(player => player.addEventListener('play', () => players.forEach(other => {
     if (other !== player) other.pause();
   })));
