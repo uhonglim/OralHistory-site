@@ -51,6 +51,8 @@
     const request = ++playbackRequest;
     tracks.forEach(item => item.setAttribute('aria-pressed', String(item === track)));
     document.querySelector('#now-playing').textContent = track.dataset.clipTitle;
+    document.querySelector('#excerpt-text').textContent = track.dataset.clipText;
+    document.querySelector('#excerpt-transcript').setAttribute('href', track.dataset.transcript);
     document.querySelector('#playback-status').textContent = '';
     interviewPlayer.setAttribute('aria-label', `Interview excerpt: ${track.dataset.clipTitle}`);
     if (interviewPlayer.getAttribute('src') !== track.dataset.clip) {
