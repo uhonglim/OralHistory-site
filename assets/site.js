@@ -1,37 +1,6 @@
 (() => {
-  const search = document.querySelector('#search');
-  const cards = [...document.querySelectorAll('[data-story]')];
-  const buttons = [...document.querySelectorAll('[data-filter]')];
-  const filters = {};
-  function filterStories() {
-    const query = search.value.trim().toLocaleLowerCase();
-    let count = 0;
-    cards.forEach(card => {
-      const matches = card.dataset.search.toLocaleLowerCase().includes(query)
-        && Object.entries(filters).every(([key, value]) => !value || JSON.parse(card.dataset[key]).includes(value));
-      card.hidden = !matches;
-      if (matches) count++;
-    });
-    document.querySelector('#result-count').textContent = `${count} ${count === 1 ? 'interview' : 'interviews'}`;
-    document.querySelector('#empty').hidden = count > 0;
-  }
-  if (search) {
-    search.addEventListener('input', filterStories);
-    buttons.forEach(button => button.addEventListener('click', () => {
-      const key = button.dataset.filter;
-      filters[key] = filters[key] === button.dataset.value ? null : button.dataset.value;
-      buttons.filter(b => b.dataset.filter === key).forEach(b => b.setAttribute('aria-pressed', String(b.dataset.value === filters[key])));
-      filterStories();
-    }));
-    document.querySelector('#clear').addEventListener('click', () => {
-      search.value = '';
-      Object.keys(filters).forEach(key => delete filters[key]);
-      buttons.forEach(b => b.setAttribute('aria-pressed', 'false'));
-      filterStories();
-    });
-  }
   const transcriptSearch = document.querySelector('#transcript-search');
-  transcriptSearch?.addEventListener('input', () => {
+  function filterTranscript() {
     const query = transcriptSearch.value.trim().toLocaleLowerCase();
     let count = 0;
     document.querySelectorAll('[data-segment]').forEach(segment => {
@@ -42,6 +11,31 @@
       part.hidden = ![...part.querySelectorAll('[data-segment]')].some(row => !row.hidden);
     });
     document.querySelector('#transcript-count').textContent = query ? `${count} matching ${count === 1 ? 'passage' : 'passages'}` : '';
+  }
+  transcriptSearch?.addEventListener('input', filterTranscript);
+  function revealTranscriptTarget(hash) {
+    if (!transcriptSearch || !hash.startsWith('#')) return null;
+    let id;
+    try { id = decodeURIComponent(hash.slice(1)); } catch (_) { return null; }
+    const target = document.getElementById(id);
+    if (!target?.closest('.transcript-section')) return null;
+    if (transcriptSearch.value) {
+      transcriptSearch.value = '';
+      filterTranscript();
+    }
+    return target;
+  }
+  // A passage link must remain usable after filtering, without reloading the audio.
+  document.addEventListener('click', event => {
+    if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+    const link = event.target.closest('a[href^="#"]');
+    if (!link) return;
+    const hash = link.getAttribute('href');
+    const target = revealTranscriptTarget(hash);
+    if (target && location.hash === hash) target.scrollIntoView();
+  });
+  window.addEventListener('hashchange', () => {
+    revealTranscriptTarget(location.hash)?.scrollIntoView();
   });
   const players = [...document.querySelectorAll('audio')];
   const interviewPlayer = document.querySelector('#interview-player');

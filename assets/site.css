@@ -38,7 +38,6 @@ img { display: block; max-width: 100%; height: auto; }
 .brand-type { display: grid; gap: 8px; }
 .brand-name { font: 600 29px/1.1 var(--serif); }
 .brand small { color: var(--muted); font-size: 12px; line-height: 1.4; }
-.header-search { font-size: 14px; white-space: nowrap; }
 .nav { display: flex; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--accent); gap: 4px 38px; }
 .nav a { color: var(--accent); font-size: 14px; text-decoration: none; padding: 13px 0 11px; border-bottom: 2px solid transparent; }
 .nav a:hover, .nav a[aria-current=page] { color: var(--accent); border-bottom-color: var(--accent); }
@@ -50,8 +49,6 @@ img { display: block; max-width: 100%; height: auto; }
 .home-interview > * { min-width: 0; }
 .interview-overview { display: grid; gap: 22px; }
 .home-interview h1, .story-heading h1 { font: 600 38px/1.22 var(--serif); }
-.home-interview h1 a { color: inherit; text-decoration: none; }
-.home-interview h1 a:hover { text-decoration: underline; }
 .story-subtitle { color: var(--muted); font: 400 22px/1.5 var(--serif); margin-top: 9px; }
 .home-interview header .meta { margin-bottom: 12px; }
 .home-summary, .story-intro, .story-narrative { font: 400 19px/1.8 var(--serif); }
@@ -59,17 +56,12 @@ img { display: block; max-width: 100%; height: auto; }
 .source-facts > div { display: grid; grid-template-columns: 120px minmax(0,1fr); gap: 16px; }
 .source-facts dt { color: var(--muted); }
 .source-facts dd { margin: 0; }
-.interview-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 14px 22px; font-size: 14px; }
-.primary-link { display: inline-block; background: var(--accent); color: white; padding: 10px 18px; text-decoration: none; }
-.primary-link:hover { background: #25496b; text-decoration: underline; }
-.story-sidebar { display: grid; gap: 28px; font-size: 14px; line-height: 1.75; }
+.story-sidebar { display: grid; position: sticky; top: 24px; gap: 28px; font-size: 14px; line-height: 1.75; }
 .story-sidebar section { padding-top: 16px; border-top: 1px solid var(--rule); }
 .story-sidebar h2 { font: 600 20px/1.3 var(--serif); margin-bottom: 12px; }
 .interview-card { display: grid; min-width: 0; padding: 30px 0; border-bottom: 1px solid var(--rule); }
 .interview-card > div { display: grid; gap: 14px; min-width: 0; }
 .interview-card h2 { font-size: 30px; }
-.interview-card h2 a, .interview-card h3 a { color: var(--ink); text-decoration: none; }
-.interview-card h2 a:hover, .interview-card h3 a:hover { color: var(--link); text-decoration: underline; }
 .interview-card .story-subtitle { margin: 0; font-size: 19px; }
 .interview-card.with-portrait { grid-template-columns: 150px minmax(0, 1fr); gap: 24px; }
 .thumb img { width: 150px; aspect-ratio: 4/5; object-fit: cover; }
@@ -78,18 +70,11 @@ img { display: block; max-width: 100%; height: auto; }
 .more-interviews { padding-block: 40px; }
 .page { padding-block: 42px 64px; }
 .page > h1 { margin-bottom: 36px; }
-.archive, .document { display: grid; grid-template-columns: minmax(0, 1fr) 240px; gap: 70px; align-items: start; }
-.archive > *, .document > * { min-width: 0; }
-.archive-single { max-width: 780px; }
-.count { color: var(--muted); font-size: 14px; padding-bottom: 10px; border-bottom: 1px solid var(--rule); }
-.side { display: grid; gap: 28px; }
-.side h2, .side label { display: block; font-size: 16px; font-weight: 600; margin-bottom: 8px; }
+.document { display: grid; grid-template-columns: minmax(0, 1fr) 240px; gap: 70px; align-items: start; }
+.document > * { min-width: 0; }
+.story .document > article { grid-column: 1; grid-row: 1; }
+.story .document > .story-sidebar { grid-column: 2; grid-row: 1; }
 .search { width: 100%; min-width: 0; padding: 9px 10px; background: white; color: var(--ink); border: 1px solid #9caaba; border-radius: 0; font-size: 15px; }
-.filters { display: grid; }
-.filters button, .clear { text-align: left; border: 0; background: transparent; color: var(--link); padding: 6px 0; font-size: 14px; }
-.filters button[aria-pressed=true] { color: var(--ink); font-weight: 700; text-decoration: underline; text-underline-offset: 4px; }
-.clear { text-decoration: underline; }
-#empty { padding-top: 28px; }
 .toc { display: grid; align-content: start; position: sticky; top: 24px; border-left: 1px solid var(--rule); padding-left: 22px; gap: 10px; }
 .toc h2 { font-size: 15px; margin-bottom: 7px; }
 .toc a { font-size: 14px; text-decoration: none; line-height: 1.55; }
@@ -114,7 +99,6 @@ tbody th { width: 30%; font-weight: 600; }
 .faq p { margin-top: 12px; }
 .breadcrumbs { font-size: 13px; color: var(--muted); margin-bottom: 16px; }
 .story-heading { margin-bottom: 24px; }
-.story-heading .meta { margin-top: 12px; }
 .portrait { max-width: 220px; }
 .editor-note { font: 13px/1.7 Arial, Helvetica, sans-serif; color: var(--muted); padding-left: 12px; border-left: 2px solid #a8b5c2; }
 .chapter { padding-top: 36px; margin-top: 30px; border-top: 1px solid var(--rule); }
@@ -129,7 +113,6 @@ tbody th { width: 30%; font-weight: 600; }
 .recordings { margin-block: 32px 40px; }
 .recording-heading { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 20px; margin-bottom: 16px; }
 .recording-heading h2 { font: 600 25px/1.35 var(--serif); }
-.recording-heading a { font-size: 13px; }
 audio { display: block; width: min(100%, 460px); max-width: 100%; }
 .recordings audio { width: 100%; }
 #now-playing { margin-top: 10px; }
@@ -156,12 +139,11 @@ audio { display: block; width: min(100%, 460px); max-width: 100%; }
 .citation p { overflow-wrap: anywhere; }
 .gallery { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; }
 .gallery figcaption { font-size: 13px; }
-.transcript-page { max-width: 920px; }
-.transcript-page h1 { margin-bottom: 24px; }
+.transcript-section > h2 { margin-bottom: 16px; }
 .transcript-tools { display: grid; gap: 10px; margin-block: 30px; max-width: 480px; font-size: 14px; }
 .transcript-tools nav { display: flex; gap: 25px; }
 .transcript-part { margin-block: 32px 48px; }
-.transcript-part h2 { margin-bottom: 18px; }
+.transcript-part h3 { margin-bottom: 18px; font-size: 22px; }
 .segment { display: grid; grid-template-columns: 50px minmax(0,1fr); gap: 18px; border-top: 1px solid var(--rule); padding: 20px 0; }
 .segment:target { background: #f2f5f8; box-shadow: -12px 0 #f2f5f8, 12px 0 #f2f5f8; }
 .timestamp { color: var(--muted); font-size: 13px; }
@@ -172,11 +154,10 @@ audio { display: block; width: min(100%, 460px); max-width: 100%; }
 .transcript-note { color: var(--muted); font-size: 13px; }
 .foot { border-top: 1px solid var(--accent); padding-block: 26px; color: var(--muted); font-size: 12px; }
 .footer-links { display: flex; justify-content: space-between; gap: 18px; flex-wrap: wrap; }
-.footer-links nav { display: flex; flex-wrap: wrap; gap: 20px; }
 .review-status { margin-top: 14px; font-size: 12px; }
 @media (max-width: 900px) {
   .brand-name { font-size: 27px; }
-  .archive, .document { grid-template-columns: minmax(0,1fr) 200px; gap: 36px; }
+  .document { grid-template-columns: minmax(0,1fr) 200px; gap: 36px; }
   .home-interview { gap: 34px; }
   .home-interview h1, .story-heading h1 { font-size: 33px; }
 }
@@ -188,7 +169,6 @@ audio { display: block; width: min(100%, 460px); max-width: 100%; }
   .brand img { width: 44px; height: 44px; }
   .brand-name { font-size: 24px; }
   .brand small { font-size: 11px; }
-  .header-search { display: none; }
   .nav { gap: 0 15px; justify-content: flex-start; flex-wrap: wrap; }
   .nav a { padding-block: 10px 8px; font-size: 13px; }
   .collection-intro { font-size: 14px; margin-bottom: 26px; }
@@ -198,17 +178,21 @@ audio { display: block; width: min(100%, 460px); max-width: 100%; }
   .cover figcaption { font-size: 10px; }
   .page { padding-block: 28px 44px; }
   .page > h1 { margin-bottom: 28px; }
-  .archive, .document { grid-template-columns: minmax(0,1fr); gap: 36px; }
+  .document { grid-template-columns: minmax(0,1fr); gap: 36px; }
+  .story .document > article { grid-column: 1; grid-row: 2; }
+  .story .document > .story-sidebar { grid-column: 1; grid-row: 1; }
   .home-interview h1, .story-heading h1 { font-size: 31px; }
   .home-summary, .story-intro, .story-narrative, .segment p:not(.transcript-note) { font-size: 18px; }
   .story-subtitle { font-size: 21px; }
-  .side { grid-row: 1; gap: 18px; }
-  .filters { display: flex; flex-wrap: wrap; gap: 4px 18px; }
-  .side section h2 { margin-bottom: 0; }
   .toc { position: static; grid-row: 1; display: flex; flex-wrap: wrap; gap: 10px 20px; border-left: 0; border-bottom: 1px solid var(--rule); padding: 0 0 20px; }
   .toc h2 { width: 100%; margin: 0; }
   .toc a { font-size: 13px; }
-  .story-sidebar .toc { display: grid; }
+  .story-sidebar { position: static; grid-row: 1; gap: 18px; }
+  .story-sidebar section { border-top: 0; padding-top: 0; }
+  .story-sidebar h2 { font-size: 18px; margin-bottom: 8px; }
+  .story-sidebar .toc { display: flex; flex-wrap: wrap; gap: 8px 18px; grid-row: 1; padding-bottom: 16px; border-bottom: 1px solid var(--rule); }
+  .interview-facts { display: grid; grid-template-columns: 106px minmax(0,1fr); gap: 5px 14px; }
+  .interview-facts dd { margin: 0; }
   .chapter { padding-top: 28px; margin-top: 28px; }
   .credits { grid-template-columns: 1fr; gap: 4px; }
   .credits dd + dt { margin-top: 12px; }
@@ -218,4 +202,5 @@ audio { display: block; width: min(100%, 460px); max-width: 100%; }
   .segment { grid-template-columns: minmax(0,1fr); gap: 3px; }
   .footer-links { flex-direction: column; }
 }
+@media (max-height: 540px) { .story-sidebar { position: static; } }
 @media print { .site-header, .foot, .toc, .story-sidebar, .transcript-tools, .recordings, audio, button { display: none; } body { background: white; font-size: 11pt; } .page { width: 100%; margin: 0; padding: 0; } .document, .home-interview { display: block; } a { color: inherit; } }
