@@ -53,6 +53,7 @@ input:disabled{opacity:.3;cursor:default}
 .wall-photo figcaption{margin-top:9px;color:var(--muted);font-size:11px;line-height:1.6}
 .photo-placeholder{display:grid;place-items:center;aspect-ratio:4/3;background:#f5f5f5;color:var(--muted);font-size:11px;line-height:1.6}
 .wall-photo--wide .photo-placeholder{aspect-ratio:16/10}
+.photo-caption-placeholder{min-height:3.2em}
 .script-passage{margin:0 0 30px}
 .script-heading{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:9px}
 .script-speaker{color:var(--muted);font-size:11px;line-height:1.6}

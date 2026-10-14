@@ -69,6 +69,7 @@ function photoFigure(photo, item, index) {
     placeholder.setAttribute('role', 'img');
     placeholder.setAttribute('aria-label', `Reserved place for photograph ${index + 1}`);
     figure.append(placeholder);
+    figure.append(node('figcaption', `${photoRequirements.captionWords}-word English caption`, 'photo-caption-placeholder'));
     return figure;
   }
   const image = node('img');
