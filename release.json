@@ -1,6 +1,6 @@
 {
-  "source_commit": "c04b55fb8867d605649d5c7686d8f34ebba37b3e",
-  "created_at": "2026-10-14T14:30:42.708973+00:00",
+  "source_commit": "0d64672ab3b3e35f1ddd477cf0cd38367843dd27",
+  "created_at": "2026-10-14T15:14:25.621102+00:00",
   "files": {
     ".nojekyll": {
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -115,19 +115,19 @@
       "bytes": 1822
     },
     "assets/studio.css": {
-      "sha256": "0573ce4ef7d4d9ecee510733c05b78c96a0b0c6a89e18a93d1c07ba72b586b6e",
-      "bytes": 8503
+      "sha256": "7ac954b41fb6d01511bc6a32f22fb1c70c6dfc5726a12e30b8077193606ab81e",
+      "bytes": 8172
     },
     "assets/studio.js": {
-      "sha256": "cda83c609a7af261e8f6637fa35c5cec5d113ca56bd0f1d22c20f720f50202b0",
-      "bytes": 15091
+      "sha256": "8918c59cc1605a0f7f81f8adce3c7540382b21d0a5153b5a36960df0961ec9ec",
+      "bytes": 13801
     },
     "index.html": {
       "sha256": "d94b240e8affe6a46c3f1caecaecaa7f61cfb59792be3d6d4c48bd9e2d1d52be",
       "bytes": 1113
     },
     "listen.html": {
-      "sha256": "3c102fbdde5b875ed3312ac9b4ac869fcb95e7ba8490e81c5dba950d4be3075c",
+      "sha256": "f12758577f2ad3976b304c59816757410374639bbe41425c684e93fc975ad4c0",
       "bytes": 3661
     },
     "robots.txt": {

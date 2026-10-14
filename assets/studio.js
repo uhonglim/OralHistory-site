@@ -94,15 +94,6 @@ function appendPhotos(parent, photos, item) {
   parent.append(wall);
 }
 
-function chapterStart(chapter, item) {
-  if (Number.isFinite(chapter.audioStart)) return chapter.audioStart;
-  const matching = item.story?.find(part => part.clip?.file === chapter.clip?.file && Number.isFinite(part.audioStart));
-  if (matching) return matching.audioStart;
-  const clip = chapter.clip;
-  const offset = item.sessionOffsets?.[Number(clip?.session) - 1];
-  return Number.isFinite(offset) && clip?.start ? offset + timestamp(clip.start) : null;
-}
-
 function reading(item) {
   if (renderedInterview === item) return;
   renderedInterview = item;
@@ -115,23 +106,6 @@ function reading(item) {
   else if (item.description) paragraphs(content, item.description);
   appendPhotos(content, photos, item);
 
-  const chapters = source.chapters?.length ? source.chapters : (item.story || []).filter(part => part.text && part.clip);
-  chapters.forEach(chapter => {
-    const section = node('section', undefined, 'story-chapter');
-    const heading = node('div', undefined, 'chapter-heading');
-    const seconds = chapterStart(chapter, item);
-    heading.append(node('h3', chapter.title));
-    if (Number.isFinite(seconds) && item.audio) {
-      const button = node('button', time(seconds), 'chapter-time');
-      button.type = 'button';
-      button.setAttribute('aria-label', `Listen at ${time(seconds)}: ${translated(chapter.title)}`);
-      button.onclick = () => seekTo(seconds);
-      heading.append(button);
-    }
-    section.append(heading);
-    paragraphs(section, chapter.body || chapter.text);
-    content.append(section);
-  });
   $('story-reader').scrollTop = 0;
   scriptReading(item);
   selectReader('story');
