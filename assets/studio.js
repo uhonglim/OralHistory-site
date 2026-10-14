@@ -59,11 +59,18 @@ function photoPath(file, item) {
   return base + relative;
 }
 
-function photoFigure(photo, item) {
+function photoFigure(photo, item, index) {
   const file = photoPath(photo.file, item);
-  if (!file) return null;
+  if (!file && photo.placeholder !== true) return null;
   const figure = node('figure', undefined, 'wall-photo');
   if (photo.size !== 'small') figure.classList.add('wall-photo--wide');
+  if (!file) {
+    const placeholder = node('div', `Photo ${String(index + 1).padStart(2, '0')}`, 'photo-placeholder');
+    placeholder.setAttribute('role', 'img');
+    placeholder.setAttribute('aria-label', `Reserved place for photograph ${index + 1}`);
+    figure.append(placeholder);
+    return figure;
+  }
   const image = node('img');
   image.src = file;
   image.alt = translated(photo.alt || photo.caption);
@@ -79,10 +86,10 @@ function photoFigure(photo, item) {
 }
 
 function appendPhotos(parent, photos, item) {
-  const supplied = photos.filter(photo => photoPath(photo.file, item));
-  if (!supplied.length) return;
+  const entries = photos.filter(photo => photo.placeholder === true || photoPath(photo.file, item));
+  if (!entries.length) return;
   const wall = node('div', undefined, 'photo-wall');
-  supplied.forEach(photo => wall.append(photoFigure(photo, item)));
+  entries.forEach((photo, index) => wall.append(photoFigure(photo, item, index)));
   parent.append(wall);
 }
 
@@ -101,12 +108,11 @@ function reading(item) {
   const content = $('story-content');
   const source = item.source || {};
   const photos = Array.isArray(item.photos) ? item.photos : source.photos || [];
-  const supplied = photos.filter(photo => photoPath(photo.file, item));
   content.replaceChildren();
   if (source.subtitle || item.name) content.append(node('h2', source.subtitle || item.name, 'story-title'));
   if (source.bio?.length) paragraphs(content, source.bio);
   else if (item.description) paragraphs(content, item.description);
-  appendPhotos(content, supplied, item);
+  appendPhotos(content, photos, item);
 
   const chapters = source.chapters?.length ? source.chapters : (item.story || []).filter(part => part.text && part.clip);
   chapters.forEach(chapter => {
