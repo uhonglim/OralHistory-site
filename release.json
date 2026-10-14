@@ -1,7 +1,138 @@
 {
-  "sourceCommit": "17f34cf1c1d914e380c31b56eb3a00550007dfc5",
-  "builtAt": "2026-10-10T13:38:53Z",
-  "domain": "oralhistory.pairup.world",
-  "mode": "online-review",
-  "consentStatus": "Recorded in source; online review publication does not change permissions."
+  "source_commit": "662fa7b3731f99674d3f9caa9d06d84a31cd943d",
+  "created_at": "2026-10-14T13:35:24.258943+00:00",
+  "files": {
+    ".nojekyll": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "CNAME": {
+      "sha256": "fa23c05c1fe50522b2180f284bf77795241ed1ed24e489bbebc6f07dc3460e8b",
+      "bytes": 25
+    },
+    "assets/cabinet.css": {
+      "sha256": "b7692ecc040522b9e6f903180bced3a4558a5bc5fdcdf3b7073ffcadbf9c822d",
+      "bytes": 2582
+    },
+    "assets/content.js": {
+      "sha256": "6dd089562bac65fe8554a4bf67f9323d167b9889dd0fe513b6dac4804ea1e0d6",
+      "bytes": 73489
+    },
+    "assets/interviews/wang-grandfather/audio/anhai.mp3": {
+      "sha256": "118ddd54d36282c00ebc5720264683f5a6c069282bf28960ee651d130443bd2b",
+      "bytes": 704726
+    },
+    "assets/interviews/wang-grandfather/audio/car.mp3": {
+      "sha256": "ee94c53e346a5faa3159da643c2a1b7c91b013ea37e3964f1e06ef08f584c660",
+      "bytes": 481391
+    },
+    "assets/interviews/wang-grandfather/audio/cloth.mp3": {
+      "sha256": "ce695edba322c5128b91c683225b96bb53c07274e3cb507fbe513374191f0dec",
+      "bytes": 577007
+    },
+    "assets/interviews/wang-grandfather/audio/happiness.mp3": {
+      "sha256": "4db0e9d532ed7f30497cabbde5b936a3f3588d912056b1c31eac90f1cd7594c3",
+      "bytes": 353519
+    },
+    "assets/interviews/wang-grandfather/audio/interview.mp3": {
+      "sha256": "9b547a908084e925c2742bc2b5ff44bb032eaab41f39cd3f027a037978e8f5c3",
+      "bytes": 25792460
+    },
+    "assets/interviews/wang-grandfather/audio/school.mp3": {
+      "sha256": "119b5d5df908d339737b40afe1067182eca36f1c7af5ceaa2e81056c69db9371",
+      "bytes": 345167
+    },
+    "assets/interviews/wang-grandfather/audio/shanghai.mp3": {
+      "sha256": "be0bd5bb1e1c35c45b7d432300775441eaedd2788c41347365aeea1fa00a7013",
+      "bytes": 577007
+    },
+    "assets/interviews/wang-grandfather/map.svg": {
+      "sha256": "3122746a4d8bc575ced5224e013339dc17007c529961301045aef70858993fac",
+      "bytes": 24416
+    },
+    "assets/interviews/wang-grandfather/story.json": {
+      "sha256": "c9fe245c9954e4a8a6170c95af22d5b61c4223ee72d6df3a0028fcfb4bc03265",
+      "bytes": 17296
+    },
+    "assets/interviews/wang-grandfather/transcript.json": {
+      "sha256": "0894edc92c4b7e5a139630c631246d8b74a19a4528362449503453b4fd8e04c9",
+      "bytes": 41895
+    },
+    "assets/landing.js": {
+      "sha256": "ca593a2ca94135cb25079efe43682a4bf21554be04dc80de37a7a8b99c35b625",
+      "bytes": 2721
+    },
+    "assets/photos.js": {
+      "sha256": "9515f7bc4eb377da7904b1de5dd4b3f794485658139fa8c027250a06f03dd9ac",
+      "bytes": 281
+    },
+    "assets/radio-australia-light.png": {
+      "sha256": "445d16e528310c41ffe1403ee166f3f9930f7e307e1c97f93e48d7ceeafb4001",
+      "bytes": 2384505
+    },
+    "assets/radio-canada-light.png": {
+      "sha256": "7369eba47b93003915b67538282544536f3197e29b14cc3f7003f19856578b10",
+      "bytes": 2247661
+    },
+    "assets/radio-france-01.png": {
+      "sha256": "5870516536d47d17bfd81187736c08f140be1526c2d1c2c6b9c6f0f2f7b6023a",
+      "bytes": 1863746
+    },
+    "assets/radio-hongkong-light.png": {
+      "sha256": "733305a892ce62ff4933aaa1ed501df19e9871dbaccab618628a77459d23bac3",
+      "bytes": 2305222
+    },
+    "assets/radio-japan-01.png": {
+      "sha256": "f01201c8344588bd404d5a535ad35fcdbca0e3a7b34e0272a9cca8b081b572e9",
+      "bytes": 2264569
+    },
+    "assets/radio-logo.svg": {
+      "sha256": "29f5065dd54a66198c6172c23996a54b876b77454f7000c60d9aa2fba0214a83",
+      "bytes": 347
+    },
+    "assets/radio-mainland-light.png": {
+      "sha256": "6761dc7fb02b2fd98c1d3573191673f27a4f4d86fc9603e3ee081c5b850ef0eb",
+      "bytes": 1649666
+    },
+    "assets/radio-nanyang-light.png": {
+      "sha256": "672a2e931177076686544e033aa339864df05958e43f564cfccabdd6eb030ef3",
+      "bytes": 2434159
+    },
+    "assets/radio-taiwan-light.png": {
+      "sha256": "dc585d02dfb4cfc2078966e6b257b848c56dcdf4cf68bd0922e7b83b8e568b3c",
+      "bytes": 2083222
+    },
+    "assets/radio-uk-light.png": {
+      "sha256": "26d8af17bb961fb3767fbd59f7499a3b06d3f29b3adbbc344624f2933423afe0",
+      "bytes": 2410581
+    },
+    "assets/radio-usa-01.png": {
+      "sha256": "352edfae8a845bfdd4ea84992c816af355154c4fc606684f23ad27ff359537a7",
+      "bytes": 1883984
+    },
+    "assets/site.css": {
+      "sha256": "0c3ebae08d447701646dd6fdc44daf1150bc281eb6c3c288c26105ad870f83d0",
+      "bytes": 1822
+    },
+    "assets/studio.css": {
+      "sha256": "663c7d4a51d39b87455150e38b76c01d7bf168163b7257063eaa9f3eafdbde68",
+      "bytes": 8278
+    },
+    "assets/studio.js": {
+      "sha256": "49afd6bf60ed872febbebbcbd83fa6acc2bee44d84b3a29c4614283f5f64f4f3",
+      "bytes": 14649
+    },
+    "index.html": {
+      "sha256": "af79c2253cde30905b7e8396f37f9453baba94d1681dc0bc6f46237b9b7ff745",
+      "bytes": 1053
+    },
+    "listen.html": {
+      "sha256": "79a9955932775b8d0e3b41291c92deda4d91c757fa63da32d1cacbfa6b59e655",
+      "bytes": 3586
+    },
+    "robots.txt": {
+      "sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
+      "bytes": 26
+    }
+  }
 }

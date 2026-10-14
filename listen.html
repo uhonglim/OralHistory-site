@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="description" content="Family journeys, in their own voices.">
+  <title>Listen — Southern Voices</title>
+  <link rel="icon" type="image/svg+xml" href="assets/radio-logo.svg">
+  <link rel="stylesheet" href="assets/site.css">
+  <link rel="stylesheet" href="assets/studio.css">
+  <script src="assets/content.js" defer></script>
+  <script src="assets/photos.js" defer></script>
+  <script src="assets/studio.js" defer></script>
+</head>
+<body class="studio-page">
+  <header class="site-header">
+    <a class="home-logo" href="./" aria-label="Home"><img src="assets/radio-logo.svg" alt="" width="36" height="28"></a>
+    <nav class="top-nav" aria-label="Main navigation">
+      <a href="listen.html" data-nav="listen" aria-current="page">Listen</a>
+      <a href="listen.html?view=about" data-nav="about">About</a>
+    </nav>
+  </header>
+  <main id="main">
+    <section id="listen-view" class="view listen-layout" aria-label="Interview">
+      <div class="listening-side">
+        <div class="session-heading">
+          <h1 id="recording-title" tabindex="-1">Wang Rong Xuan’s grandfather</h1>
+          <div id="recording-meta" class="recording-meta"></div>
+        </div>
+        <div class="radio-panel">
+          <img id="selected-radio" alt="" width="1659" height="948">
+        </div>
+        <div id="session-player"></div>
+      </div>
+      <div class="reading-side">
+        <div class="reader-tabs" role="tablist" aria-label="Read interview">
+          <button id="story-tab" type="button" role="tab" aria-controls="story-reader" aria-selected="true">Story</button>
+          <button id="script-tab" type="button" role="tab" aria-controls="script-reader" aria-selected="false" tabindex="-1">Script</button>
+        </div>
+        <article id="story-reader" class="reader-scroll" tabindex="0" role="tabpanel" aria-labelledby="story-tab">
+          <div id="story-content" class="story-content"></div>
+        </article>
+        <article id="script-reader" class="reader-scroll" tabindex="0" role="tabpanel" aria-labelledby="script-tab" hidden>
+          <div id="script-content" class="script-content"></div>
+        </article>
+      </div>
+    </section>
+    <section id="about-view" class="view editorial" hidden>
+      <h1>About</h1>
+      <p id="about-intro">An oral history of family journeys from Fujian and Guangdong.</p>
+      <div id="about-credits" class="about-credits"></div>
+    </section>
+    <div id="continuing-player"></div>
+  </main>
+  <div id="transport" class="transport" aria-label="Audio player">
+    <button id="transport-title" class="transport-title" type="button">Wang Rong Xuan’s grandfather</button>
+    <div class="playback-row">
+      <button id="play" type="button" disabled aria-label="Play">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path id="play-icon" d="M7 4 21 12 7 20Z"></path></svg>
+        <span id="play-label" class="visually-hidden">Play</span>
+      </button>
+      <div class="timeline">
+        <input id="seek" type="range" min="0" max="0" step="0.1" value="0" disabled aria-label="Playback position">
+        <div class="timeline-times"><time id="elapsed">0:00</time><time id="duration">0:00</time></div>
+      </div>
+    </div>
+    <span id="audio-status" role="status"></span>
+    <button id="next-interview" type="button" hidden>Next</button>
+  </div>
+  <audio id="audio" preload="metadata"></audio>
+</body>
+</html>
