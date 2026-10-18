@@ -2,6 +2,7 @@ const $ = id => document.getElementById(id);
 const audio = $('audio');
 const collection = interviews.filter(item => !item.demo && item.slug);
 const views = ['listen', 'about'];
+const readerModes = ['story', 'quotes', 'script'];
 let selected = -1;
 let view = 'listen';
 let version = 0;
@@ -11,7 +12,7 @@ let renderedInterview = null;
 let readerMode = 'story';
 
 const translated = value => typeof value === 'string' ? value : value?.en || '';
-const title = item => translated(item.source?.narrator?.display_name || item.narrator || item.name);
+const title = item => translated(item.narrator || item.source?.narrator?.display_name || item.name);
 const time = value => `${Math.floor((value || 0) / 60)}:${String(Math.floor((value || 0) % 60)).padStart(2, '0')}`;
 const timestamp = value => String(value || '0').split(':').reduce((total, part) => total * 60 + Number(part), 0);
 
@@ -94,26 +95,76 @@ function appendPhotos(parent, photos, item) {
   parent.append(wall);
 }
 
+function recordingSeconds(item, sessionId, stamp) {
+  const sessionIndex = (item.transcript?.sessions || []).findIndex(session => String(session.id) === String(sessionId));
+  const offset = item.sessionOffsets?.[sessionIndex];
+  const seconds = timestamp(stamp);
+  return Number.isFinite(offset) && Number.isFinite(seconds) ? offset + seconds : null;
+}
+
+function listenButton(item, seconds, label) {
+  if (!Number.isFinite(seconds) || !item.audio) return null;
+  const button = node('button', time(seconds), 'chapter-time');
+  button.type = 'button';
+  button.dataset.start = seconds;
+  button.setAttribute('aria-label', `Listen at ${time(seconds)}${label ? `: ${label}` : ''}`);
+  button.onclick = () => seekTo(seconds);
+  return button;
+}
+
+function appendQuotes(parent, quotes, item) {
+  if (!quotes?.length) return;
+  const collection = node('div', undefined, 'story-quotes');
+  collection.append(node('p', 'Translated and edited for clarity.', 'quotes-note'));
+  quotes.forEach(quote => {
+    const figure = node('figure', undefined, 'story-quote');
+    const blockquote = node('blockquote');
+    const text = node('p', quote.en);
+    text.lang = 'en';
+    blockquote.append(text);
+    figure.append(blockquote);
+    const reference = quote.session_id != null && quote.t != null ? quote : quote.source_refs?.[0];
+    const seconds = reference ? recordingSeconds(item, reference.session_id, reference.t) : null;
+    const button = listenButton(item, seconds, quote.en);
+    if (button) {
+      const caption = node('figcaption');
+      caption.append(button);
+      figure.append(caption);
+    }
+    collection.append(figure);
+  });
+  parent.append(collection);
+}
+
 function reading(item) {
   if (renderedInterview === item) return;
   renderedInterview = item;
   const content = $('story-content');
   const source = item.source || {};
+  const story = item.readingEdition?.story;
   const photos = Array.isArray(item.photos) ? item.photos : source.photos || [];
   content.replaceChildren();
-  if (source.subtitle || item.name) content.append(node('h2', source.subtitle || item.name, 'story-title'));
-  if (source.bio?.length) paragraphs(content, source.bio);
-  else if (item.description) paragraphs(content, item.description);
-  appendPhotos(content, photos, item);
+  if (story?.title || source.subtitle || item.name) content.append(node('h2', story?.title || source.subtitle || item.name, 'story-title'));
+  if (story) {
+    paragraphs(content, story.paragraphs || []);
+  } else {
+    if (source.bio?.length) paragraphs(content, source.bio);
+    else if (item.description) paragraphs(content, item.description);
+    appendPhotos(content, photos, item);
+  }
 
   $('story-reader').scrollTop = 0;
+  const quotesContent = $('quotes-content');
+  quotesContent.replaceChildren();
+  appendQuotes(quotesContent, story?.quotes, item);
+  $('quotes-reader').scrollTop = 0;
   scriptReading(item);
   selectReader('story');
 }
 
 function recordingMeta(item) {
   const parent = $('recording-meta');
-  const interviewer = item.source?.interviewer?.name || item.interviewer;
+  const interviewer = item.interviewer || item.source?.interviewer?.name;
   parent.replaceChildren();
   if (interviewer) parent.append(node('p', `Interview by ${interviewer}`));
 }
@@ -121,26 +172,23 @@ function recordingMeta(item) {
 function scriptReading(item) {
   const content = $('script-content');
   content.replaceChildren();
-  const sessions = item.transcript?.sessions || [];
+  const transcript = item.readingEdition?.transcript || item.transcript;
+  const sessions = transcript?.sessions || [];
   const available = sessions.some(session => session.segments?.length);
-  document.querySelector('.reader-tabs').hidden = !available;
   if (!available) return;
-  content.append(node('h2', item.source?.subtitle || item.name, 'story-title'));
-  sessions.forEach((session, sessionIndex) => {
-    const offset = item.sessionOffsets?.[sessionIndex];
+  content.append(node('h2', item.readingEdition?.story?.title || item.source?.subtitle || item.name, 'story-title'));
+  const note = transcript?.note || item.transcriptNote;
+  if (note) content.append(node('p', note, 'script-note'));
+  sessions.forEach(session => {
     (session.segments || []).forEach(segment => {
       const passage = node('section', undefined, 'script-passage');
       const heading = node('div', undefined, 'script-heading');
-      const seconds = Number.isFinite(offset) ? offset + timestamp(segment.t) : null;
-      heading.append(node('span', segment.speaker, 'script-speaker'));
-      if (Number.isFinite(seconds) && item.audio) {
-        const button = node('button', time(seconds), 'chapter-time');
-        button.type = 'button';
-        button.dataset.start = seconds;
-        button.setAttribute('aria-label', `Listen at ${time(seconds)}: ${segment.speaker}`);
-        button.onclick = () => seekTo(seconds);
-        heading.append(button);
-      }
+      const seconds = recordingSeconds(item, session.id, segment.t);
+      const speaker = segment.speaker === item.source?.interviewer?.name
+        ? item.interviewer || segment.speaker : segment.speaker;
+      heading.append(node('span', speaker, 'script-speaker'));
+      const button = listenButton(item, seconds, speaker);
+      if (button) heading.append(button);
       passage.append(heading);
       if (segment.en) {
         const translation = node('p', segment.en, 'script-translation');
@@ -160,7 +208,7 @@ function scriptReading(item) {
 
 function selectReader(mode, focus = false) {
   readerMode = mode;
-  ['story', 'script'].forEach(name => {
+  readerModes.forEach(name => {
     const active = name === mode;
     const tab = $(name + '-tab');
     tab.setAttribute('aria-selected', String(active));
@@ -274,12 +322,11 @@ function controls() {
   $('seek').style.setProperty('--progress', `${duration ? audio.currentTime / duration * 100 : 0}%`);
   $('elapsed').textContent = time(audio.currentTime);
   $('duration').textContent = time(duration || item.durationSeconds);
-  $('next-interview').hidden = selected >= collection.length - 1;
 }
 
 function render() {
   const item = collection[selected];
-  const radio = radioCatalog[item.radio];
+  const artwork = item.object || radioCatalog[item.radio];
   document.title = `${view === 'about' ? 'About' : 'Listen'} — Southern Voices`;
   document.querySelectorAll('[data-nav]').forEach(link => {
     link.removeAttribute('aria-current');
@@ -290,12 +337,19 @@ function render() {
   document.body.classList.toggle('about-open', view === 'about');
   $('recording-title').textContent = title(item);
   recordingMeta(item);
-  if (radio) {
+  document.querySelectorAll('[data-interview-direction]').forEach(button => {
+    const direction = Number(button.dataset.interviewDirection);
+    const next = (selected + direction + collection.length) % collection.length;
+    button.hidden = collection.length < 2;
+    button.setAttribute('aria-label', `${direction < 0 ? 'Previous' : 'Next'} interview: ${title(collection[next])}`);
+  });
+  if (artwork) {
     const image = $('selected-radio');
-    image.src = 'assets/' + radio.file;
-    image.width = radio.width;
-    image.height = radio.height;
-    image.alt = `Radio for ${title(item)}`;
+    image.src = 'assets/' + artwork.file;
+    image.width = artwork.width;
+    image.height = artwork.height;
+    image.alt = artwork.alt || `Radio for ${title(item)}`;
+    image.classList.toggle('interview-object', Boolean(item.object));
   }
   reading(item);
   about();
@@ -319,19 +373,28 @@ function nextInterview(autoplay = false) {
   if (autoplay && collection[index].audio) play();
 }
 
-['story', 'script'].forEach(mode => {
+readerModes.forEach(mode => {
   const tab = $(mode + '-tab');
   tab.onclick = () => selectReader(mode);
   tab.onkeydown = event => {
     if (!['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) return;
     event.preventDefault();
-    const next = event.key === 'Home' ? 'story' : event.key === 'End' ? 'script'
-      : readerMode === 'story' ? 'script' : 'story';
+    const direction = event.key === 'ArrowLeft' ? -1 : 1;
+    const index = (readerModes.indexOf(readerMode) + direction + readerModes.length) % readerModes.length;
+    const next = event.key === 'Home' ? readerModes[0] : event.key === 'End' ? readerModes.at(-1)
+      : readerModes[index];
     selectReader(next, true);
   };
 });
 
-$('next-interview').onclick = () => nextInterview();
+// Manual arrows wrap through the collection; automatic playback still stops at the last interview.
+document.querySelectorAll('[data-interview-direction]').forEach(button => {
+  button.onclick = () => {
+    if (collection.length < 2) return;
+    const index = (selected + Number(button.dataset.interviewDirection) + collection.length) % collection.length;
+    navigate({ index });
+  };
+});
 $('transport-title').onclick = () => navigate({ view: 'listen' });
 $('play').onclick = () => failed || audio.paused ? play() : audio.pause();
 $('seek').oninput = () => {

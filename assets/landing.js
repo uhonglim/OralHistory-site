@@ -1,22 +1,17 @@
 // One object is one narrator's complete interview. Unassigned artwork is
 // decorative until real interview content is supplied.
 const wallDesigns = ['nanyang', 'hongkong', 'mainland', 'taiwan', 'usa', 'uk', 'canada', 'australia', 'france', 'japan'];
-const wallSlots = wallDesigns.map(radio => ({ radio, interview: null }));
 const interviewSlug = item => item.slug || item.source?.slug || item.id;
-const narratorName = item => item.narrator?.display_name || item.source?.narrator?.display_name || (typeof item.narrator === 'string' ? item.narrator : item.name);
-
-interviews.forEach(item => {
-  if (!interviewSlug(item)) return;
-  const design = Object.hasOwn(radioCatalog, item.radio) ? item.radio : 'mainland';
-  const slot = wallSlots.find(candidate => !candidate.interview && candidate.radio === design)
-    || wallSlots.find(candidate => !candidate.interview);
-  if (slot) {
-    slot.radio = design;
-    slot.interview = item;
-  } else {
-    wallSlots.push({ radio: design, interview: item });
-  }
-});
+const narratorName = item => item.narrator?.display_name || (typeof item.narrator === 'string' ? item.narrator : '') || item.source?.narrator?.display_name || item.name;
+const wallSlots = interviews.filter(item => !item.demo && interviewSlug(item)).map(interview => ({
+  radio: Object.hasOwn(radioCatalog, interview.radio) ? interview.radio : 'mainland',
+  interview
+}));
+const assignedDesigns = new Set(wallSlots.map(slot => slot.radio));
+for (const radio of wallDesigns) {
+  if (wallSlots.length >= wallDesigns.length) break;
+  if (!assignedDesigns.has(radio)) wallSlots.push({ radio, interview: null });
+}
 
 const wall = document.getElementById('radios');
 const collection = document.createElement('div');
@@ -24,7 +19,7 @@ collection.className = 'radio-collection';
 wall.append(collection);
 
 wallSlots.forEach(({ radio: design, interview }, index) => {
-  const artwork = radioCatalog[design];
+  const artwork = interview?.object || radioCatalog[design];
   const object = document.createElement(interview ? 'a' : 'div');
   object.className = 'wall-radio' + (interview ? ' wall-radio--available' : ' wall-radio--unassigned');
   object.dataset.radio = design;
@@ -44,7 +39,7 @@ wallSlots.forEach(({ radio: design, interview }, index) => {
   image.src = 'assets/' + artwork.file;
   image.width = artwork.width;
   image.height = artwork.height;
-  image.alt = '';
+  image.alt = interview?.object ? artwork.alt : '';
   image.decoding = 'async';
   object.append(image);
   collection.append(object);

@@ -1,0 +1,49 @@
+{
+  "id": "02",
+  "slug": "yufeng-great-uncle",
+  "radio": "hongkong",
+  "name": "An English Bible",
+  "audio": "assets/interviews/yufeng-great-uncle/audio/interview.mp3",
+  "durationSeconds": 1466.595556,
+  "demo": false,
+  "interviewer": "YUFENG LIN",
+  "narrator": "YUFENG LIN’s great-uncle",
+  "language": "Mandarin",
+  "description": "He grew up in rural Jinjiang and moved to Xiamen through education. He bought his child an English Bible to read as literature and practise English. He reflects on family, learning and understanding different cultures.",
+  "object": {
+    "name": "An English Bible",
+    "file": "objects/english-bible-front.png",
+    "alt": "An English Bible shown straight on from the front; representative artwork, not the family’s own copy.",
+    "representative": true,
+    "credit": "Matthew Henry / Burst; background edited with imagegen",
+    "source": "https://www.shopify.com/stock-photos/photos/open-bible-on-white-background",
+    "license": "https://www.shopify.com/stock-photos/licenses/shopify-some-rights-reserved",
+    "editing": "AI-assisted transparent object illustration with a straight-on view; representative, not a documentary family photograph.",
+    "width": 1024,
+    "height": 1536
+  },
+  "source": {
+    "slug": "yufeng-great-uncle",
+    "subtitle": "An English Bible",
+    "narrator": {
+      "display_name": "YUFENG LIN’s great-uncle",
+      "relation_zh": "舅公",
+      "name": null
+    },
+    "interviewer": {
+      "name": "YUFENG LIN"
+    },
+    "interview": {
+      "language": "Mandarin",
+      "date": null,
+      "place": null
+    },
+    "object_reference": {
+      "name": "An English Bible",
+      "start_seconds": 1093,
+      "end_seconds": 1164,
+      "note": "A Bible bought for the child to read as literature, practise English and encounter other cultures. No religious affiliation inferred."
+    }
+  },
+  "transcriptNote": "Draft transcript and translation · awaiting review."
+}

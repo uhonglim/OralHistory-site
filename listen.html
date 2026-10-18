@@ -8,10 +8,12 @@
   <title>Listen — Southern Voices</title>
   <link rel="icon" type="image/svg+xml" href="assets/radio-logo.svg">
   <link rel="stylesheet" href="assets/site.css?v=0c3ebae08d44">
-  <link rel="stylesheet" href="assets/studio.css?v=7ac954b41fb6">
-  <script src="assets/content.js?v=6dd089562bac" defer></script>
+  <link rel="stylesheet" href="assets/studio.css?v=536221041928">
+  <script src="assets/content.js?v=f06aeb48970c" defer></script>
+  <script src="assets/interviews/yufeng-great-uncle/interview.js?v=aacdf5d113ce" defer></script>
+  <script src="assets/reading-editions.js?v=30851588f906" defer></script>
   <script src="assets/photos.js?v=9cd7c44532ad" defer></script>
-  <script src="assets/studio.js?v=8918c59cc160" defer></script>
+  <script src="assets/studio.js?v=b765aae5402e" defer></script>
 </head>
 <body class="studio-page">
   <header class="site-header">
@@ -23,28 +25,44 @@
   </header>
   <main id="main">
     <section id="listen-view" class="view listen-layout" aria-label="Interview">
+      <button class="interview-arrow interview-arrow--previous desktop-interview-arrow" type="button" data-interview-direction="-1" aria-label="Previous interview">
+        <svg viewBox="0 0 24 40" aria-hidden="true"><path d="M19 4 5 20 19 36"></path></svg>
+      </button>
       <div class="listening-side">
         <div class="session-heading">
-          <h1 id="recording-title" tabindex="-1">Wang Rong Xuan’s grandfather</h1>
+          <h1 id="recording-title" tabindex="-1">RONGXUAN WANG’s grandfather</h1>
           <div id="recording-meta" class="recording-meta"></div>
         </div>
         <div class="radio-panel">
+          <button class="interview-arrow interview-arrow--previous mobile-interview-arrow" type="button" data-interview-direction="-1" aria-label="Previous interview">
+            <svg viewBox="0 0 24 40" aria-hidden="true"><path d="M19 4 5 20 19 36"></path></svg>
+          </button>
           <img id="selected-radio" alt="" width="1659" height="948">
+          <button class="interview-arrow interview-arrow--next mobile-interview-arrow" type="button" data-interview-direction="1" aria-label="Next interview">
+            <svg viewBox="0 0 24 40" aria-hidden="true"><path d="M5 4 19 20 5 36"></path></svg>
+          </button>
         </div>
         <div id="session-player"></div>
       </div>
       <div class="reading-side">
         <div class="reader-tabs" role="tablist" aria-label="Read interview">
           <button id="story-tab" type="button" role="tab" aria-controls="story-reader" aria-selected="true">Story</button>
+          <button id="quotes-tab" type="button" role="tab" aria-controls="quotes-reader" aria-selected="false" tabindex="-1">Quotes</button>
           <button id="script-tab" type="button" role="tab" aria-controls="script-reader" aria-selected="false" tabindex="-1">Script</button>
         </div>
         <article id="story-reader" class="reader-scroll" tabindex="0" role="tabpanel" aria-labelledby="story-tab">
           <div id="story-content" class="story-content"></div>
         </article>
+        <article id="quotes-reader" class="reader-scroll" tabindex="0" role="tabpanel" aria-labelledby="quotes-tab" hidden>
+          <div id="quotes-content" class="quotes-content"></div>
+        </article>
         <article id="script-reader" class="reader-scroll" tabindex="0" role="tabpanel" aria-labelledby="script-tab" hidden>
           <div id="script-content" class="script-content"></div>
         </article>
       </div>
+      <button class="interview-arrow interview-arrow--next desktop-interview-arrow" type="button" data-interview-direction="1" aria-label="Next interview">
+        <svg viewBox="0 0 24 40" aria-hidden="true"><path d="M5 4 19 20 5 36"></path></svg>
+      </button>
     </section>
     <section id="about-view" class="view editorial" hidden>
       <h1>About</h1>
@@ -54,7 +72,7 @@
     <div id="continuing-player"></div>
   </main>
   <div id="transport" class="transport" aria-label="Audio player">
-    <button id="transport-title" class="transport-title" type="button">Wang Rong Xuan’s grandfather</button>
+    <button id="transport-title" class="transport-title" type="button">RONGXUAN WANG’s grandfather</button>
     <div class="playback-row">
       <button id="play" type="button" disabled aria-label="Play">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path id="play-icon" d="M7 4 21 12 7 20Z"></path></svg>
@@ -66,7 +84,6 @@
       </div>
     </div>
     <span id="audio-status" role="status"></span>
-    <button id="next-interview" type="button" hidden>Next</button>
   </div>
   <audio id="audio" preload="metadata"></audio>
 </body>

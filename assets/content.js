@@ -10,15 +10,15 @@ const interviews=[
     "audio": "assets/interviews/wang-grandfather/audio/interview.mp3",
     "demo": false,
     "description": "He and his wife ran a garment workshop in Fujian. Their children’s schooling took the family to Xiamen.",
-    "interviewer": "Wang Rong Xuan",
-    "narrator": "Wang Rong Xuan’s grandfather",
+    "interviewer": "RONGXUAN WANG",
+    "narrator": "RONGXUAN WANG’s grandfather",
     "language": "Hokkien and Mandarin",
     "reviewNote": "For review. The narrator has not yet approved publication of his name, voice or transcript.",
     "story": [
       {
         "title": "From Anhai to Xiamen",
         "text": "He and his wife moved their garment workshop to Anhai for trade. Their children’s schooling took them to Xiamen, first separating the family and later leaving the parents with a daily commute.",
-        "caption": "Interview by Wang Rong Xuan · Hokkien and Mandarin"
+        "caption": "Interview by RONGXUAN WANG · Hokkien and Mandarin"
       },
       {
         "title": "Making clothes",
@@ -1193,18 +1193,30 @@ const interviews=[
       0,
       965.44,
       1420.928
-    ]
+    ],
+    "object": {
+      "name": "The Old Mercedes",
+      "file": "objects/old-mercedes-side.png",
+      "alt": "A classic Mercedes sedan in side profile; representative artwork, not the family’s actual car.",
+      "representative": true,
+      "credit": "IFCAR / Wikimedia Commons; background edited with imagegen",
+      "source": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_500SE.jpg",
+      "license": "Public domain",
+      "editing": "AI-assisted transparent object illustration with a straight-on view; representative, not a documentary family photograph.",
+      "width": 1926,
+      "height": 817
+    }
   }
 ];
 const contributors=[
   {
-    "name": "Wang Rong Xuan",
+    "name": "RONGXUAN WANG",
     "role": "Interviewer",
     "bio": "Interviewed their grandfather about the family’s workshop, schooling and moves within Fujian."
   },
   {
-    "name": "Yufeng Lin",
-    "role": "Project lead and website editor",
-    "bio": "Develops the collection website and brings the recordings and reading material together."
+    "name": "YUFENG LIN",
+    "role": "Interviewer, project lead and website editor",
+    "bio": "Interviews family members, develops the collection website and brings the recordings and reading material together."
   }
 ];
