@@ -1,34 +1,163 @@
-*{box-sizing:border-box}
-[hidden]{display:none!important}
-:root{
-  --header-height:74px;
-  --nav-color:#ffffff;
-  --nav-current:#ffffff;
-  --nav-line:#284e44;
-  --paper:#ffffff;
-  --ink:#202322;
-  --muted:#666860;
-  --blue:#254d47;
-  --sky:#ecf4e9;
-  --sun:#f8e7ab;
-  --line:#e2e9dc;
-  --coral:#d78468;
+* {
+  box-sizing: border-box;
 }
-html{background:#ffffff}
-body{margin:0;background:var(--paper);color:var(--ink);font:14px/1.7 Arial,"PingFang SC","Microsoft YaHei",sans-serif}
-button,input{font:inherit}
-button,a{-webkit-tap-highlight-color:transparent}
-button{color:inherit}
-button:disabled{cursor:default;opacity:.45}
-a{color:inherit}
-button:focus-visible,a:focus-visible,input:focus-visible,[tabindex]:focus-visible{outline:2px solid var(--blue);outline-offset:5px}
-.site-header{height:var(--header-height);position:relative;z-index:20;display:flex;align-items:stretch;width:100%;background:#ffffff;border:1px solid var(--nav-line)}
-.home-logo{display:flex;align-items:center;justify-content:center;flex:0 0 104px;background:#ffffff;border-right:1px solid var(--nav-line)}
-.home-logo img{display:block;width:48px;height:36px;object-fit:contain}
-.top-nav{flex:1;min-width:0;display:flex}
-.top-nav a{flex:1;display:flex;align-items:center;justify-content:center;padding:8px 12px;background:var(--nav-color);color:var(--nav-line);text-decoration:none;text-underline-offset:7px;text-decoration-thickness:1px;text-align:center;font-size:15px;font-weight:500}
-.top-nav a+a{border-left:1px solid var(--nav-line)}
-.top-nav a[aria-current]{background:var(--nav-current);text-decoration:underline}
-.top-nav a:hover{text-decoration:underline}
-.home-logo:focus-visible,.top-nav a:focus-visible{outline-offset:-5px}
-@media(max-width:700px){:root{--header-height:64px}.home-logo{flex-basis:78px}.home-logo img{width:40px;height:30px}.top-nav a{font-size:14px}}
+
+[hidden] {
+  display: none !important;
+}
+
+:root {
+  --header-height: 72px;
+  --nav-color: #ffffff;
+  --nav-hover: #f6faf5;
+  --nav-current: #eef5ec;
+  --nav-line: #284e44;
+  --nav-border: rgba(40, 78, 68, 0.18);
+  --paper: #ffffff;
+  --ink: #1e2220;
+  --muted: #686d66;
+  --blue: #254d47;
+  --sky: #eef5ec;
+  --sun: #f8e7ab;
+  --line: #e4ebe0;
+  --coral: #d78468;
+}
+
+html {
+  background: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font: 14px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  color: inherit;
+}
+
+button:disabled {
+  cursor: default;
+  opacity: 0.42;
+}
+
+a {
+  color: inherit;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 4px;
+}
+
+.site-header {
+  height: var(--header-height);
+  position: relative;
+  z-index: 20;
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+  background: #ffffff;
+  border-bottom: 1px solid var(--nav-border);
+}
+
+.home-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 104px;
+  background: #ffffff;
+  border-right: 1px solid var(--nav-border);
+  transition: background 0.18s ease, opacity 0.18s ease;
+}
+
+.home-logo:hover {
+  background: var(--nav-hover);
+}
+
+.home-logo img {
+  display: block;
+  width: 44px;
+  height: 33px;
+  object-fit: contain;
+}
+
+.top-nav {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+}
+
+.top-nav a {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  background: var(--nav-color);
+  color: var(--nav-line);
+  text-decoration: none;
+  text-underline-offset: 7px;
+  text-decoration-thickness: 1.2px;
+  text-align: center;
+  font-size: 14.5px;
+  font-weight: 500;
+  letter-spacing: 0.15px;
+  transition: background 0.18s ease, color 0.18s ease;
+}
+
+.top-nav a + a {
+  border-left: 1px solid var(--nav-border);
+}
+
+.top-nav a:hover {
+  background: var(--nav-hover);
+  text-decoration: underline;
+}
+
+.top-nav a[aria-current] {
+  background: var(--nav-current);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.home-logo:focus-visible,
+.top-nav a:focus-visible {
+  outline-offset: -4px;
+}
+
+@media (max-width: 700px) {
+  :root {
+    --header-height: 62px;
+  }
+
+  .home-logo {
+    flex-basis: 78px;
+  }
+
+  .home-logo img {
+    width: 38px;
+    height: 28px;
+  }
+
+  .top-nav a {
+    font-size: 14px;
+  }
+}
