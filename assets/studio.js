@@ -10,6 +10,10 @@ let failed = false;
 let pendingSeek = null;
 let renderedInterview = null;
 let readerMode = 'story';
+let renderedScript = null;
+let scrubbing = false;
+let buffering = false;
+let playAttempt = 0;
 
 const translated = value => typeof value === 'string' ? value : value?.en || '';
 const title = item => translated(item.narrator || item.source?.narrator?.display_name || item.name);
@@ -139,6 +143,8 @@ function appendQuotes(parent, quotes, item) {
 function reading(item) {
   if (renderedInterview === item) return;
   renderedInterview = item;
+  renderedScript = null;
+  $('script-content').replaceChildren();
   const content = $('story-content');
   const source = item.source || {};
   const story = item.readingEdition?.story;
@@ -158,7 +164,6 @@ function reading(item) {
   quotesContent.replaceChildren();
   appendQuotes(quotesContent, story?.quotes, item);
   $('quotes-reader').scrollTop = 0;
-  scriptReading(item);
   selectReader('story');
 }
 
@@ -207,6 +212,10 @@ function scriptReading(item) {
 }
 
 function selectReader(mode, focus = false) {
+  if (mode === 'script' && renderedScript !== collection[selected]) {
+    scriptReading(collection[selected]);
+    renderedScript = collection[selected];
+  }
   readerMode = mode;
   readerModes.forEach(name => {
     const active = name === mode;
@@ -252,18 +261,29 @@ function writeLocation(mode = 'push') {
 }
 
 async function play() {
-  const attempt = version;
+  const interviewVersion = version;
+  const attempt = ++playAttempt;
   try {
+    const item = collection[selected];
+    if (!audio.getAttribute('src')) {
+      const stream = streamingSource(item);
+      audio.src = stream && audio.canPlayType(stream.type) ? stream.file : item.audio;
+    }
+    audio.preload = 'auto';
+    buffering = true;
     // Keep failure visible until the retry actually plays successfully.
     if (failed) audio.load();
+    controls();
     await audio.play();
-    if (attempt === version) {
+    if (attempt === playAttempt && interviewVersion === version) {
       failed = false;
+      buffering = false;
       controls();
     }
   } catch (error) {
-    if (attempt === version && error.name !== 'AbortError') {
+    if (attempt === playAttempt && interviewVersion === version && error.name !== 'AbortError') {
       failed = true;
+      buffering = false;
       controls();
     }
   }
@@ -286,12 +306,15 @@ function navigate(next, mode = 'push') {
   const changed = index !== selected;
   if (changed) {
     version++;
+    playAttempt++;
     audio.pause();
     audio.removeAttribute('src');
     selected = index;
     failed = false;
     pendingSeek = null;
-    if (collection[selected].audio) audio.src = collection[selected].audio;
+    scrubbing = false;
+    buffering = false;
+    audio.preload = 'none';
     audio.load();
   }
   view = next.view ?? view;
@@ -300,28 +323,44 @@ function navigate(next, mode = 'push') {
   if (changed && wasPlaying && collection[selected].audio) play();
 }
 
+function streamingSource(item) {
+  return typeof webAudioSources === 'undefined' ? null : webAudioSources[item.audio];
+}
+
+function recordingDuration() {
+  if (Number.isFinite(audio.duration)) return audio.duration;
+  const item = collection[selected];
+  return streamingSource(item)?.durationSeconds || item.durationSeconds || 0;
+}
+
+function progress() {
+  if (selected < 0 || scrubbing) return;
+  const duration = recordingDuration();
+  const position = pendingSeek ?? audio.currentTime ?? 0;
+  $('seek').disabled = !duration;
+  $('seek').max = duration;
+  $('seek').value = position;
+  $('seek').style.setProperty('--progress', `${duration ? position / duration * 100 : 0}%`);
+  $('elapsed').textContent = time(position);
+  $('duration').textContent = time(duration);
+}
+
 function controls() {
   if (selected < 0) return;
   const item = collection[selected];
   const available = !!item.audio;
   const playing = !audio.paused && !audio.ended;
-  const duration = Number.isFinite(audio.duration) ? audio.duration : 0;
   const label = failed ? 'Try again' : playing ? 'Pause' : 'Play';
   $('transport-title').textContent = title(item);
   $('play').disabled = !available;
   $('play-label').textContent = label;
   $('play').setAttribute('aria-label', `${label}: ${title(item)}`);
   $('play-icon').setAttribute('d', playing ? 'M6 4H10V20H6ZM14 4H18V20H14Z' : 'M7 4 21 12 7 20Z');
-  $('audio-status').textContent = !available ? 'Audio to come.' : failed ? 'Recording unavailable. Try again.' : '';
-  $('audio-status').hidden = available && !failed;
+  $('audio-status').textContent = !available ? 'Audio to come.' : failed ? 'Recording unavailable. Try again.' : buffering ? 'Loading audio…' : '';
+  $('audio-status').hidden = available && !failed && !buffering;
   $('transport').classList.toggle('has-error', failed);
   $('transport').hidden = view !== 'listen' && !audio.getAttribute('src');
-  $('seek').disabled = !duration;
-  $('seek').max = duration;
-  $('seek').value = audio.currentTime || 0;
-  $('seek').style.setProperty('--progress', `${duration ? audio.currentTime / duration * 100 : 0}%`);
-  $('elapsed').textContent = time(audio.currentTime);
-  $('duration').textContent = time(duration || item.durationSeconds);
+  progress();
 }
 
 function render() {
@@ -343,16 +382,19 @@ function render() {
     button.hidden = collection.length < 2;
     button.setAttribute('aria-label', `${direction < 0 ? 'Previous' : 'Next'} interview: ${title(collection[next])}`);
   });
-  if (artwork) {
+  if (artwork && view === 'listen') {
     const image = $('selected-radio');
-    image.src = 'assets/' + artwork.file;
+    const optimized = typeof webArtwork === 'undefined' ? null : webArtwork[artwork.file];
+    const path = 'assets/' + (optimized?.display || artwork.file);
+    if (image.getAttribute('src') !== path) image.src = path;
+    image.decoding = 'async';
     image.width = artwork.width;
     image.height = artwork.height;
     image.alt = artwork.alt || `Radio for ${title(item)}`;
     image.classList.toggle('interview-object', Boolean(item.object));
   }
-  reading(item);
-  about();
+  if (view === 'listen') reading(item);
+  else about();
   $(view === 'listen' ? 'session-player' : 'continuing-player').append($('transport'));
   controls();
 }
@@ -396,10 +438,29 @@ document.querySelectorAll('[data-interview-direction]').forEach(button => {
   };
 });
 $('transport-title').onclick = () => navigate({ view: 'listen' });
-$('play').onclick = () => failed || audio.paused ? play() : audio.pause();
-$('seek').oninput = () => {
-  if (Number.isFinite(audio.duration)) audio.currentTime = Number($('seek').value);
+$('play').onclick = () => {
+  if (failed || audio.paused) play();
+  else {
+    buffering = false;
+    audio.pause();
+  }
 };
+$('seek').oninput = () => {
+  scrubbing = true;
+  const position = Number($('seek').value);
+  const duration = recordingDuration();
+  $('elapsed').textContent = time(position);
+  $('seek').style.setProperty('--progress', `${duration ? position / duration * 100 : 0}%`);
+};
+$('seek').onchange = () => {
+  const position = Number($('seek').value);
+  scrubbing = false;
+  if (audio.readyState >= 1 && !failed) audio.currentTime = position;
+  else pendingSeek = position;
+  progress();
+};
+$('seek').onpointercancel = () => { scrubbing = false; progress(); };
+$('seek').onblur = () => { if (scrubbing) $('seek').onchange(); };
 
 audio.addEventListener('loadedmetadata', () => {
   if (pendingSeek !== null) {
@@ -409,16 +470,33 @@ audio.addEventListener('loadedmetadata', () => {
 });
 audio.addEventListener('playing', () => {
   failed = false;
+  buffering = false;
+  controls();
+});
+audio.addEventListener('waiting', () => {
+  buffering = !audio.paused;
   controls();
 });
 audio.addEventListener('ended', () => {
   if (audio.ended && !failed && audio.getAttribute('src')) nextInterview(true);
 });
-['play', 'pause', 'ended', 'timeupdate', 'loadedmetadata', 'durationchange', 'emptied']
+audio.addEventListener('timeupdate', progress);
+['play', 'pause', 'ended', 'loadedmetadata', 'durationchange', 'emptied']
   .forEach(event => audio.addEventListener(event, controls));
 audio.addEventListener('error', () => {
   if (audio.getAttribute('src')) {
+    const item = collection[selected];
+    if (audio.getAttribute('src') !== item.audio) {
+      playAttempt++;
+      const resume = buffering || !audio.paused;
+      pendingSeek = pendingSeek ?? audio.currentTime;
+      audio.src = item.audio;
+      audio.load();
+      if (resume) play();
+      return;
+    }
     failed = true;
+    buffering = false;
     controls();
   }
 });

@@ -1,6 +1,6 @@
 {
-  "source_commit": "91355bb18b52c19fde3f0271106eae6ccef55ce5",
-  "created_at": "2026-10-18T17:40:12.529168+00:00",
+  "source_commit": "fb7d3451202dbf054f326048a9934b93e51e86c1",
+  "created_at": "2026-10-22T08:22:21.906278+00:00",
   "files": {
     ".nojekyll": {
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -34,6 +34,10 @@
       "sha256": "4db0e9d532ed7f30497cabbde5b936a3f3588d912056b1c31eac90f1cd7594c3",
       "bytes": 353519
     },
+    "assets/interviews/wang-grandfather/audio/interview-stream-d896e5ab7ea9.mp3": {
+      "sha256": "d896e5ab7ea95b928b4c3bce08c76b933d88cde8aeaf5b18b698693021144647",
+      "bytes": 17195372
+    },
     "assets/interviews/wang-grandfather/audio/interview.mp3": {
       "sha256": "9b547a908084e925c2742bc2b5ff44bb032eaab41f39cd3f027a037978e8f5c3",
       "bytes": 25792460
@@ -58,6 +62,10 @@
       "sha256": "0894edc92c4b7e5a139630c631246d8b74a19a4528362449503453b4fd8e04c9",
       "bytes": 41895
     },
+    "assets/interviews/yufeng-great-uncle/audio/interview-stream-9ff7386b46f3.mp3": {
+      "sha256": "9ff7386b46f33e530853214f74ce892bc71cb0002955f1c3bbec8459d16f882e",
+      "bytes": 11733452
+    },
     "assets/interviews/yufeng-great-uncle/audio/interview.mp3": {
       "sha256": "03fdedcd48cb10fcd48ff6c8a5b5378abc8ddd9648742050ac1cc0e1b73757cb",
       "bytes": 17600096
@@ -75,8 +83,8 @@
       "bytes": 45679
     },
     "assets/landing.js": {
-      "sha256": "20b344ed97e480cb5d8a8f65da335860860b95feb63f169ec1c0e1e17741b7f8",
-      "bytes": 2703
+      "sha256": "867d0aceba1674ce3b8480395a2b25a06dcbbe42712aed764ad134e86c6df890",
+      "bytes": 2866
     },
     "assets/objects/english-bible-front.png": {
       "sha256": "19bc47da3dcdc0f282092f667074b811d27300f24bf3be1619644fcf5fb24ab8",
@@ -85,6 +93,102 @@
     "assets/objects/old-mercedes-side.png": {
       "sha256": "fc0caad53d8b46f7cb8c5f8333a5fdd2c7daea7a0055d87c00c5cf3c16cfdcc8",
       "bytes": 1339625
+    },
+    "assets/optimized/english-bible-front-1024-e70db1701ff2.webp": {
+      "sha256": "e70db1701ff2a3518d70c8da582ff681fdb5c6f6bd06a9c234efe0ab79302d07",
+      "bytes": 450600
+    },
+    "assets/optimized/english-bible-front-320-39e08460a364.webp": {
+      "sha256": "39e08460a36481ef4c064a43307747dd09d5a0d8c7475f37976f03249c13d942",
+      "bytes": 36092
+    },
+    "assets/optimized/old-mercedes-side-1024-b190037f0732.webp": {
+      "sha256": "b190037f07326e63c4cfc7468e9fae11c949df5ef26d98524548fa6fa536c491",
+      "bytes": 50220
+    },
+    "assets/optimized/old-mercedes-side-320-a4d4c6d3bcfb.webp": {
+      "sha256": "a4d4c6d3bcfb2282e6c2b85ec1e29283c11853f5007c5c08e2a19016855b3cdb",
+      "bytes": 8996
+    },
+    "assets/optimized/radio-australia-light-1024-3fe92efd8374.webp": {
+      "sha256": "3fe92efd837421da2b5ca9b19a6afa0fffe7a6ddd7dc70702f90f4365652a693",
+      "bytes": 99280
+    },
+    "assets/optimized/radio-australia-light-320-ba89f979892b.webp": {
+      "sha256": "ba89f979892b0f1b10576c634d254cfacc1bb303394063c8deb12f6fb661a83c",
+      "bytes": 13534
+    },
+    "assets/optimized/radio-canada-light-1024-c85440ac85f0.webp": {
+      "sha256": "c85440ac85f0686cf56e390380f41cf31061300673ae7c714dece45cffe49821",
+      "bytes": 148998
+    },
+    "assets/optimized/radio-canada-light-320-dc0f2d511f66.webp": {
+      "sha256": "dc0f2d511f665ab7f954ba0ac27ff0f6f092ef3ae365ffb413ff7466672a392a",
+      "bytes": 19472
+    },
+    "assets/optimized/radio-france-01-1024-a5113f1a3011.webp": {
+      "sha256": "a5113f1a3011fac841ed68a45a2152240668716fa15f23b9784c99dddbb70b37",
+      "bytes": 78800
+    },
+    "assets/optimized/radio-france-01-320-665d11757bf8.webp": {
+      "sha256": "665d11757bf87d28cec0f0db394aefc4a359b3bf5a49b721dd60625e8b2341c1",
+      "bytes": 13024
+    },
+    "assets/optimized/radio-hongkong-light-1024-27210584a6d5.webp": {
+      "sha256": "27210584a6d5ba0fa120bffa9c68e0f606107aca826cdc503d82140c1349ca5f",
+      "bytes": 83460
+    },
+    "assets/optimized/radio-hongkong-light-320-5315a9960520.webp": {
+      "sha256": "5315a996052007002b29f0eea62637e473275227532fb9c76d878b496b6071df",
+      "bytes": 9932
+    },
+    "assets/optimized/radio-japan-01-1024-dd9fc16db9b8.webp": {
+      "sha256": "dd9fc16db9b8adcf8c9e8706e6b367ab5710d072b9813576e4055c917ada4e36",
+      "bytes": 205506
+    },
+    "assets/optimized/radio-japan-01-320-4c61513db8d0.webp": {
+      "sha256": "4c61513db8d0e465b9fe01bc4d9b95ccfcd035b8bbd0633f09d43f2c5ffe918e",
+      "bytes": 32692
+    },
+    "assets/optimized/radio-mainland-light-1024-d9bbe3dfa930.webp": {
+      "sha256": "d9bbe3dfa930c5eee72091327873f1e94186fccfaf6539dcdd128f76b797bc74",
+      "bytes": 43956
+    },
+    "assets/optimized/radio-mainland-light-320-32c91a508478.webp": {
+      "sha256": "32c91a508478562b4d482d142cf8850574fe5db93d32d6c84f74adf9b2d61cec",
+      "bytes": 7878
+    },
+    "assets/optimized/radio-nanyang-light-1024-684d93f150ed.webp": {
+      "sha256": "684d93f150eda12f31531b0d1380001d78b0f951fc97a561f6a0ee5112ecd08e",
+      "bytes": 164546
+    },
+    "assets/optimized/radio-nanyang-light-320-deaa135c535e.webp": {
+      "sha256": "deaa135c535e0aa0d009b778165eeb7d14b71901c1437dfae010908300ff4636",
+      "bytes": 18482
+    },
+    "assets/optimized/radio-taiwan-light-1024-64183e0f60a1.webp": {
+      "sha256": "64183e0f60a13083774c670df0a27295a300db6f80b0583639e937cf1edcb08a",
+      "bytes": 85644
+    },
+    "assets/optimized/radio-taiwan-light-320-e38b746cc209.webp": {
+      "sha256": "e38b746cc2097d6847db0b34e7faf260a4d71d4a437f40e1474d6a4662db832e",
+      "bytes": 15126
+    },
+    "assets/optimized/radio-uk-light-1024-d578265c5b1e.webp": {
+      "sha256": "d578265c5b1e0a176946164a65a202eda79a915c9fe59c7912707360ecec180f",
+      "bytes": 164474
+    },
+    "assets/optimized/radio-uk-light-320-ec7711a7b8f3.webp": {
+      "sha256": "ec7711a7b8f37e4166bd1d1f60da90dc370a52e8dcd2236c113e131a0d6ec2d0",
+      "bytes": 18234
+    },
+    "assets/optimized/radio-usa-01-1024-a5ae9ed06df2.webp": {
+      "sha256": "a5ae9ed06df2ea2735370a3f209a45836e14f0c64b2d4919574c2f38966156b8",
+      "bytes": 68104
+    },
+    "assets/optimized/radio-usa-01-320-57487a2f9d2f.webp": {
+      "sha256": "57487a2f9d2fccf238ebbac55842e8db3da2f745ab643bb37c37e28089f251b6",
+      "bytes": 10890
     },
     "assets/photos.js": {
       "sha256": "9cd7c44532adb537a6fe9fde1dc3bf7d623345b1082cddf14e2422c58dc291de",
@@ -147,16 +251,24 @@
       "bytes": 14163
     },
     "assets/studio.js": {
-      "sha256": "b765aae5402e97e691f037daac4a4867d2cd6df28d4496ecc1cd3dc09d24d5f9",
-      "bytes": 16689
+      "sha256": "b5851c2068898c274cffbcbb676e7ce2c7036e03567b7f57485d25d8d045ab34",
+      "bytes": 19165
+    },
+    "assets/web-artwork.js": {
+      "sha256": "972fc40920585ac2947cc3513755a1233d534cb273026052f7b96c8cf7a8a3bf",
+      "bytes": 4131
+    },
+    "assets/web-audio.js": {
+      "sha256": "94656552eb3305bff52f273a8302e724497f450ab78b01747b66ca003dced8e9",
+      "bytes": 594
     },
     "index.html": {
-      "sha256": "e1faa2d3997e98c15142a95c4076bd57225efafe4bf00ab0857fca6f92d0c735",
-      "bytes": 1135
+      "sha256": "56e0f2949ed9fbb700d564806aa7f16e1ed45f68df81fa65f69f32449bf1ac65",
+      "bytes": 1279
     },
     "listen.html": {
-      "sha256": "ec4995040ede5e4b0433073cdc308932d35d0f4c738be85cdd103321caa3e521",
-      "bytes": 5105
+      "sha256": "c5ba1bf9d14530444e252fa0a708f3097aceb5fc1f4a46df19724d0a2a022db3",
+      "bytes": 5342
     },
     "robots.txt": {
       "sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",

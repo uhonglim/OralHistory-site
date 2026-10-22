@@ -36,11 +36,13 @@ wallSlots.forEach(({ radio: design, interview }, index) => {
     object.setAttribute('aria-hidden', 'true');
   }
   const image = document.createElement('img');
-  image.src = 'assets/' + artwork.file;
+  const optimized = typeof webArtwork === 'undefined' ? null : webArtwork[artwork.file];
+  image.src = 'assets/' + (optimized?.thumbnail || artwork.file);
   image.width = artwork.width;
   image.height = artwork.height;
   image.alt = interview?.object ? artwork.alt : '';
   image.decoding = 'async';
+  image.loading = index < 5 ? 'eager' : 'lazy';
   object.append(image);
   collection.append(object);
 });
