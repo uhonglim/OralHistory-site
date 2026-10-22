@@ -1416,6 +1416,311 @@ const readingEditions = {
         }
       ]
     }
+  },
+  "leanna-grandparent": {
+    "slug": "leanna-grandparent",
+    "story": {
+      "title": "A Teacup",
+      "paragraphs": [
+        "After eight or ten days away, Leanna’s grandparent begins to long for Macau. Decades of life there have made the city home. Childhood was modest, with a hardworking mother, several siblings and a father whose work as a policeman supported the family’s schooling. Education eventually led to a career as a teacher; the siblings also found work.",
+        "The city has changed. Work and living standards have improved, yet the grandparent remembers more warmth between people in earlier, poorer years. Learning has remained a source of pleasure, with opportunities to study Chinese, Portuguese and English and use them in everyday life.",
+        "Family time still matters. When schedules allow, relatives meet every week or two for a meal or tea. A teacup stands for these ordinary gatherings. Asked what younger generations should learn, the grandparent returns to practical advice: stay grounded, keep making an effort, and do what lies within your abilities."
+      ],
+      "quotes": [
+        {
+          "en": "I really feel that Macau is my home. After eight or ten days travelling elsewhere, I want to come home soon.",
+          "session_id": 1,
+          "t": "00:05:03.525",
+          "source_refs": [
+            {
+              "session_id": 1,
+              "t": "00:05:03.525"
+            }
+          ]
+        },
+        {
+          "en": "I would choose life today because living standards have improved. But when it comes to warmth between people, the old days were better.",
+          "session_id": 1,
+          "t": "00:09:14.975",
+          "source_refs": [
+            {
+              "session_id": 1,
+              "t": "00:09:14.975"
+            }
+          ]
+        },
+        {
+          "en": "What makes me happiest is that I have kept having opportunities to learn Portuguese, Chinese and English. I am not particularly good at them, but I can manage in everyday life.",
+          "session_id": 1,
+          "t": "00:09:42.550",
+          "source_refs": [
+            {
+              "session_id": 1,
+              "t": "00:09:42.550"
+            },
+            {
+              "session_id": 1,
+              "t": "00:10:05.075"
+            }
+          ]
+        },
+        {
+          "en": "We should keep going. Whatever is within our abilities, we should do.",
+          "session_id": 1,
+          "t": "00:11:12.800",
+          "source_refs": [
+            {
+              "session_id": 1,
+              "t": "00:11:12.800"
+            }
+          ]
+        }
+      ]
+    },
+    "transcript": {
+      "edition": "edited-for-clarity",
+      "note": "Edited for clarity · English translation and written Chinese.",
+      "sessions": [
+        {
+          "id": 1,
+          "segments": [
+            {
+              "t": "00:00:00.000",
+              "speaker": "Conversation",
+              "en": "Could you tell us where you grew up, how your family came to live in Macau, and a little about your family?\n\nOur family had lived in mainland China and later moved to Macau. [The narrator later also describes being born and raised in Macau; the family's migration chronology is not clear from this interview.]",
+              "zh": "请您介绍一下自己在哪里长大，家人怎样来到澳门，以及家庭成员的大致情况。\n\n我们家原先住在中国内地，后来迁居澳门。[受访者随后也称自己是土生土长的澳门人；此次采访未能明确家庭迁移的具体时间线。]",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:00:00.000"
+                }
+              ],
+              "review_status": "edited_machine_draft",
+              "review_note": "Migration and birthplace chronology remains unresolved; contradictory first-person recollections are preserved rather than reconciled."
+            },
+            {
+              "t": "00:00:29.975",
+              "speaker": "Conversation",
+              "en": "When I was young, I remember Macau having only a little over 100,000 people. Finding work was quite difficult across the different trades. Later, when casinos opened, many more people found jobs connected with them, and people's lives changed greatly.\n\nMy father was a police officer. He supported the whole family and paid for our schooling. Thanks to that, I was able to complete my education and become a teacher.",
+              "zh": "我记得小时候澳门只有十多万人，各行各业找工作都比较困难。后来开了赌场，更多人从事相关工作，生活也有了很大变化。\n\n我的父亲是一名警察，需要承担整个家庭的开支，供我们读书。因此，我有机会完成学业，后来成为一名教师。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:00:29.975"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:00:54.375"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:01:17.375",
+              "speaker": "Conversation",
+              "en": "What stands out in your memories of growing up in that family?\n\nOur family was rather poor at first, but my father had a job and my mother was very hardworking. My siblings and I all received an education. As we grew up and entered society, we found work. We felt that life was going quite well and were fairly happy.\n\nHow would you describe your relationships with family members a generation older or younger than you?\n\nCompared with our younger days, the new generation has a more relaxed, happier life and a better standard of living.",
+              "zh": "在这样的家庭中长大，有哪些令您印象深刻的回忆？\n\n我们家起初比较清贫，但父亲有工作，母亲也非常勤劳。我们兄弟姐妹都接受了教育，长大进入社会后也找到了工作，觉得生活过得不错，比较愉快。\n\n您怎样看待自己与上一代或下一代家庭成员的关系？\n\n与我们过去相比，新一代的生活更加轻松愉快，生活质量也更高。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:01:17.375"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:01:41.525"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:02:09.625"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:02:33.850",
+              "speaker": "Conversation",
+              "en": "Have traditions, values or ways of living ever caused disagreements between you and your children or older relatives?\n\nNo. People of our generation tended to respect and care for their elders. Generally speaking, we did not have any major unpleasant incidents.\n\nAre there customs, habits, languages or stories that the elders hope to pass on? How do younger people respond to them?",
+              "zh": "您是否因为传统习俗、价值观或生活方式，与子女或长辈产生过分歧？\n\n没有。我们那一代人比较尊敬和孝敬长辈，一般没有发生过什么大的不愉快。\n\n长辈是否希望向下一代传承某些习俗、生活习惯、语言或故事？年轻一代对此有什么反应？",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:02:33.850"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:03:01.575"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:03:23.975",
+              "speaker": "Conversation",
+              "en": "The older generation generally lived simply, although some had bad habits. My father, for example, smoked. He would not give it up, or perhaps he could not—I do not know. That was not a good thing. Nowadays I see that many young people do not smoke; those who do are only a small minority. That makes me much happier.\n\nIs there anything you would like to pass on to the next generation?\n\nMacau is a tourist city. I hope people know how to make visitors feel welcome, meeting them with a cheerful manner and a willingness to help. I think that makes life happier for everyone.\n\nWhen people ask where you come from, how do you usually answer?",
+              "zh": "老一辈人通常生活简朴，但也有人有不好的习惯。例如，我父亲抽烟，一直不肯戒，也可能是戒不了，我不清楚。这不是一件好事。现在我看到很多年轻人不抽烟，抽烟的只占少数，这让我欣慰了许多。\n\n您有什么希望传给下一代的东西？\n\n澳门是一座旅游城市。我希望大家接待游客时态度友善、乐于助人，让游客感到愉快，这样大家的生活也会更愉快。\n\n如果有人问您来自哪里，您通常怎样回答？",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:03:23.975"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:03:50.500"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:04:13.250"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:04:42.825",
+              "speaker": "Conversation",
+              "en": "I say that I am a Macau person, born and raised here. I do not know much about the circumstances of the generation or two before mine.\n\nI like Macau as it is today. I have lived here for decades, and it keeps getting better. Living conditions, income and people's dealings with one another have improved, and there is a happier outlook.\n\nDo you feel connected to Macau, as though it is home?\n\nYes, I really do feel that Macau is my home. When I travel somewhere else for eight or ten days, I no longer want to stay there. I want to get home soon.",
+              "zh": "我会说自己是土生土长的澳门人。对于上一代或上两代的情况，我并不十分清楚。\n\n我喜欢今天的澳门。我在这里住了几十年，觉得这里越来越好，无论生活条件、收入，还是人与人之间的交往，都有改善，大家也比较开心。\n\n您是否觉得自己与澳门紧密相连，把这里当作家？\n\n会，我确实觉得澳门就是我的家。出去旅行八到十天之后，我就不想再停留，只想早点回家。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:04:42.825"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:05:03.525"
+                }
+              ],
+              "review_status": "edited_machine_draft",
+              "review_note": "Migration and birthplace chronology remains unresolved; contradictory first-person recollections are preserved rather than reconciled. Migration chronology remains unresolved; the shared visible note appears in the opening passage."
+            },
+            {
+              "t": "00:05:33.300",
+              "speaker": "Conversation",
+              "en": "Do you feel a strong sense of belonging or feel proud to be from Macau?\n\nI do feel that I belong. As for pride, yes, you could call it pride. If you do not gamble and live a good life, you can be proud.\n\nWhat makes you feel that way?\n\nMacau went from being a very underdeveloped place to somewhere people's lives keep improving. People have work and can go to school. Older people have support: the government contributes money and effort to their care, and their relatives, children and the next generation look after them too.\n\nAre your family's culture and ideas about education important to you? Do you think they should be passed on?",
+              "zh": "您是否有很强的归属感，或者为自己是澳门人而自豪？\n\n归属感是有的，也可以说感到自豪。如果不赌博，好好生活，就可以为自己感到自豪。\n\n为什么会有这样的感受？\n\n澳门从一个很落后的地方，变成了大家生活不断改善的地方。人们有工作、有书读，老人也有所依靠。政府出钱出力照顾老人，亲戚、子女和下一代也会照顾他们。\n\n您是否认同家里的文化和教育理念，觉得这些观念值得传给下一代？",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:05:33.300"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:05:58.925"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:06:28.025"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:06:48.575",
+              "speaker": "Conversation",
+              "en": "There is a generation gap between our parents and us, so we do think differently about some things. But we do not argue, quarrel or insist on having our own way. We talk with them, find other ways to explain things and gently reassure them. Then things are usually resolved quite easily.",
+              "zh": "父母与我们之间有代际差异，想法难免不同。但我们不会与他们争吵，也不会固执己见，而是在交谈中换一种方式解释，耐心安抚他们。这样通常就能比较容易地化解问题。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:06:48.575"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:07:16.250",
+              "speaker": "Conversation",
+              "en": "Are there family migration stories that elders told you, or that you would pass on to younger generations?\n\nWe were very young then, so I do not remember the circumstances very clearly. Sometimes I remember how people spoke, their hometown accents and how hardworking they were. Now that we have come to Macau, our ways of living are settled, and there have not been other problems. We also get along better and better with our friends and relatives.\n\nDo you tell younger family members stories about those days?\n\nSometimes I tell them how older people used to live and how things have changed. [Wording unclear in the machine transcript.] I also talk about things people should not do, such as taking up smoking, swearing or gambling. That helps children understand what we should and should not do.",
+              "zh": "长辈是否向您讲过家庭迁移的故事？您又会把哪些故事告诉下一代？\n\n当时我们年纪很小，对具体情况记得不太清楚。有时会想起人们说话的样子、家乡口音，以及他们工作时的勤劳。来到澳门以后，我们的生活习惯已经稳定下来，没有出现其他问题，与朋友和亲戚也相处得越来越好。\n\n您会向年轻家人讲述过去的故事吗？\n\n有时会讲以前老人怎样生活，以及生活发生了哪些变化。[此处机器转写不清。]我也会讲一些不应该做的事，例如抽烟、说粗话和赌博，让孩子知道哪些事情可以做，哪些事情不应该做。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:07:16.250"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:07:41.950"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:08:08.525"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:08:34.150"
+                }
+              ],
+              "review_status": "edited_machine_draft",
+              "review_note": "Migration and birthplace chronology remains unresolved; contradictory first-person recollections are preserved rather than reconciled. The phrase transcribed 新路 at 08:34 is marked as unclear machine wording, without claiming the original audio is inaudible. Migration chronology remains unresolved; the shared visible note appears in the opening passage."
+            },
+            {
+              "t": "00:08:54.150",
+              "speaker": "Conversation",
+              "en": "Do younger and older generations see your stories in the same way, or from different perspectives?\n\nI think society used to be poorer overall, but there was more human warmth. There is less of that now. However, the different trades and the quality of life have improved. If I had to choose, I would choose life today because the standard of living is higher. In terms of human warmth, though, the old days were better.\n\nHow has your family's migration history shaped who you are and your relationships with other family members?",
+              "zh": "年轻一代和老一代会怎样看待您的故事？视角是否有所不同？\n\n我觉得以前整个社会比较贫困，但更有人情味。现在人情味少了一些，不过各行各业和生活质量都有提高。如果让我选择，我会选现在的生活，因为生活质量更高；但如果说人情味，还是以前更好。\n\n家庭迁移的经历怎样影响了您，也怎样影响了您与其他家庭成员的关系？",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:08:54.150"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:09:14.975"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:09:42.550",
+              "speaker": "Conversation",
+              "en": "How has your family helped shape the person you are?\n\nWhat makes me happiest is that after I came to Macau, I hardly ever stopped having opportunities to learn. I studied Portuguese, Chinese and English. I would not say I am very good, but I know enough to manage in everyday life, and that makes me happy.\n\nWhat are your relationships with other family members like?\n\nWe keep in touch with our relatives. Some are busier and some have more free time.",
+              "zh": "您觉得家庭怎样影响了您成为今天这样的人？\n\n我最开心的是，来到澳门以后，几乎一直有机会学习，包括葡文、中文和英文。虽然谈不上很精通，但能够应付日常生活，我已经觉得很开心。\n\n您与其他家庭成员的关系怎样？\n\n我们与亲戚一直保持来往。有的人忙一些，有的人空闲一些。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:09:42.550"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:10:05.075"
+                }
+              ],
+              "review_status": "edited_machine_draft",
+              "review_note": "Migration and birthplace chronology remains unresolved; contradictory first-person recollections are preserved rather than reconciled. Migration chronology remains unresolved; the shared visible note appears in the opening passage."
+            },
+            {
+              "t": "00:10:28.600",
+              "speaker": "Conversation",
+              "en": "It depends on when we are free. If we have time, we usually arrange to meet every week or two for a meal or tea.\n\nHow would you like our generation to understand your story, and what would you like us to learn from it?",
+              "zh": "我们会看大家什么时候有空，通常每隔一两周相约吃饭或喝茶。\n\n您希望我们这一代理解您的哪些经历，又希望我们从故事中学到什么？",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:10:28.600"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:10:49.850",
+              "speaker": "Conversation",
+              "en": "What I hope people learn from my story is to keep their feet on the ground. Do not focus too much on comfort and idleness. As we become lazier, we lose our ambition. That is not good for society or for our families. We should keep going and do what we can—whatever is within our abilities.\n\nThank you very much for answering my questions today.",
+              "zh": "我希望大家从我的故事中学会脚踏实地，不要过于贪图享受、懒惰懈怠。人越来越懒，就会逐渐失去志气，这对社会和家庭都不是好事。大家应该继续努力，力所能及的事情就去做。\n\n非常感谢您今天的回答。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:10:49.850"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:11:12.800"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            }
+          ]
+        }
+      ]
+    }
   }
 };
 interviews.forEach(item => { if (readingEditions[item.slug]) item.readingEdition = readingEditions[item.slug]; });

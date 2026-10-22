@@ -10,6 +10,16 @@ const webArtwork = {
     "displayWidth": 1024,
     "displayHeight": 1536
   },
+  "objects/leanna-teacup-front.png": {
+    "originalWidth": 1536,
+    "originalHeight": 1024,
+    "thumbnail": "optimized/leanna-teacup-front-320-87ba539c8101.webp",
+    "thumbnailWidth": 320,
+    "thumbnailHeight": 214,
+    "display": "optimized/leanna-teacup-front-1024-637adf745b58.webp",
+    "displayWidth": 1024,
+    "displayHeight": 683
+  },
   "objects/old-mercedes-side.png": {
     "originalWidth": 1926,
     "originalHeight": 817,

@@ -1,0 +1,34 @@
+{
+  "slug": "leanna-grandparent",
+  "subtitle": "A Teacup",
+  "narrator": {
+    "display_name": "LEANNA’s grandparent",
+    "relation_zh": null,
+    "name": null
+  },
+  "interviewer": {
+    "name": "LEANNA"
+  },
+  "interview": {
+    "language": "Cantonese",
+    "date": null,
+    "place": null
+  },
+  "object_reference": {
+    "name": "A Teacup",
+    "start_seconds": 628.6,
+    "end_seconds": 649.85,
+    "representative_symbol": true,
+    "note": "Tea and meals with relatives every week or two. The cup represents these gatherings; no specific family cup or heirloom is documented."
+  },
+  "review_status": "family_review_pending",
+  "publication_permission": "not_recorded",
+  "editorial_notes": [
+    "Drafted from Qwen machine transcription; wording and quotations require listening review before being treated as verified transcripts.",
+    "The narrator’s gender and exact grandparent relationship are not established by the supplied filename or transcript; neutral grandparent and pronouns are retained.",
+    "The opening describes a family move from mainland China to Macau, 00:04:42.825 says born and raised in Macau, and 00:09:42.550 again refers to coming to Macau. The story does not resolve personal birthplace or migration chronology.",
+    "The teacup is an editorial representative symbol for family meals or tea every one or two weeks at 00:10:28.600. No actual family cup, specific design, ownership or supplied photograph is claimed.",
+    "Quote timestamps identify original transcription windows, which may begin with an interviewer question before the quoted answer. All quotes are translated and edited excerpts, not invented aphorisms.",
+    "Story evidence: home and travel at 00:04:42.825–00:05:33.300; policeman father, schooling, mother and siblings at 00:00:54.375–00:02:09.625; living standards and warmth at 00:08:54.150–00:09:42.550; language learning at 00:09:42.550–00:10:28.600; gatherings at 00:10:28.600–00:10:49.850; practical effort at 00:10:49.850–00:11:32.927."
+  ]
+}
