@@ -17,5 +17,35 @@ const webAudioSources = {
     "type": "audio/mpeg",
     "durationSeconds": 1466.64,
     "bytes": 11733452
+  },
+  "assets/interviews/yuhan-aunt-mandarin/audio/interview.mp3": {
+    "file": "assets/interviews/yuhan-aunt-mandarin/audio/interview-stream-22e3518fd71d.mp3",
+    "type": "audio/mpeg",
+    "durationSeconds": 903.528,
+    "bytes": 7228556
+  },
+  "assets/interviews/yuhan-aunt-yunnan/audio/interview.mp3": {
+    "file": "assets/interviews/yuhan-aunt-yunnan/audio/interview-stream-6b8d644009a0.mp3",
+    "type": "audio/mpeg",
+    "durationSeconds": 912.204,
+    "bytes": 7297964
+  },
+  "assets/interviews/yuhan-grandmother/audio/interview.mp3": {
+    "file": "assets/interviews/yuhan-grandmother/audio/interview-stream-6432a7936c4a.mp3",
+    "type": "audio/mpeg",
+    "durationSeconds": 1176.048,
+    "bytes": 9408716
+  },
+  "assets/interviews/yuhan-uncle/audio/interview.mp3": {
+    "file": "assets/interviews/yuhan-uncle/audio/interview-stream-58efd98c85b1.mp3",
+    "type": "audio/mpeg",
+    "durationSeconds": 1454.148,
+    "bytes": 11633516
+  },
+  "assets/interviews/yuhan-younger-aunt/audio/interview.mp3": {
+    "file": "assets/interviews/yuhan-younger-aunt/audio/interview-stream-d4d109e3cf06.mp3",
+    "type": "audio/mpeg",
+    "durationSeconds": 897.192,
+    "bytes": 7177868
   }
 };

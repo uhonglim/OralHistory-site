@@ -1,0 +1,35 @@
+{
+  "slug": "yuhan-uncle",
+  "subtitle": "The Train to Mianyang",
+  "narrator": {
+    "display_name": "YUHAN LI’s uncle",
+    "relation_zh": "伯伯",
+    "name": null
+  },
+  "interviewer": {
+    "name": "YUHAN LI"
+  },
+  "interview": {
+    "language": "Sichuan dialect",
+    "date": "2026-10-22",
+    "place": null
+  },
+  "object_reference": {
+    "name": "A Train",
+    "start_seconds": 141.425,
+    "end_seconds": 191.775,
+    "representative_symbol": true,
+    "note": "The narrator recalls travelling by train for several days through the Qinling tunnels to join his parents. A train is a representative symbol of that journey, not a photograph of the actual train, a documented model or a surviving family possession."
+  },
+  "review_status": "family_review_pending",
+  "publication_permission": "not_recorded",
+  "editorial_notes": [
+    "The story, translations and edited Chinese are based on the complete local Qwen3-ASR draft and remain pending family review.",
+    "The recording recalls moving at about ten, around 1973 or 1974, and nearly fifty years in Mianyang. These are approximate recollections; no exact migration or birth year is calculated.",
+    "The supplied DOCX states age 62, which is absent from the recording and is not added to the story or transcript. The recording itself identifies retirement and work at the industry and commerce and market supervision bureaus.",
+    "The speaker explicitly describes military service, but no location or unit is supplied. Connections with Mianyang are not a claim that every military posting was there.",
+    "The food transcribed 麻汤 and a word transcribed 旧的理解 remain uncertain in both reading languages. Obvious contextual place-name and birth/growing-up ASR errors are documented in the translation notes.",
+    "The train represents the explicitly recalled childhood journey across Qinling. No train model, ticket, exact route or surviving family object is documented.",
+    "English quotes are edited translations of narrator statements; their timestamps identify original ASR windows rather than verified word-level boundaries."
+  ]
+}

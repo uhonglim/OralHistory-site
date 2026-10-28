@@ -1,0 +1,34 @@
+{
+  "slug": "yuhan-grandmother",
+  "subtitle": "Letters from Mianyang",
+  "narrator": {
+    "display_name": "YUHAN LI’s grandmother",
+    "relation_zh": "奶奶",
+    "name": null
+  },
+  "interviewer": {
+    "name": "YUHAN LI"
+  },
+  "interview": {
+    "language": "Sichuan dialect",
+    "date": "2026-10-22",
+    "place": null
+  },
+  "object_reference": {
+    "name": "A Letter",
+    "start_seconds": 284.3,
+    "end_seconds": 307.15,
+    "representative_symbol": true,
+    "note": "The narrator explicitly describes exchanging letters with her parents and siblings after moving to Sichuan. This is a representative symbol of that correspondence, not a photograph or reconstruction of an identified surviving family letter."
+  },
+  "review_status": "family_review_pending",
+  "publication_permission": "not_recorded",
+  "editorial_notes": [
+    "Based on the complete local Qwen3-ASR draft; the bilingual edition and translated quotes remain pending family review.",
+    "The supplied DOCX inaccurately implies her parents moved her. In the recording she describes being recruited with local young people while parents and siblings remained in Hubei.",
+    "Sixteen is the age stated early in the recording; later she says sixteen or seventeen. No exact migration year or birth year is inferred.",
+    "The narrator twice recalls sixty years in Sichuan. This is retained as her recollection, not an independently verified chronology.",
+    "The employer is described only as a military industrial enterprise; no factory name is supplied.",
+    "The letter is a representative image of correspondence explicitly mentioned at 04:44; no surviving family letter or exact appearance is documented."
+  ]
+}

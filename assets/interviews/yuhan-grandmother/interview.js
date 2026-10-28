@@ -1,0 +1,461 @@
+// Source recording and transcription provenance are preserved in content/interviews.
+interviews.push({
+  "id": "04",
+  "slug": "yuhan-grandmother",
+  "radio": "mainland",
+  "name": "A Letter",
+  "audio": "assets/interviews/yuhan-grandmother/audio/interview.mp3",
+  "durationSeconds": 1176.042667,
+  "demo": false,
+  "interviewer": "YUHAN LI",
+  "narrator": "YUHAN LI’s grandmother",
+  "language": "Sichuan dialect",
+  "description": "Leaving Xiaogan for factory work, keeping family ties through letters, and making Mianyang home.",
+  "object": {
+    "name": "A Letter",
+    "file": "objects/yuhan-grandmother-letter-front.png",
+    "alt": "A plain cream envelope shown straight on from the flap side; representative artwork, not a photograph of the family’s own letter.",
+    "representative": true,
+    "credit": "Representative artwork generated with imagegen",
+    "editing": "Generated transparent object illustration in a straight-on elevation. Represents letters exchanged with family after moving from Hubei to Sichuan, not a documented family heirloom or actual surviving envelope.",
+    "width": 1536,
+    "height": 1024
+  },
+  "source": {
+    "slug": "yuhan-grandmother",
+    "subtitle": "Letters from Mianyang",
+    "narrator": {
+      "display_name": "YUHAN LI’s grandmother",
+      "relation_zh": "奶奶",
+      "name": null
+    },
+    "interviewer": {
+      "name": "YUHAN LI"
+    },
+    "interview": {
+      "language": "Sichuan dialect",
+      "date": "2026-10-22",
+      "place": null
+    },
+    "object_reference": {
+      "name": "A Letter",
+      "start_seconds": 284.3,
+      "end_seconds": 307.15,
+      "representative_symbol": true,
+      "note": "The narrator explicitly describes exchanging letters with her parents and siblings after moving to Sichuan. This is a representative symbol of that correspondence, not a photograph or reconstruction of an identified surviving family letter."
+    },
+    "review_status": "family_review_pending",
+    "publication_permission": "not_recorded",
+    "editorial_notes": [
+      "Based on the complete local Qwen3-ASR draft; the bilingual edition and translated quotes remain pending family review.",
+      "The supplied DOCX inaccurately implies her parents moved her. In the recording she describes being recruited with local young people while parents and siblings remained in Hubei.",
+      "Sixteen is the age stated early in the recording; later she says sixteen or seventeen. No exact migration year or birth year is inferred.",
+      "The narrator twice recalls sixty years in Sichuan. This is retained as her recollection, not an independently verified chronology.",
+      "The employer is described only as a military industrial enterprise; no factory name is supplied.",
+      "The letter is a representative image of correspondence explicitly mentioned at 04:44; no surviving family letter or exact appearance is documented."
+    ]
+  },
+  "transcript": {
+    "language": "Sichuan dialect",
+    "review_status": "machine_draft",
+    "translation_status": "draft",
+    "speaker_attribution": "ASR windows can contain both interviewer and narrator; no verified diarization.",
+    "sessions": [
+      {
+        "id": 1,
+        "segments": [
+          {
+            "t": "00:00:00.000",
+            "end_seconds": 28.3,
+            "speaker": "Conversation",
+            "en": "We are doing an oral history interview about Chinese migration. First, where did you grow up, and how did you later come to live here?\nWhen I was little—should I speak Sichuan dialect?\nYes, Sichuan dialect.\nI grew up in Xiaogan, Hubei.",
+            "zh": "那我们要做一个就是有关华人迁徙的口述访谈。那首先第一部分，嗯，首先你小时候是在哪里长大的？你后来是怎么来到现在这个地方的？我小时候啊，在哎，我用四川话说吗？哦，是不？嗯，用四川话。啊，小时候在湖北孝感长大的。",
+            "review_status": "machine_draft"
+          },
+          {
+            "t": "00:00:28.300",
+            "end_seconds": 54.85,
+            "speaker": "Conversation",
+            "en": "How did you later come to live here?\nA military-industrial enterprise in Mianyang, Sichuan, was recruiting workers. We had finished junior high school; classes had stopped during the Cultural Revolution. They came there to recruit, and we came here to work.",
+            "zh": "哎，你后来是怎么来到现在这个地方的呢？哎，就是那个四川绵阳军工企业招招工，那时候我们初中毕业，呃，学校已经停课了，就是文化大革命，学校停课了，最后就到那边来招工，我们就到这边来工作来了。",
+            "review_status": "machine_draft"
+          },
+          {
+            "t": "00:00:54.850",
+            "end_seconds": 80.2,
+            "speaker": "Conversation",
+            "en": "What happened to the house, land and other things back home?\nMy parents and siblings were still living in the family home.\nWhat do you remember most vividly about moving?\nMm.",
+            "zh": "那一些老家的房子啊、土地啊之类的，后来是怎么处理的呢？老家的房子还有父母、兄弟姊妹，他们还在那边住嘛？那就是关于搬迁的这件事情，你印象最深刻的是什么呢？嗯嗯。",
+            "review_status": "machine_draft"
+          },
+          {
+            "t": "00:01:20.200",
+            "end_seconds": 102.325,
+            "speaker": "Conversation",
+            "en": "What do I remember most? I grew up in Xiaogan, Hubei, and went to school there throughout my childhood. Then I went to the factory. Before that, when I was in Xiaogan, I had not really…",
+            "zh": "印象最深的啊，搬迁了，就是就是，呃，因为我们从小就在孝感湖北孝感长大噻，儿时都在那儿长大读书，在那边读书，最后头到厂，就是整个与从来在那在在湖北孝感的时候是没有，呃。",
+            "review_status": "machine_draft"
+          },
+          {
+            "t": "00:01:42.325",
+            "end_seconds": 125.25,
+            "speaker": "Conversation",
+            "en": "I had rarely travelled. The job was thousands of li away. We had to take a bus and then a train. I travelled with the other newly recruited workers, taking buses and trains across the Qinling Mountains.",
+            "zh": "很少出门，就是工作是呃要要要要呃几千里路那么远，要乘汽车还赶赶火车，呃，然后就就给招工的，就是去招新招的工人一起，就乘汽车搭火车，呃翻秦岭。",
+            "review_status": "machine_draft"
+          },
+          {
+            "t": "00:02:05.250",
+            "end_seconds": 148.5,
+            "speaker": "Conversation",
+            "en": "That was how we came here.\nWhat did you most hate to leave behind, or what were you most looking forward to in the new place?\nWhat I found hardest was leaving my parents and siblings when I was so young.",
+            "zh": "嗯，然后就这么过来了嘛。那你最舍不得老家的什么东西，或者最期待新地方的什么东西呢？舍不得老家嘛，就是，呃，当年那么小就离开父母嘛，哎，还有弟兄姊妹子弟兄姊妹嘛。",
+            "review_status": "machine_draft"
+          },
+          {
+            "t": "00:02:28.500",
+            "end_seconds": 177.775,
+            "speaker": "Conversation",
+            "en": "Did any relatives or friends stay behind? Did you keep in touch?\nMy siblings were there, and of course we stayed in touch. After I started working at the factory, I had a certain amount of leave each year, including leave to visit family, so I would go back to see them.",
+            "zh": "那就当年有没有什么亲戚朋友，就是留在老家没走？你们后面还有来往吗？那就是就是自己的家里面的弟兄姊妹嘛，还还有来往，要有来往啦。呃，就是有时候，反正我们在在厂里面上班了过后嘛，呃，每年有有一定的假期噻，探亲假要回去看看嘛。",
+            "review_status": "machine_draft"
+          },
+          {
+            "t": "00:02:57.775",
+            "end_seconds": 204.725,
+            "speaker": "Conversation",
+            "en": "Later, after I married and settled down in Mianyang, my younger brother and sister also came to visit.\nWhat did the people who stayed back home think about you leaving?\nHow should I put it? I was sixteen then, a girl…",
+            "zh": "嗯，然后呢，后头在在绵阳我成家了过后嘛，嗯，然后弟弟妹妹也到这边来玩过嘛。那就是留在老家的人，他们怎么看待你们搬走这件事情呢？因为这个这个，啷们说呢？呃，基本上已经那时候十六岁了嘛，嗯，女孩在反正。",
+            "review_status": "machine_draft"
+          },
+          {
+            "t": "00:03:24.725",
+            "end_seconds": 233.25,
+            "speaker": "Conversation",
+            "en": "They were recruiting here, so I could earn my own living. My parents were pleased that I could come here with other young people from our area, start work and support myself. Once I earned some money, if I saved a little, I could send some home and help them with their living expenses.",
+            "zh": "呃，就说这边招工，能自己解决饭碗。嗯，父母当当然还是很高兴让我一起嘛，给反正当地的一些小伙伴一起一起到这边来，参加工作，自己解决自己的生活问题嘛。还有呢，就是就是说挣一点钱过后嘛，有时有呃自己稍微节省点嘛，还可以寄点钱回去，把他们生活关照到一些嘛。",
+            "review_status": "machine_draft"
+          },
+          {
+            "t": "00:03:53.250",
+            "end_seconds": 256.275,
+            "speaker": "Conversation",
+            "en": "After moving away, did you ever think about returning?\nHow should I put it? [Unclear phrase about returning.] Later I was working at the factory and knew everyone well. As people grow up, they should…",
+            "zh": "那在这个呃搬走之后，就是你有没有动过想要就是回去的念头呢？那你这个啷们说啦？你回去了没得？反正这个后头嘛，在厂头上班嘛，跟大家都很熟了。嗯，这个东西人人大了也是应该，就是说也。",
+            "review_status": "machine_draft",
+            "review_note": "The short phrase about returning is unclear in the ASR. No substantive conclusion has been inferred from it."
+          },
+          {
+            "t": "00:04:16.275",
+            "end_seconds": 284.3,
+            "speaker": "Conversation",
+            "en": "Our parents raised us, and we should go out to work. It was natural to leave our hometown. Whenever I could go back for a visit, I would.\nNow for the second part: how are your relationships with different generations in your family, such as your parents, children and grandchildren? Did moving change those relationships?",
+            "zh": "父母把养大了嘛，也应该出来工作，也应该离开离开家乡，也是应该的。也所以说，就是反正觉得能够有回去的看一看，就回去看看嘛。好，那我们就是呃第二个部分，你和家里不同辈分的人，比如说父母、子女、呃孙辈的关系怎么样？搬家这件事情有没有改变你们之间的关系？",
+            "review_status": "machine_draft"
+          },
+          {
+            "t": "00:04:44.300",
+            "end_seconds": 307.15,
+            "speaker": "Conversation",
+            "en": "My relationships with my parents and siblings have always been very good. Whenever anything happened, we kept in touch by letter. Later, when everyone was a little better off, we could travel to visit one another.",
+            "zh": "嗯，给父母、兄弟姊妹这些关系还是一直很好。有什有什么事情，互相反正书信来往嘛。嗯，后头嘛，就说大家条件稍微好一点的时候嘛，都可以互相走动哈嘛，互相看一看嘛。",
+            "review_status": "machine_draft"
+          },
+          {
+            "t": "00:05:07.150",
+            "end_seconds": 336.55,
+            "speaker": "Conversation",
+            "en": "Did living in different places or cultures affect how you got along or spoke to one another?\nNo. I had grown up there, as had my siblings, and I still understood and remembered the ways of our hometown.",
+            "zh": "那就生活在不同的地方或者文化里面，有没有影响你们平时的相处模式或者说话的方式？嗯，没有，因为这个他们呢自己是从小在那里长大，呃，那些那个呃兄弟姐妹也是在长大，呃，有些有些就说以前的那种家乡的那些那个都都还自己都还是清楚嘛。",
+            "review_status": "machine_draft"
+          },
+          {
+            "t": "00:05:36.550",
+            "end_seconds": 363.5,
+            "speaker": "Conversation",
+            "en": "Have you ever disagreed with your parents, children or grandchildren because of customs, ways of life, language or similar differences? Can you give a specific example?\nCould I speak to you separately about something else?\nYes.\nAll right, wait a moment.",
+            "zh": "那你有没有就是因为一些风俗习惯或者呃生活方式、语言等等，就是跟父母啊或者子女或者跟孙辈有过意见不合呢？有没有一件具体的事例？哎，但是，哎，我可不可以给你单独就说点其他的？可以。哦哦，等一下，稍等一下，稍等下啊。",
+            "review_status": "machine_draft"
+          },
+          {
+            "t": "00:06:03.500",
+            "end_seconds": 384.45,
+            "speaker": "Conversation",
+            "en": "Ask me again.\nHave differences in customs, ways of life or culture ever caused disagreements with your parents, children or grandchildren? Is there a specific example?\nCustoms…",
+            "zh": "啊，你你重新问我啊。呃，就是你有没有因为风俗习惯或者生活方式、文化差异等等，跟父母、子女或者孙辈有过意见不合？有没有一件具体的事例？风俗习惯，嗯。",
+            "review_status": "machine_draft"
+          },
+          {
+            "t": "00:06:24.450",
+            "end_seconds": 406.775,
+            "speaker": "Conversation",
+            "en": "Customs—could you ask me again?\nHave differences in customs, ways of life, language or culture ever caused disagreements with your parents, children or grandchildren?",
+            "zh": "风俗习惯，你就是就是说，你再重新问下啦。就是你有没有因为风俗习惯、生活方式或者语言文化等差异，跟父母、子女或者孙辈有过意见不合？",
+            "review_status": "machine_draft"
+          },
+          {
+            "t": "00:06:46.775",
+            "end_seconds": 428.925,
+            "speaker": "Conversation",
+            "en": "As for getting used to things, the climate was different from home. Here in Sichuan, winter was quite cold. There was little sunshine, and the quilts were often damp.",
+            "zh": "都是习惯，这个就是说气候啊，这些气候给那给那呃，原来的气候跟家乡的气候不一样嘛。因为这边是四川嘛，冬天冬天比较冷嘛，见不到太阳，被子嘛经常是潮的。",
+            "review_status": "machine_draft"
+          },
+          {
+            "t": "00:07:08.925",
+            "end_seconds": 453.5,
+            "speaker": "Conversation",
+            "en": "Another thing was Sichuan food, with all its numbing and spicy flavours. When I first arrived, my stomach and mouth could not take it. At that time, we could not take it. I was young when I started working here.",
+            "zh": "嗯，还有个那个那个，嗯，另外啊，就是，呃，吃川菜嘛，麻的麻辣的比较多嘛。刚开始来嘛，肠胃这些啊，嘴巴一些还受不了。嗯，反正那时候，他们受不了。那时候，反正在那儿上这边上班嘛，年纪小嘛。",
+            "review_status": "machine_draft"
+          },
+          {
+            "t": "00:07:33.500",
+            "end_seconds": 480.125,
+            "speaker": "Conversation",
+            "en": "I felt very tired, and there were things in Sichuan dialect that I could not understand. As for food, I relied on familiar flavours from home and a few companions from Hubei.",
+            "zh": "呃，累累了还是还是感觉很累，有的四川话也也也不有有的四川话也不太听得懂，嗯，然后然后就说吃吃方面的话，反正就靠老家的呃，反正就是靠靠靠老家味道和几个湖北旅伴嘛，嗯。",
+            "review_status": "machine_draft"
+          },
+          {
+            "t": "00:08:00.125",
+            "end_seconds": 504.65,
+            "speaker": "Conversation",
+            "en": "After eating in the canteen for a long time, we found ways to make dishes that tasted like Hubei. After work, we got together with people from our hometown and spoke a little of our own dialect. That made us feel more settled. Later, I learned to eat spicy food and pickled vegetables, and it was no longer a problem.",
+            "zh": "食堂吃久了啊，就自己想办法弄点湖北口味的菜嘛。然后，然后嘛，就是个呃，下班了给老乡凑到一块儿嘛，说几句家乡话嘛，互相呃，心里踏实些嘛。后来啊，后来自己学会了吃辣的，吃泡菜啊，呃，也就没得啥了。",
+            "review_status": "machine_draft"
+          },
+          {
+            "t": "00:08:24.650",
+            "end_seconds": 529.225,
+            "speaker": "Conversation",
+            "en": "Are there dialects or aspects of your hometown culture that you would like to pass on to the next generation? For example, would you want your children or grandchildren to learn the dialect of your hometown?",
+            "zh": "那就是呃，你的故乡有没有一些方言啊，或者文化是你作为长辈想要传给下一代的？方言跟文化，就比如说，你会希望你的子女或者孙辈学习就是你老家的方言吗？",
+            "review_status": "machine_draft"
+          },
+          {
+            "t": "00:08:49.225",
+            "end_seconds": 549.25,
+            "speaker": "Conversation",
+            "en": "Just a moment. Let me think.",
+            "zh": "嗯，稍等一下，哦，我想一下，哦。",
+            "review_status": "machine_draft"
+          },
+          {
+            "t": "00:09:09.250",
+            "end_seconds": 575.55,
+            "speaker": "Conversation",
+            "en": "Or can your children and grandchildren speak your hometown dialect?\nThey cannot. I have lived in Sichuan for so long that I now speak the local dialect myself.",
+            "zh": "或者说，就是你的子女孙辈他们会说你老家的方言吗？呃，我们的子女孙辈他说不了老家的方言，因为我们我在那个我在四川已经生活那么长时间了，已经说话也是这边的这边的呃呃，就是方言了嘛。",
+            "review_status": "machine_draft"
+          },
+          {
+            "t": "00:09:35.550",
+            "end_seconds": 601.125,
+            "speaker": "Conversation",
+            "en": "They are used to the way I speak. They are in Sichuan, and their friends speak Sichuan dialect too, so that is what they speak.\nWould you want them to learn your hometown dialect?\nI would not insist. They only hear a little of it occasionally, so it does not stay in their memory.",
+            "zh": "所以他们就听惯了我说的说的话了，也就跟还在四川，他就朋友那些小朋友些都是四川话，所以他们也就说那些四川话嘛。那你会希望他们去学习你老家的方言吗？嗯，这个我不强求他们，因为那个是偶尔听到一点一点点，他反而记忆不记忆不深嘛。",
+            "review_status": "machine_draft"
+          },
+          {
+            "t": "00:10:01.125",
+            "end_seconds": 631.075,
+            "speaker": "Conversation",
+            "en": "If your descendants choose to return to your hometown or move somewhere further away, how would you feel?\nAs for my grandchildren, I do not know. They should study hard, and when they qualify for a school, they should go wherever that school is. I would not insist on a particular choice.",
+            "zh": "好，那就是如果就是你的呃后辈，他们选择回到老家，或者就是将来去更远的地方，你怎么看待呢？哦，他们回回到老家，这个这个这个孙辈啦，这这个说啦，那不知道孙辈嘛，他在自己好好学习，那都学习完，就说学习过好了过后，那个东西他开考到哪儿去上学，就在哪儿去上学，这个我不强求他谁。",
+            "review_status": "machine_draft"
+          },
+          {
+            "t": "00:10:31.075",
+            "end_seconds": 658.625,
+            "speaker": "Conversation",
+            "en": "As long as it is good for them and helps them make their way in life, they can go wherever they want.\nNow let us move on to cultural belonging. When people ask where you are from, what do you usually say?",
+            "zh": "反正到了，就说能够、能够、能够，就是，呃，对他自己好的，呃，今后人生路好、好走的地方嘛。反正为他自己，哪们到哪儿去都行。好，那我们就进入下一个文化归属的部分。就是当别人问起你是哪里人的时候，你一般会怎么回答呢？",
+            "review_status": "machine_draft"
+          },
+          {
+            "t": "00:10:58.625",
+            "end_seconds": 680.975,
+            "speaker": "Conversation",
+            "en": "When I first came here, if someone asked where I was from, of course I would say Xiaogan, Hubei. But I have now lived in Sichuan for sixty years and have come to regard this place as home. These days, I usually say I am from Mianyang.",
+            "zh": "问我是哪儿人的时候啊，我一般我就说，因为我毕竟刚开始来的时候，那当然肯定一问我是哪儿人，我肯定是不被孝感人。但是后头我毕竟在这个四川生活了有六十年了，基本上我把这儿都成为我的一个家了，所以现在我一般就说是我就是绵阳人了。",
+            "review_status": "machine_draft",
+            "review_note": "ASR 不被孝感 is read as 湖北孝感 based on the clearly established hometown earlier in the recording; this is a contextual correction, not a separate audio verification. Sixty years is the narrator’s recalled duration, not an independently established date."
+          },
+          {
+            "t": "00:11:20.975",
+            "end_seconds": 706.95,
+            "speaker": "Conversation",
+            "en": "When your children or grandchildren are asked where they are from, how do they usually answer?\nWhat? Where? Please say that again.\nWhen your children or grandchildren are asked where they are from, how do they answer?\nWhere I am from?",
+            "zh": "那就是当你的孩子或者孙辈被问起你是哪里人这个问题的时候，他们一般会怎么回答呢？啥子？怎么是哪？你你你重新说好了。就是当你的孩子或者孙辈被问起你是哪里人这个问题的时候，他们会怎么回答？我我我是哪里人啊？",
+            "review_status": "machine_draft"
+          },
+          {
+            "t": "00:11:46.950",
+            "end_seconds": 735.4,
+            "speaker": "Conversation",
+            "en": "No, when they are asked where they themselves are from.\nOh, you mean how the children answer?\nYes.\nThey would certainly say Mianyang, because they were born and grew up here.\nAre there parts of your hometown culture that you feel especially attached to or identify with? Are there things that matter less to you?",
+            "zh": "就是问问他们是哪里人的时候，哦哦哦，呃，你说你说，这孩子怎么回答哈？对，孩子肯定是会是回答是绵阳人噻，因为他是在绵阳生长的，出生生长的都在绵阳。那在老家的文化里面，有没有哪些东西是就是你特别有感情、特别认同的，或者有没有有些东西对你来说是没那么重要的？",
+            "review_status": "machine_draft"
+          },
+          {
+            "t": "00:12:15.400",
+            "end_seconds": 762.225,
+            "speaker": "Conversation",
+            "en": "Things from home, such as food or customs—is there anything you especially like, or anything you feel is unimportant?\n[Unclear interjection.] Let me think.",
+            "zh": "老家的东西，就是比如说食物啊、风俗之类的，有没有哪些是你特别喜欢的，或者有没有哪些是你觉得不重要的？妈妈啊，我想一下啊。",
+            "review_status": "machine_draft",
+            "review_note": "ASR 妈妈啊 is unclear in this context and is not interpreted as naming or addressing a particular person."
+          },
+          {
+            "t": "00:12:42.225",
+            "end_seconds": 783.175,
+            "speaker": "Conversation",
+            "en": "Mm.",
+            "zh": "嗯。",
+            "review_status": "machine_draft"
+          },
+          {
+            "t": "00:13:03.175",
+            "end_seconds": 804.875,
+            "speaker": "Conversation",
+            "en": "Things from home… How should I put it? Things from home…",
+            "zh": "老家的东西嘛，就是啷们说啦，嗯，老家的东西。",
+            "review_status": "machine_draft"
+          },
+          {
+            "t": "00:13:24.875",
+            "end_seconds": 825.25,
+            "speaker": "Conversation",
+            "en": "You could talk about the food.\nFor food, what I remember most clearly from home is fried shizitou, those meatballs with glutinous rice wrapped around the outside, fried like that.",
+            "zh": "那你你就说就说吃的方面嘛，嗯，啊吃的方面嘛，主要是老家的那个我记忆是最深嘛，就是一个一个嗯，就是炸那种狮子头嘛，用糯糯米包在外面炸那种狮子头。",
+            "review_status": "machine_draft",
+            "review_note": "The narrator calls the dish shizitou and describes glutinous rice on the outside and frying. The translation preserves this description without replacing it with another dish name."
+          },
+          {
+            "t": "00:13:45.250",
+            "end_seconds": 854.625,
+            "speaker": "Conversation",
+            "en": "And making rice wine. Another thing was the tiger-head shoes that parents used to make for small children, for babies.\nAfter coming to this new place, what was hardest to get used to: the climate, local conditions, housing or daily routine?",
+            "zh": "还有就是酿米酒嘛，就是酿酿米酒，就说酿米酒嘛。另外还有一个就是，呃，父母原来给小孩做的那种，呃，虎头鞋，就是给给婴儿的时候啊，做的那种虎头鞋嘛。啊，那就你来到一个这个新地方之后，你最不适应的是什么？气候、水土、呃，住处还是作息呢？",
+            "review_status": "machine_draft"
+          },
+          {
+            "t": "00:14:14.625",
+            "end_seconds": 884.225,
+            "speaker": "Conversation",
+            "en": "Mainly the climate. In Sichuan, especially in winter, it was dry and cold—very cold, and it felt damp. There was no heating, so it felt very damp. When you went inside, indoors and outdoors were almost equally cold. That was very hard to get used to.",
+            "zh": "哦，不适应主要就是一个气候，气候因为就这个这个四川，呃，气候是特别是到了冬天干冷，呃，而冷很冷，而且显得潮湿，因为四川不用暖气噻，所以就显得很潮湿，要一进屋，屋外、屋里呃，就说屋内跟屋外都是差不多冷的，就这点很很不适应。",
+            "review_status": "machine_draft",
+            "review_note": "The ASR describes the winter as both dry/cold and damp; this apparent inconsistency is preserved rather than silently resolved."
+          },
+          {
+            "t": "00:14:44.225",
+            "end_seconds": 909.7,
+            "speaker": "Conversation",
+            "en": "The next part is about the move itself. Would you want to tell younger family members these stories?\nIf they ask me where I originally came from, or ask about my past…",
+            "zh": "好，那下一个部分就是关于当年这个呃搬迁的事情，就你会想要告诉晚辈这些故事吗？呃，假设假设晚辈问得起我，这个呃原来是哪呃，就说原来原来就问我的过去。",
+            "review_status": "machine_draft"
+          },
+          {
+            "t": "00:15:09.700",
+            "end_seconds": 939.675,
+            "speaker": "Conversation",
+            "en": "I would probably tell them how I came from Hubei to Sichuan, how I settled and made a home in Sichuan, and then how they came along. I would tell them that whole process.\nLooking back on the family's experience of moving, how do you think it affected you personally and your relationships with different generations?",
+            "zh": "有可能我要给告诉他们，我是怎么从湖北到的四川，然后在四川哪们哪们安家立主，然后，再再有了他们，我朋又要把这个过程告诉他们嘛。然后就是呃，回头看看家里搬家的这段经历，你觉得它是怎么影响你个人的，又是怎么影响你和家里不同辈分的人之间的关系的？",
+            "review_status": "machine_draft"
+          },
+          {
+            "t": "00:15:39.675",
+            "end_seconds": 963.7,
+            "speaker": "Conversation",
+            "en": "How should I put it? Personally, I was already in my teens, sixteen or seventeen. I could work, live independently and earn enough to support myself.",
+            "zh": "反正这种事情，这个怎么说？对我个人的影响，就是说，反正已经我也有有十几岁了嘛，十六岁、十六七岁了嘛。然后呢，我自己能够独立工独立，就我能够工作，能够独立生活了，自己挣钱养自己了。",
+            "review_status": "machine_draft"
+          },
+          {
+            "t": "00:16:03.700",
+            "end_seconds": 989.5,
+            "speaker": "Conversation",
+            "en": "Later, the longer I worked and the more I earned, the more I could help my parents and siblings improve their lives.\nAs you grew older, did you ever think of returning to your hometown for retirement?\nMm.",
+            "zh": "然后嘛，还到呃后头呃那个工作时间越长嘛，工资越多一点，他还可以孝敬父母，帮助帮助那个弟兄姊妹，给他们生活提高一点嘛。那你老了之后，就有没有想过回老家养老？嗯。",
+            "review_status": "machine_draft"
+          },
+          {
+            "t": "00:16:29.500",
+            "end_seconds": 1012.475,
+            "speaker": "Conversation",
+            "en": "After all, I have lived here in Sichuan for sixty years. I have become used to the climate, daily life and transport, and all my friends are here. I regard Mianyang as home and do not plan to move back to my hometown.",
+            "zh": "因为我毕竟在这儿生活了六十年，在在四川面生活了六十年，基本上我在这边一切都都适应这边的气候啊、生活啊、嗯、交通啦，就是朋友都处在这儿了，不，我一般就是以绵阳为家了，也不打也不打算回老家了。",
+            "review_status": "machine_draft"
+          },
+          {
+            "t": "00:16:52.475",
+            "end_seconds": 1038.725,
+            "speaker": "Conversation",
+            "en": "Before coming to Mianyang, how did you imagine life here? After arriving, what was most different from what you had imagined?\nMianyang was unfamiliar to me before I came, so I could not imagine what life would be like. But once I arrived, there were many others who had come with me.",
+            "zh": "那好，就是在来到绵阳之前，你对在绵阳生活是什么样的想象？来了之后，觉得跟想象中最大的不一样是什么？因为没来之前，对绵阳是一个陌生的，也想象不到他是哪么样子生活。反正既然人来了，人家跟我一起来的也有那么那么多。",
+            "review_status": "machine_draft"
+          },
+          {
+            "t": "00:17:18.725",
+            "end_seconds": 1063.625,
+            "speaker": "Conversation",
+            "en": "They were colleagues. They lived their lives here, and I lived mine in much the same way. Once I adapted, it was fine.\nWhen you first came to Mianyang, did not understanding the local accent ever lead to misunderstandings?\nMm.",
+            "zh": "呃，其他都是呃，同事嘛，人家也人家也那么过日子，我也就那么过日子，也就那么一回事，适应了就好了噻。那就呃，来到绵阳之后，你最开始有没有因为听不懂本地的口音出现过误会呢？嗯。",
+            "review_status": "machine_draft"
+          },
+          {
+            "t": "00:17:43.625",
+            "end_seconds": 1083.7,
+            "speaker": "Conversation",
+            "en": "No, that did not really happen. If I did not understand, I asked again and asked them to explain clearly. There were no particular misunderstandings.\nHow did you come to learn the Mianyang dialect?",
+            "zh": "不，也也也没出现过那种情况，因为我听不懂，再问他一下，要叫人家把把他讲清楚就行了。对，没得啥子误会的。那你就是因为什么样的这种契机，学会了这个绵阳的方言呢？",
+            "review_status": "machine_draft"
+          },
+          {
+            "t": "00:18:03.700",
+            "end_seconds": 1109.0,
+            "speaker": "Conversation",
+            "en": "After coming to Mianyang, I spent every working day with everyone, eight hours a day together. Then we went back to the dormitory and lived together too. There were also workers from Mianyang in the dormitory.",
+            "zh": "因为毕竟跟大家生活在后头，你到绵阳过后，大家成成天上班就在一起待起，一天八呃工作八小时都待在一起，然后啦回回宿舍啦，又是大家都生活在一起，基本上，收在呃这回宿舍的时候啊，你绵阳有也有也有也有工人在。",
+            "review_status": "machine_draft"
+          },
+          {
+            "t": "00:18:29.000",
+            "end_seconds": 1130.425,
+            "speaker": "Conversation",
+            "en": "We talked to one another, got used to hearing it, and gradually became familiar with it.\nIf you could make the decision to move from Xiaogan to Mianyang again, would you make the same choice?",
+            "zh": "反正大家互相交流说话嘛，都都熟都听惯了，也就也就熟悉了噻。好，那就嗯，从这个呃孝感来到绵阳的这个决定，如果重来一次，你还会做出一样的选择吗？",
+            "review_status": "machine_draft"
+          },
+          {
+            "t": "00:18:50.425",
+            "end_seconds": 1159.4,
+            "speaker": "Conversation",
+            "en": "[Unclear request for clarification.]\nWould you still choose to come to Mianyang if you could decide again?\nYes, I would make the same choice. After finishing school, I needed to find work. Since there was an opportunity that would allow me to…",
+            "zh": "你说待在校长他们干？就是你来到绵阳这个决定，如果重来一次，你还会做出一样的选择吗？嗯，那肯定还是会一样的选择，因为你毕竟，呃，这这个啷们说呢？你你在那儿就说毕业了过后，你要自己要要找工作了，那个东西有这个既然既然有这个机会，那反反正自能让自己。",
+            "review_status": "machine_draft",
+            "review_note": "The opening request for clarification is garbled in the ASR; no place or personal name has been inferred."
+          },
+          {
+            "t": "00:19:19.400",
+            "end_seconds": 1175.999,
+            "speaker": "Conversation",
+            "en": "…live independently, have something to do and work, I would still choose it.\nThat brings our interview to an end. Thank you.\nAll right.",
+            "zh": "独立生活，有有事做，能工作，还是照样可以，还是还照样要选择。好的，那我们的访谈到这里就结束了，谢谢你。哦哦，好。",
+            "review_status": "machine_draft"
+          }
+        ]
+      }
+    ]
+  },
+  "sessionOffsets": [
+    0
+  ]
+});
+contributors.push({
+  "name": "YUHAN LI",
+  "role": "Interviewer",
+  "bio": "Interviewed five family members about migration, family ties and their sense of home."
+});

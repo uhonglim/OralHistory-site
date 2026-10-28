@@ -1,0 +1,34 @@
+{
+  "slug": "yuhan-younger-aunt",
+  "subtitle": "Flower Buns at New Year",
+  "narrator": {
+    "display_name": "YUHAN LI’s younger aunt",
+    "relation_zh": "小姨",
+    "name": null
+  },
+  "interviewer": {
+    "name": "YUHAN LI"
+  },
+  "interview": {
+    "language": "Sichuan dialect",
+    "date": "2026-10-26",
+    "place": null
+  },
+  "object_reference": {
+    "name": "A Flower Bun",
+    "start_seconds": 572.325,
+    "end_seconds": 597.525,
+    "representative_symbol": true,
+    "note": "The narrator recalls her grandmother steaming many Shandong flower buns (huamo) every Lunar New Year. The image is a representative symbol of this food tradition, not a photograph of the family’s own bun or a claim about its exact design."
+  },
+  "review_status": "family_review_pending",
+  "publication_permission": "not_recorded",
+  "editorial_notes": [
+    "The supplied DOCX has no summary for this interview; this edition uses the complete local Qwen3-ASR draft of recording 4.",
+    "The user confirmed the place name Nanyang, Shandong (山东南阳) on 2026-10-29. This spelling is retained without inferring a county, city or other administrative classification.",
+    "The grandfather’s military service, the Korean War and the family move are connected in the narrator’s recollection. Their exact chronology is not established, and no migration year is inferred from the approximate fifty years in Sichuan.",
+    "The original ASR phrase 你要去结束 near 02:50 remains unclear and is not interpreted.",
+    "The flower bun represents the grandmother’s Lunar New Year huamo at 09:32. It is not a photograph of a documented family bun or a claim about its exact shape.",
+    "English quotations are translated and edited for clarity; their timestamps point to source windows rather than verified word boundaries. Translation and written Chinese remain pending family review."
+  ]
+}

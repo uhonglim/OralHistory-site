@@ -1721,6 +1721,2038 @@ const readingEditions = {
         }
       ]
     }
+  },
+  "yuhan-grandmother": {
+    "slug": "yuhan-grandmother",
+    "story": {
+      "title": "Letters from Mianyang",
+      "paragraphs": [
+        "At sixteen, YUHAN LI’s grandmother left Xiaogan, Hubei, for a factory job in Mianyang, Sichuan. Schools had closed during the Cultural Revolution, and a military industrial enterprise was recruiting. Travelling with other young recruits by bus and train, she crossed the Qinling mountains and began earning her own living there.",
+        "Her parents and siblings stayed behind. Letters, visits and money sent home kept them connected. In Sichuan, damp winters, unfamiliar speech and spicy food took time to accept. After work, she found comfort in cooking Hubei dishes and speaking her hometown dialect with people who had made the journey too.",
+        "Over the decades, Mianyang became home. She learned the local dialect through daily conversations at work and in the dormitory, raised a family and built friendships. She remembers Xiaogan fondly, but plans to stay in Mianyang. For younger generations, she wants education and freedom to choose where their lives lead."
+      ],
+      "quotes": [
+        {
+          "en": "By spending a little less myself, I could send some money home to help them.",
+          "session_id": 1,
+          "t": "00:03:24.725",
+          "source_refs": [
+            {
+              "session_id": 1,
+              "t": "00:03:24.725"
+            }
+          ]
+        },
+        {
+          "en": "After work, we gathered with people from home and spoke our own dialect. It made us feel more at ease.",
+          "session_id": 1,
+          "t": "00:08:00.125",
+          "source_refs": [
+            {
+              "session_id": 1,
+              "t": "00:08:00.125"
+            }
+          ]
+        },
+        {
+          "en": "As long as it is good for them and helps them on their path through life, they can go anywhere.",
+          "session_id": 1,
+          "t": "00:10:31.075",
+          "source_refs": [
+            {
+              "session_id": 1,
+              "t": "00:10:31.075"
+            }
+          ]
+        },
+        {
+          "en": "I have lived in Sichuan for sixty years. I have made this place my home, so now I usually say I am from Mianyang.",
+          "session_id": 1,
+          "t": "00:10:58.625",
+          "source_refs": [
+            {
+              "session_id": 1,
+              "t": "00:10:58.625"
+            }
+          ]
+        }
+      ]
+    },
+    "transcript": {
+      "edition": "edited-for-clarity",
+      "note": "Edited for clarity · English translation and written Chinese.",
+      "sessions": [
+        {
+          "id": 1,
+          "segments": [
+            {
+              "t": "00:00:00.000",
+              "speaker": "Conversation",
+              "en": "We are recording an oral history about migration. Where did you grow up, and how did you come to live here?\n\nMay I speak in Sichuan dialect?\n\nYes.\n\nI grew up in Xiaogan, Hubei. A military industrial enterprise in Mianyang, Sichuan, was recruiting workers. We had finished junior secondary school, and classes had stopped during the Cultural Revolution. The recruiters came to our area, and we came here to work.",
+              "zh": "我们正在进行有关迁移经历的口述访谈。您小时候在哪里长大，后来又是怎样来到这里的？\n\n我可以用四川话回答吗？\n\n可以。\n\n我在湖北孝感长大。当时四川绵阳的一家军工企业来招工。我们初中毕业，学校因为文化大革命已经停课，后来就随招工来到这里工作。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:00:00.000"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:00:28.300"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:00:54.850",
+              "speaker": "Conversation",
+              "en": "What happened to the house and land back home?\n\nMy parents and siblings still lived in the family home.\n\nWhat do you remember most about moving?\n\nI had grown up and gone to school in Xiaogan and had rarely travelled. Suddenly, work was thousands of li away. I travelled with the other newly recruited workers, taking buses and trains across the Qinling mountains.",
+              "zh": "老家的房子和土地后来怎样处理了？\n\n父母和兄弟姐妹仍住在老家的房子里。\n\n搬迁时，什么事情令您印象最深？\n\n我从小在孝感长大、读书，很少出远门。这次工作的地方远隔几千里，我和其他新招的工人一起乘汽车、坐火车，翻过秦岭，来到绵阳。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:00:54.850"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:01:20.200"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:01:42.325"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:02:05.250",
+              "speaker": "Conversation",
+              "en": "What did you most miss about home, or most look forward to in the new place?\n\nI missed my parents and siblings. I was so young when I left them.\n\nDid you keep in touch with relatives or friends who stayed behind?\n\nYes, especially my siblings. After I started working at the factory, I had some home leave each year and went back to visit.",
+              "zh": "您最舍不得老家的什么，或者最期待新地方的什么？\n\n我最舍不得父母和兄弟姐妹，当时年纪很小就离开了他们。\n\n后来还与留在老家的亲友来往吗？\n\n一直有来往，尤其是兄弟姐妹。在厂里工作后，每年有一定的探亲假，我会回去看看。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:02:05.250"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:02:28.500"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:02:57.775",
+              "speaker": "Conversation",
+              "en": "After I married and settled in Mianyang, my younger brother and sister also came to visit.\n\nHow did the people back home feel about your leaving?\n\nI was sixteen, and this job meant I could support myself. My parents were happy for me to come here with other young people from our area. I could earn my living, and by spending a little less myself, I could send some money home to help them.",
+              "zh": "后来我在绵阳成家，弟弟妹妹也来这里玩过。\n\n留在老家的人怎样看待您离开这件事？\n\n我当时十六岁，出来工作就能养活自己。父母很高兴让我和当地的小伙伴一起到这里参加工作。我不仅能解决自己的生活问题，还可以省下一些钱寄回去，照顾家里的生活。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:02:57.775"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:03:24.725"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:03:53.250",
+              "speaker": "Conversation",
+              "en": "Did you ever think about moving back?\n\nAfter working at the factory for a while, I knew everyone well. My parents had raised me, and I felt that growing up meant going out to work and leaving home. When I had the chance, I would go back for a visit.\n\nHow are your relationships with your parents, children and grandchildren? Did moving affect those relationships?",
+              "zh": "离开后，您有没有想过搬回老家？\n\n在厂里工作一段时间后，我和大家都熟悉了。父母把我养大，长大后出来工作、离开家乡，也是应该的。有机会时，我就回去看看。\n\n您与父母、子女和孙辈的关系怎样？搬迁有没有改变这些关系？",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:03:53.250"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:04:16.275"
+                }
+              ],
+              "review_status": "edited_machine_draft",
+              "review_note": "An unclear abandoned phrase about returning at 03:53 is omitted from the readable sentence; the following clear explanation is retained, and the raw transcript preserves the uncertain phrase."
+            },
+            {
+              "t": "00:04:44.300",
+              "speaker": "Conversation",
+              "en": "My relationships with my parents and siblings have always been good. We wrote letters to one another. Later, when our circumstances improved, we could travel to visit each other.\n\nDid living in different places or cultures change the way you interacted or spoke to one another?\n\nNo. We had all grown up there, and I still understood the ways of our hometown.",
+              "zh": "我与父母、兄弟姐妹的关系一直很好，有事就通过书信联系。后来条件好一些了，大家也能互相走动、探望。\n\n生活在不同的地方或文化环境中，有没有影响你们的相处或说话方式？\n\n没有。我们都是在那里长大的，我仍然熟悉家乡的习惯。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:04:44.300"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:05:07.150"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:05:36.550",
+              "speaker": "Conversation",
+              "en": "Have differences in customs, ways of living or language ever caused disagreements with your parents, children or grandchildren? Can you give an example?\n\nCould I speak to you separately about something else?\n\nYes. Let us pause for a moment.\n\n[After the pause, the narrator asks for the question to be repeated, and the interviewer repeats it.]",
+              "zh": "您是否因为风俗习惯、生活方式或语言文化的差异，与父母、子女或孙辈有过分歧？能否举一个具体例子？\n\n我可以单独和你说一点别的事情吗？\n\n可以，我们稍等一下。\n\n[暂停后，受访者请采访者重新提问，采访者重复了问题。]",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:05:36.550"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:06:03.500"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:06:24.450"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:06:46.775",
+              "speaker": "Conversation",
+              "en": "The climate was different from home. Sichuan winters were cold, with little sunshine, and the quilts often felt damp. Sichuan food was much spicier and more numbing than I was used to. At first, my mouth and stomach could not take it. I was young and found work tiring, and there were things in Sichuan dialect that I did not understand. Familiar food and companions from Hubei helped me through that period.",
+              "zh": "这里的气候与家乡不同。四川冬天比较冷，见不到多少太阳，被子常常是潮的。川菜麻辣的口味较多，刚来时，我的嘴和肠胃都不适应。那时年纪小，工作也觉得累，有些四川话听不懂。家乡的味道和几位湖北同伴给了我一些慰藉。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:06:46.775"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:07:08.925"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:07:33.500"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:08:00.125",
+              "speaker": "Conversation",
+              "en": "After eating in the canteen for a long time, we found ways to make some Hubei dishes ourselves. After work, we gathered with people from home and spoke our own dialect. It made us feel more at ease. Later, I learned to eat spicy food and pickled vegetables, and it became easier.\n\nAre there dialects or traditions from your hometown that you would like to pass on? Would you want your children or grandchildren to learn your hometown dialect?\n\nLet me think.",
+              "zh": "食堂吃久了，我们就自己想办法做些湖北口味的菜。下班后和老乡聚在一起，说几句家乡话，心里会踏实一些。后来我慢慢学会吃辣、吃泡菜，也就适应了。\n\n家乡有没有您希望传给下一代的方言或文化？您希望子女、孙辈学习家乡话吗？\n\n让我想一想。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:08:00.125"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:08:24.650"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:08:49.225"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:09:09.250",
+              "speaker": "Conversation",
+              "en": "Can your children and grandchildren speak your hometown dialect?\n\nNo. I have lived in Sichuan for so long that I speak the local dialect myself. They grew up hearing me speak it, and their friends here speak Sichuan dialect too.\n\nWould you like them to learn your hometown dialect?\n\nI would not insist. They only hear a little of it occasionally, so it does not stay with them.",
+              "zh": "您的子女和孙辈会说老家的方言吗？\n\n不会。我在四川生活了这么久，自己也说这里的方言。他们听惯了我说四川话，身边的小伙伴也都说四川话，因此他们也说四川话。\n\n您希望他们学习老家的方言吗？\n\n我不强求。他们只是偶尔听到一点，印象并不深。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:09:09.250"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:09:35.550"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:10:01.125",
+              "speaker": "Conversation",
+              "en": "How would you feel if younger family members chose to return to your hometown or move somewhere farther away?\n\nI want my grandchildren to study well. Wherever they are admitted to school, they should go. I would not insist on a particular place. As long as it is good for them and helps them on their path through life, they can go anywhere.\n\nWhen people ask where you are from, how do you usually answer?",
+              "zh": "如果晚辈选择回老家，或者去更远的地方，您会怎样看待？\n\n我希望孙辈好好学习，考到哪里就去哪里读书，不强求他们留在哪个地方。只要对他们自己有益，让今后的人生道路好走一些，去哪里都可以。\n\n别人问您是哪里人时，您通常怎样回答？",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:10:01.125"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:10:31.075"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:10:58.625",
+              "speaker": "Conversation",
+              "en": "When I first arrived, I would certainly say I was from Xiaogan, Hubei. But I have lived in Sichuan for sixty years. I have made this place my home, so now I usually say I am from Mianyang.",
+              "zh": "刚来时，我当然会说自己是湖北孝感人。但我在四川生活了六十年，已经把这里当作自己的家，所以现在通常会说自己是绵阳人。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:10:58.625"
+                }
+              ],
+              "review_status": "edited_machine_draft",
+              "review_note": "The ASR phrase 不被孝感 is rendered as 湖北孝感 from the explicit birthplace at the interview opening. Sixty years is the narrator’s approximate recollection, not an independently established chronology."
+            },
+            {
+              "t": "00:11:20.975",
+              "speaker": "Conversation",
+              "en": "How do your children or grandchildren answer when someone asks where they are from?\n\nDo you mean where I am from?\n\nNo, where they themselves are from.\n\nThey would certainly say Mianyang. They were born and grew up here.\n\nWhich parts of your hometown culture matter most to you? For example, are there foods or customs you particularly like, or things you consider less important?\n\nLet me think.",
+              "zh": "别人问您的子女或孙辈是哪里人时，他们会怎样回答？\n\n你是说问我是哪里人吗？\n\n不是，是问他们自己。\n\n他们肯定会说是绵阳人，因为他们都在绵阳出生、长大。\n\n家乡的文化中，有哪些您特别有感情、认同的东西？例如食物、风俗，有没有特别喜欢或觉得不那么重要的？\n\n让我想一想。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:11:20.975"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:11:46.950"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:12:15.400"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:12:42.225",
+              "speaker": "Conversation",
+              "en": "[The narrator pauses to think about traditions from home.]\n\nYou could talk about food.\n\nThe food I remember most is shizitou: meatballs with glutinous rice around the outside, fried in the way I remember from home.",
+              "zh": "[受访者停下来回想家乡的传统。]\n\n可以先说说吃的。\n\n我印象最深的是老家做的狮子头，外面包着糯米再炸。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:12:42.225"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:13:03.175"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:13:24.875"
+                }
+              ],
+              "review_status": "edited_machine_draft",
+              "review_note": "Preserves the narrator’s description and the ASR food name 狮子头; no alternative dish identification is inferred."
+            },
+            {
+              "t": "00:13:45.250",
+              "speaker": "Conversation",
+              "en": "There was also homemade rice wine, and the tiger-head shoes that parents made for babies.\n\nWhat was hardest to get used to after moving: the climate, surroundings, housing or daily routine?\n\nMainly the climate. Sichuan was very cold in winter and felt damp. There was no heating, so indoors felt almost as cold as outdoors. That was especially difficult to get used to.",
+              "zh": "还有酿米酒，以及父母给婴儿做的虎头鞋。\n\n来到新地方后，最不适应的是气候、水土、住处还是作息？\n\n主要是气候。四川冬天很冷，而且感觉潮湿，又没有暖气，屋里和屋外差不多冷，这一点特别不适应。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:13:45.250"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:14:14.625"
+                }
+              ],
+              "review_status": "edited_machine_draft",
+              "review_note": "The source uses both dry/cold and damp when describing winter. This reading version retains the repeated description of cold, damp conditions; the complete wording remains in the raw transcript. No general claim about all Sichuan housing is independently verified."
+            },
+            {
+              "t": "00:14:44.225",
+              "speaker": "Conversation",
+              "en": "Would you like to tell younger family members about moving here?\n\nIf they ask about my past, I would tell them how I came from Hubei to Sichuan, settled here and built the family that they are part of.\n\nLooking back, how did moving affect you personally and your relationships with different generations of the family?",
+              "zh": "您愿意向晚辈讲述当年迁移的故事吗？\n\n如果他们问起我的过去，我会告诉他们，自己怎样从湖北来到四川，怎样在这里安家，后来又怎样有了他们，把这个过程讲给他们听。\n\n回头看，这段迁移经历对您个人，以及您和家里不同辈分的人之间的关系，有什么影响？",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:14:44.225"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:15:09.700"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:15:39.675",
+              "speaker": "Conversation",
+              "en": "I was sixteen or seventeen, and I was able to work, live independently and support myself. As I worked longer and earned a little more, I could also support my parents and help my siblings improve their lives.\n\nHave you ever thought about returning to your hometown in old age?",
+              "zh": "当时我十六七岁，已经能够工作、独立生活，自己挣钱养活自己。后来工作时间长了，工资多一些，还能孝敬父母、帮助兄弟姐妹，让他们的生活有所改善。\n\n您有没有想过回老家养老？",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:15:39.675"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:16:03.700"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:16:29.500",
+              "speaker": "Conversation",
+              "en": "I have lived in Sichuan for sixty years. I am used to the climate, everyday life and transport here, and my friends are here too. I think of Mianyang as home and do not plan to move back.",
+              "zh": "我在四川生活了六十年，已经适应这里的气候、生活和交通，朋友也都在这里。我把绵阳当作家，不打算再搬回老家了。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:16:29.500"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:16:52.475",
+              "speaker": "Conversation",
+              "en": "Before arriving, what did you imagine life in Mianyang would be like? How was it different from what you expected?\n\nMianyang was unfamiliar to me, so I could not imagine what life would be like. Many other people came with me and became my colleagues. I lived much as they did. Once I settled into it, things were fine.\n\nDid misunderstanding the local accent ever cause confusion?",
+              "zh": "来绵阳之前，您想象中的生活是什么样的？来了以后，最大的不同是什么？\n\n来之前，绵阳对我来说很陌生，想象不出这里的生活。和我一起来的人很多，后来都成了同事。大家怎样过日子，我也怎样过，适应后就好了。\n\n刚来时，有没有因为听不懂本地口音而产生误会？",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:16:52.475"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:17:18.725"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:17:43.625",
+              "speaker": "Conversation",
+              "en": "No. If I did not understand, I asked again and asked the person to explain clearly. There were no particular misunderstandings.\n\nHow did you learn the Mianyang dialect?\n\nWe spent eight hours a day together at work, then lived together in the dormitory. There were local workers there too. Through talking with one another every day, I gradually became familiar with the dialect.\n\nIf you could make the decision to move from Xiaogan to Mianyang again, would you make the same choice?",
+              "zh": "没有。如果听不懂，我就再问一次，请对方讲清楚，因此没有产生什么特别的误会。\n\n您是怎样学会绵阳方言的？\n\n大家每天工作八小时都在一起，下班后又一起住在宿舍，其中也有绵阳本地的工人。每天互相交流、说话，听习惯了，慢慢也就熟悉了。\n\n如果重新选择一次，您还会从孝感来到绵阳吗？",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:17:43.625"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:18:03.700"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:18:29.000"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:18:50.425",
+              "speaker": "Conversation",
+              "en": "[After asking for clarification, the narrator hears the question again.]\n\nYes, I would make the same choice. After finishing school, I needed to find work. This was an opportunity to work and live independently, so I would still take it.\n\nThat concludes our interview. Thank you.\n\nAll right.",
+              "zh": "[受访者请采访者解释，采访者再次提出了问题。]\n\n会，我肯定还是会作出同样的选择。毕业以后需要找工作，既然有这样一个机会，能让我有工作、独立生活，我仍然会选择来这里。\n\n今天的访谈就到这里，谢谢您。\n\n好的。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:18:50.425"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:19:19.400"
+                }
+              ],
+              "review_status": "edited_machine_draft",
+              "review_note": "Garbled opening clarification is summarized as a request to repeat the question; no guessed wording is supplied."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "yuhan-aunt-mandarin": {
+    "slug": "yuhan-aunt-mandarin",
+    "story": {
+      "title": "Pine Needles at New Year",
+      "paragraphs": [
+        "YUHAN LI’s aunt grew up in Chuxiong, Yunnan, and moved to Shenzhen to find work. Arriving meant renting a place, adapting to a different climate and building new relationships. She missed her parents and relatives, but welcomed the new environment, work and challenges. Buying a home later helped her belong.",
+        "She still introduces herself as someone from Chuxiong. Her children, raised elsewhere, may answer differently. She remembers Lunar New Year visits and meals with pine needles spread across the floor. She hopes younger relatives will value family, respect their elders and enjoy Yunnan food, even as dialects and customs change.",
+        "Distance has not erased affection. Telephone calls and visits keep relatives close. She sees migration as opening opportunities for herself and her children, and supports their choice to live wherever their dreams lead. In later life, she would like short stays back home, enjoying its pleasant summers and familiar company."
+      ],
+      "quotes": [
+        {
+          "en": "Wherever their dreams take them, I will support them.",
+          "session_id": 1,
+          "t": "00:07:10.950",
+          "source_refs": [
+            {
+              "session_id": 1,
+              "t": "00:07:10.950"
+            }
+          ]
+        },
+        {
+          "en": "Buying a home gave me the strongest sense of belonging.",
+          "session_id": 1,
+          "t": "00:13:32.975",
+          "source_refs": [
+            {
+              "session_id": 1,
+              "t": "00:13:32.975"
+            }
+          ]
+        },
+        {
+          "en": "I hope they remember that their parents were able to achieve their dreams through their own efforts.",
+          "session_id": 1,
+          "t": "00:11:06.550",
+          "source_refs": [
+            {
+              "session_id": 1,
+              "t": "00:11:06.550"
+            }
+          ]
+        },
+        {
+          "en": "If you keep in regular contact, it still feels just as warm and familiar.",
+          "session_id": 1,
+          "t": "00:14:46.725",
+          "source_refs": [
+            {
+              "session_id": 1,
+              "t": "00:14:46.725"
+            }
+          ]
+        }
+      ]
+    },
+    "transcript": {
+      "edition": "edited-for-clarity",
+      "note": "Edited for clarity · English translation and written Chinese.",
+      "sessions": [
+        {
+          "id": 1,
+          "segments": [
+            {
+              "t": "00:00:00.000",
+              "speaker": "Conversation",
+              "en": "We are conducting an interview about Chinese migration. First, where did you grow up, and how did your family come to live where you are now?\n\nI grew up in Chuxiong, Yunnan.\n\nThen I went to Shenzhen to find work and began living there.\n\nSo work was the main reason you moved to your present city?\n\nYes.\n\nWhat stands out most about moving, or about growing up in a family with migration experience?",
+              "zh": "我们这次访谈的主题是华人迁徙。您小时候在哪里长大？后来怎样来到现在生活的地方？\n\n我从小在云南楚雄长大，后来到深圳找工作，并在那里生活。\n\n所以，工作是您迁居深圳的主要原因？\n\n是的。\n\n关于搬迁，或在有迁徙经历的家庭中长大，您印象最深的是什么？",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:00:00.000"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:00:20.575"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:00:49.975",
+              "speaker": "Conversation",
+              "en": "What stands out most is arriving in an unfamiliar city, having to rent a place and adapt to a new job. It was an entirely new experience.\n\nWhat did you find hardest to leave behind, and what were you looking forward to in the new place?\n\nI most missed my parents, relatives and the relationships I had back home. What I looked forward to was a completely new way of life: a new environment, new work and new challenges. Everything was a fresh start, an unfamiliar experience.",
+              "zh": "印象最深的是刚到一座陌生城市时，需要租房、适应新工作，这是一种全新的体验。\n\n离开时，您最舍不得老家的什么？又最期待新地方的什么？\n\n最舍不得的是老家的父母、亲人、亲戚，以及这些人际关系。最期待的是全新的生活方式，包括新的环境、工作和挑战。一切都是新的开始，也是一种新奇的体验。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:00:49.975"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:01:12.725"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:01:40.125",
+              "speaker": "Conversation",
+              "en": "Did anyone stay behind rather than move with you? Did you remain in contact?\n\nYes, some relatives stayed in our hometown. Sometimes we go back during our holidays, spend some happy time there and get together with them.\n\nHow did those who stayed see your departure?\n\nThey thought we were capable: we had moved from a small place to a big city and established ourselves through work and daily life. They felt we had the ability to change our living circumstances.",
+              "zh": "当时有没有家人留在老家，没有一起搬迁？你们后来还保持联系吗？\n\n有，一些亲戚还留在老家。我们有时会在休假期间回去，与亲戚相聚，度过一段愉快的时光。\n\n留在老家的人怎样看待你们搬走？\n\n他们觉得我们很有能力，能够从小地方来到大城市，在那里工作、生活并站稳脚跟。他们认为我们有能力改变自己的生活环境。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:01:40.125"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:02:06.275"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:02:32.675",
+              "speaker": "Conversation",
+              "en": "After leaving, did you ever think about moving back?\n\nYes, although not necessarily moving back permanently. I thought about returning for a longer stay. That feeling and wish become stronger with age, especially after retirement.",
+              "zh": "搬走后，您有没有想过搬回去？\n\n有，但不是永久搬回去，而是想回去住一段较长的时间。随着年龄增长，特别是退休后，这种愿望会更强烈。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:02:32.675"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:02:58.450",
+              "speaker": "Conversation",
+              "en": "What are your relationships like with different generations, such as parents, children and grandparents? Did moving change those relationships?\n\nFamily affection certainly does not change. But my parents were still back home, so we could not live together all the time. I only went back occasionally to see them and missed my family.\n\nHas living in different places or cultures affected the way you communicate or get along?",
+              "zh": "您与父母、子女、祖辈等不同辈分的家人关系怎样？搬迁有没有改变你们的关系？\n\n亲情肯定不会改变。但父母还在老家，我们不能经常生活在一起，只能偶尔回去看望，所以会想念亲人。\n\n生活在不同地方或文化环境中，是否影响了你们的交流方式和相处模式？",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:02:58.450"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:03:25.575"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:03:48.025",
+              "speaker": "Conversation",
+              "en": "It has had some effect. Life away and life back home are different environments, so there can be differences in ideas and habits.\n\nHave customs, cultural differences, views on how to do things or ways of life caused disagreements with other generations? Could you give an example?\n\nOur parents' generation advocates thrift, while our generation may place more emphasis on enjoying life and its quality. That can cause differences in outlook. For example, if we buy luxury goods, our parents may think they are unnecessary and a waste of money, whereas we see them as part of our quality of life.\n\nAre there habits, dialects or old stories you want to pass on? How do young people respond?",
+              "zh": "会有一定影响。外面的生活与老家的生活环境不同，观念和生活习惯难免有些差异。\n\n您是否因为风俗、文化、处事观念或生活方式，与家中其他辈分的人产生过分歧？能否举例？\n\n例如，父母那一辈提倡勤俭节约，而我们这一代更注重享受生活和生活品质。因此，双方的观念会有冲突。我们购买一些奢侈品时，父母可能觉得没有必要，是浪费钱；我们却认为这也是生活品质的一部分。\n\n家里有没有想传给下一代的生活习惯、方言或老故事？年轻人对此怎样回应？",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:03:48.025"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:04:17.575"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:04:43.750"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:05:08.125",
+              "speaker": "Conversation",
+              "en": "Young people do not study our original dialect seriously. They may treat it as entertainment and learn a phrase or two occasionally, but they do not really study it. After all, our dialect is not widely used, and the new generation does not have much use for it.\n\nIs there anything from your hometown's culture you particularly want to pass on?\n\nCustoms and family traditions, such as respecting and caring for older people. I see that as something handed down in the family and hope the next generation will continue it.\n\nBeing caring toward elders and polite to others are traditional family values. We also hope the next generation will accept some of the food traditions of our hometown in Yunnan, enjoy the local dishes and pass those traditional foods on.",
+              "zh": "年轻人并没有认真学习我们的方言，可能只是觉得有趣，偶尔学一两句。毕竟这种方言并不普遍，对他们来说也不太用得上。\n\n您最想把家乡文化中的哪些内容传给下一代？\n\n一些风俗和家庭传统，例如孝敬老人。我希望下一代能延续这些家传的习惯。孝敬长辈、待人有礼，都是传统家风。我们也希望下一代接受云南老家的一些饮食习惯，喜欢当地美食，把传统食物传承下去。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:05:08.125"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:05:28.800"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:05:54.525"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:06:20.725",
+              "speaker": "Conversation",
+              "en": "When a dialect or custom is not passed on, or young people do not want to learn it, do you find that regrettable or inevitable?\n\nI think it is inevitable because everything changes and develops, including the younger generation.\n\nThey have new ideas and perspectives. Good things from tradition can continue, but they too are constantly changing and developing. I think that is normal.\n\nIf your children chose to return to your hometown or go somewhere even farther away, how would you feel?\n\nI would support them. Everyone has a very large stage in life, and they can be anywhere in the world. Wherever their dreams take them, I will support them.\n\nNext, on cultural belonging: when people ask where you are from, how do you answer? Has your answer changed over the years?",
+              "zh": "如果方言或生活习俗未能传下去，年轻人不愿学习，您觉得这是遗憾，还是在所难免？\n\n我觉得在所难免，因为一切都在发展变化。新一代有新的观念、思想和视野，传统中好的东西虽然可以延续，也仍然在不断变化。我认为这是正常现象。\n\n如果孩子将来选择回老家，或去更远的地方，您会怎样看待？\n\n我会支持他们。每个人的人生舞台都很大，可以去世界上的任何地方。只要那里是他们梦想所在的地方，我都支持。\n\n说到文化归属，别人问您来自哪里时，您会怎样回答？这个回答有没有改变？",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:06:20.725"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:06:48.125"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:07:10.950"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:07:38.450",
+              "speaker": "Conversation",
+              "en": "My answer has not changed. I always say I am from Chuxiong, Yunnan; I answer according to my hometown.\n\nDo you feel connected to more than one place or culture?\n\nYes. Both the place where I was born and the place where I live are connected to me.\n\nWould your children or grandchildren answer the same way?\n\nNo. They did not grow up in our hometown, where we were born, so they may not identify themselves as being from Yunnan. They may identify with the place where they grew up, the city where we now live.\n\nAre there things, customs or aspects of your hometown's culture that you feel especially attached to? Have others become less important to you?",
+              "zh": "没有改变，我一直说自己是云南楚雄人，按照老家来回答。\n\n您是否觉得自己与不止一个地方或一种文化有关？\n\n是的，出生的地方和现在生活的地方都与我有关。\n\n孩子或孙辈被问到同样的问题时，会和您回答一样吗？\n\n不会。他们没有在我们的出生地、我们的老家长大，所以未必认同自己是云南人，而可能认为自己属于成长的地方，也就是现在生活的城市。\n\n老家的文化中，有没有让您特别有感情或认同的事物、习俗？又有没有逐渐变得不那么重要的？",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:07:38.450"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:08:04.625"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:08:26.175"
+                }
+              ],
+              "review_status": "edited_machine_draft",
+              "review_note": "A self-correction in the ASR around children’s identity is resolved using the immediately following sentence; no ethnicity is inferred."
+            },
+            {
+              "t": "00:08:49.900",
+              "speaker": "Conversation",
+              "en": "I think the Lunar New Year atmosphere and traditions in our hometown are distinctive and stronger there: visiting relatives and getting together with family, for example. I also remember that when we ate at New Year as children, we spread pine needles on the floor. That traditional custom stands out in my memory, but it has almost disappeared now.",
+              "zh": "我觉得家乡的春节气氛和传统习俗很有特色，也比较浓厚。例如过年走亲访友、亲人相聚。小时候，过年吃饭时会在地上铺松树叶，这种习俗给我留下了很深的印象，但现在基本已经没有了。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:08:49.900"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:09:11.625"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:09:34.225",
+              "speaker": "Conversation",
+              "en": "What was hardest to adjust to in a new place: the climate, water, housing or daily routine?\n\nFirst, the climate. It was very different between the place where I was born and the place where I live, so that was hard to get used to.\n\nThere was also the unfamiliar environment. I had to build a whole new set of relationships, and that took time to get used to as well.",
+              "zh": "到新地方以后，最难适应的是什么：气候、水土、住处，还是作息？\n\n首先是气候。出生地与现在生活的地方气候差异很大，最初很不适应。另外，陌生环境也需要适应，尤其是要重新建立人际关系，这需要时间。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:09:34.225"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:10:00.750"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:10:22.725",
+              "speaker": "Conversation",
+              "en": "Looking back, how has this migration experience shaped you and your relationships with different generations in your family?\n\nAfter moving, my living and working environments opened up a new perspective and a broader stage. That changed my life greatly. I think it also gave the next generation a higher starting point and a bigger stage.\n\nDo you hope younger family members will remember this experience? What should they remember?\n\nI hope they remember that their parents achieved their dreams through their own efforts. I hope the younger generation will carry those strengths forward, achieve their own ideals and go wherever they wish.\n\nHave you thought about returning to your hometown in old age?\n\nYes. I would go back for a short stay because the summer climate there is very pleasant.",
+              "zh": "回头看，这段搬迁经历怎样影响了您，也怎样影响了您与不同辈分家人的关系？\n\n搬迁以后，新的生活和工作环境拓宽了我的视野，给了我更广阔的舞台，对我的人生影响很大。我觉得这也为下一代创造了更高的起点和更大的舞台。\n\n您希望晚辈记住这段经历吗？希望他们记住什么？\n\n希望他们记住，父母通过自己的努力实现了梦想。也希望晚辈继承和发扬这些优点，实现自己的理想，去任何想去的地方。\n\n您有没有想过年老后回老家生活？\n\n有，我会回老家小住一段时间，因为那里的夏季气候非常宜人。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:10:22.725"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:10:44.025"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:11:06.550"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:11:30.025"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:11:58.600",
+              "speaker": "Conversation",
+              "en": "Before moving, which dialect did you mainly speak? Could you demonstrate it?\n\nWe mainly spoke Yunnan dialect. I will say, ‘I am from Chuxiong, Yunnan,’ in the dialect. Is that all right?\n\nYes. After moving, how did you learn some of the language used in the new place?\n\nMainly by watching television and talking to people in everyday life. That helped me learn to say some things.\n\nDo your children or younger relatives still study your hometown dialect?\n\nNo, they have not specifically studied it. They may occasionally hear and learn a phrase or two, but they do not study it seriously.",
+              "zh": "搬迁前，您主要说哪种方言？可以示范一下吗？\n\n我们主要说云南话。我就用方言说一句：“我是云南楚雄人。”这样可以吗？\n\n可以。到了新的地方，您怎样学习当地的语言？\n\n主要是看电视，以及在日常生活中与人交流，这样就会说一些了。\n\n您的孩子或晚辈还会专门学习老家的方言吗？\n\n没有。他们偶尔听到后可能会学一两句，但不会专门、认真地学习。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:11:58.600"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:12:20.875"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:12:42.375"
+                }
+              ],
+              "review_status": "edited_machine_draft",
+              "review_note": "The text records the sentence demonstrated in Yunnan dialect; it does not attempt to reproduce its pronunciation. The newly learned language is not named by the narrator."
+            },
+            {
+              "t": "00:13:04.100",
+              "speaker": "Conversation",
+              "en": "Do these language differences affect communication with older family members?\n\nNo, because in China we all speak Chinese.\n\nHow did you establish a sense of belonging after moving?\n\nFirst, buying a home, and having work to support myself. Those are the most important things. Buying a home gave me the strongest sense of belonging.",
+              "zh": "孩子和长辈的语言差异，会不会影响家庭成员之间的沟通？\n\n不会，因为我们在中国都说中文。\n\n迁居之后，您怎样在新地方建立归属感？\n\n首先是买房置业，以及有一份维持生活的工作，这些最关键。买房置业是最让我有归属感的一件事。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:13:04.100"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:13:32.975"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:13:55.350",
+              "speaker": "Conversation",
+              "en": "Then, through everyday life and work, I made friends with people who shared my interests.\n\nWhen you first moved away, how did you keep in contact with people back home: letters, telephone calls or something else?\n\nMostly telephone calls at first. We did not have WeChat or video calls then, so we used the telephone. We also met up when we went home on holiday.\n\nDid the change from meeting in person to speaking by telephone make your relationship with home feel closer or more distant?\n\nI do not think it changed much. If you keep in regular contact, it still feels just as warm and familiar.\n\nThose are all my questions. Thank you.\n\nAll right. Goodbye.",
+              "zh": "其次，是在日常生活和工作中结识志同道合的朋友。\n\n刚搬出来时，您怎样与老家的人联系？写信，还是打电话？\n\n一开始主要打电话。当时没有微信，不能视频通话，所以电话比较多。休假回老家时，也会与亲人相聚。\n\n从面对面交往变成打电话，您觉得与老家的关系变近了，还是变远了？\n\n我觉得没有太大改变。只要经常联系，还是会觉得一样亲切。\n\n问题就到这里，谢谢您。\n\n好的，再见。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:13:55.350"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:14:17.675"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:14:46.725"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "yuhan-uncle": {
+    "slug": "yuhan-uncle",
+    "story": {
+      "title": "The Train to Mianyang",
+      "paragraphs": [
+        "At about ten, YUHAN LI’s uncle left his grandparents in Xiaogan, Hubei, to join his parents in Mianyang, Sichuan. They worked at a military factory and could now provide housing and schooling. He remembers the train crossing the Qinling mountains, then meeting parents who felt like strangers at the station.",
+        "The factory compound was larger and livelier than he expected. Yet without his grandmother, he felt lonely and cried at night. Affection for his parents grew slowly. School, military service, work and family life connected him to Mianyang, while familiar Hubei voices and food continued to bring his childhood back.",
+        "Now retired, he calls Mianyang home and Xiaogan his roots. He plans to stay near his spouse, friends and services, returning to Xiaogan for visits. His childhood separation shaped how he raised his own children: keeping them close, while supporting their journeys elsewhere. Home, he says, means companionship and belonging."
+      ],
+      "quotes": [
+        {
+          "en": "I wanted to find out what my parents were really like and have a complete family.",
+          "session_id": 1,
+          "t": "00:03:31.975",
+          "source_refs": [
+            {
+              "session_id": 1,
+              "t": "00:03:31.975"
+            }
+          ]
+        },
+        {
+          "en": "You can go as far as you like, as long as you keep your family and the path you came from in your heart.",
+          "session_id": 1,
+          "t": "00:11:28.125",
+          "source_refs": [
+            {
+              "session_id": 1,
+              "t": "00:11:28.125"
+            }
+          ]
+        },
+        {
+          "en": "Each generation has its own hometown.",
+          "session_id": 1,
+          "t": "00:13:18.500",
+          "source_refs": [
+            {
+              "session_id": 1,
+              "t": "00:13:18.500"
+            }
+          ]
+        },
+        {
+          "en": "Home is not simply an address. It is a place where someone is waiting for you, where you can be at ease and sleep peacefully.",
+          "session_id": 1,
+          "t": "00:23:03.300",
+          "source_refs": [
+            {
+              "session_id": 1,
+              "t": "00:23:03.300"
+            }
+          ]
+        }
+      ]
+    },
+    "transcript": {
+      "edition": "edited-for-clarity",
+      "note": "Edited for clarity · English translation and written Chinese.",
+      "sessions": [
+        {
+          "id": 1,
+          "segments": [
+            {
+              "t": "00:00:00.000",
+              "speaker": "Conversation",
+              "en": "We are conducting an interview about Chinese migration. Where did you grow up, and how did you come to live where you are now?\n\nMy experience is a little different. I was born in Xiaogan, Hubei, and raised by my grandparents. My parents were recruited to Sichuan during the Third Front construction campaign in the 1960s and worked at a military factory in Mianyang. They were busy, and their housing and household registration were not settled, so they sent me back to our hometown. Strictly speaking, it was their generation that moved. I joined them when I was about ten.\n\nWhat was the main reason for your move?\n\nSchooling, and being with my parents again. I was about to enter the higher school grades, my grandparents were getting older, and my parents had been allocated factory housing. There was a convenient factory school. They brought me over around 1973 or 1974.",
+              "zh": "我们这次访谈的主题是华人迁徙。您小时候在哪里长大，后来怎样来到现在居住的地方？\n\n我的经历和一般人不太一样。我出生在湖北孝感，由爷爷奶奶带大。父母在二十世纪六十年代三线建设招工时来到四川，在绵阳的军工厂上班。他们工作很忙，户口、住房也没有安顿好，就把我送回老家。严格来说，迁到绵阳的是父母那一代，我大约十岁才过去与他们团聚。\n\n您搬迁的主要原因是什么？\n\n主要是为了读书，也为了回到父母身边。当时我快上高年级了，爷爷奶奶年纪渐长，父母在厂里分到了房子，子弟学校也方便，所以大约在一九七三、一九七四年把我接了过去。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:00:00.000"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:00:21.125"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:00:43.925"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:01:10.625"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:01:30.700",
+              "speaker": "Conversation",
+              "en": "What happened to the house or land back home after you moved?\n\nMy grandparents continued looking after the house. After they died, relatives of my uncles' generation took care of it. We went back around festivals. My parents already had household registration through the factory and earned salaries there, so they had no other livelihood to maintain back home.\n\nWhat stands out most about moving, or about growing up in a family with migration experience?",
+              "zh": "搬迁后，老家的房屋、土地怎样处理？\n\n房子一直由爷爷奶奶照看。老人过世后，就托付给叔伯辈的亲人，我们逢年过节回去一趟。父母早已在工厂落户、领工资，在老家没有其他产业需要经营。\n\n关于搬迁，或在有迁徙经历的家庭中长大，您印象最深的是什么？",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:01:30.700"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:01:59.975"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:02:21.425",
+              "speaker": "Conversation",
+              "en": "Probably that train journey, and how awkward I felt when I first saw my parents in Mianyang. I travelled with someone for several days. Going through the Qinling Mountains, there seemed to be nothing but tunnels, and my ears rang.\n\nAt the station, it felt as though two strangers had come to collect me. I could not bring myself to call them Mum and Dad and hid behind the person I was with. It is painful to recall. They were my own parents, but in those first ten years they had seldom been home, perhaps once a year at most.",
+              "zh": "印象最深的，大概是那趟火车，还有初到绵阳见到父母时的别扭。我跟着别人坐了几天车，经过秦岭时一路都是山洞，耳朵嗡嗡作响。\n\n到站后，仿佛是两个陌生人来接我。我连一声“爸妈”都喊不出口，只往别人身后躲。说起来很心酸：他们是我的亲生父母，但在此前的十年里很少回来，一年最多可能只有一次。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:02:21.425"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:02:44.925"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:03:11.775",
+              "speaker": "Conversation",
+              "en": "What did you find hardest to leave behind, and what were you most looking forward to?\n\nMy grandmother was hardest to leave, because she had raised me. I will never forget her standing at the door when I left. What I most looked forward to was finding out what my parents were really like and having a complete family. I had also heard there were films to watch and large factories. That all seemed new and exciting.",
+              "zh": "搬走时，您最舍不得什么，又最期待什么？\n\n最舍不得的是奶奶，因为是她把我拉扯大的。离开时她站在门口的样子，我一辈子都记得。最期待的，是看看父母到底是什么样的人，想拥有一个完整的家。当时还听说厂里能看电影，有很大的工厂，这些都让我感到新鲜。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:03:11.775"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:03:31.975"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:03:59.225",
+              "speaker": "Conversation",
+              "en": "Did relatives or friends stay behind? Did you remain in contact?\n\nYes. My grandparents stayed, along with uncles, aunts and a large extended family. Their circumstances gradually improved and they got new homes. Some younger relatives left to work or study.\n\nHow did those who stayed feel about your departure?\n\nThe elders must have hated to see me go, but understood that being with my parents and going to school would be good for me. People around them said our family had gone away, found state employment and done well. They rather envied us.\n\nAfter moving, did you ever think of moving back?",
+              "zh": "当年有没有亲友留在老家？后来还有往来吗？\n\n有，爷爷奶奶一直在老家，还有叔伯、姑婶等一大家子人。后来他们的条件逐渐改善，有了新房，后辈也有外出务工、读书的。\n\n留在老家的人怎样看待您离开？\n\n老人肯定舍不得，但也明白孩子跟着父母比较好，能去读书也是好事。身边的人还说我们一家在外面“吃国家粮”，有出息，挺羡慕我们。\n\n搬迁后，您有没有想过搬回去？",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:03:59.225"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:04:28.775"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:04:52.500"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:05:18.625",
+              "speaker": "Conversation",
+              "en": "To be precise, no. My education, military service, work, household registration and family life were all connected with Mianyang. Xiaogan in Hubei was my hometown, but Mianyang became my actual home. I distinguish them clearly.\n\nDid you return to your hometown? Was it different from your memories?\n\nI returned to visit relatives, but did not consider moving back. Our family had put down roots in Sichuan.\n\nWhat are your relationships like with different generations, such as parents, children, grandchildren and grandparents? Did moving change them?",
+              "zh": "准确地说，没有。我的学业、参军、工作、户口和成家，都与绵阳相连。湖北孝感是老家，绵阳则成为后来真正的家，这一点我分得很清楚。\n\n您后来回过老家吗？它与记忆中有什么不同？\n\n回去主要是探望亲人，并没有考虑搬回去。我们一家已经在四川扎根了。\n\n您与父母、子女、孙辈、祖辈等不同辈分的亲人关系怎样？搬迁有没有改变这些关系？",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:05:18.625"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:05:40.850"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:06:02.300"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:06:24.175",
+              "speaker": "Conversation",
+              "en": "Our relationships are good. Moving had its greatest effect on whom I felt closest to. As a child, I was closer to my grandparents than to my parents. Before I was ten, they were my entire world.\n\nAfter moving to Mianyang, it took a long time to develop affection for my parents. We gradually went from being polite and distant to being close. With my own children, I stayed beside them and brought them up myself. That was a different kind of feeling.",
+              "zh": "我们关系不错。搬迁对我最大的影响，是改变了我与谁更亲近。小时候，我对爷爷奶奶的感情比对父母更深。十岁以前，他们就是我的整个世界。\n\n到了绵阳，与父母一起生活后，我们花了很长时间培养感情，从客气、生分逐渐变得亲热。到了我自己的孩子，我一天都不愿离开，都是亲手带大的，那又是另一种感受。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:06:24.175"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:06:47.925"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:07:15.700",
+              "speaker": "Conversation",
+              "en": "Did living in different places or cultures affect how you spoke to each other or got along?\n\nI would say half of my background lies in Hubei, in the old rules my grandparents taught me. The other half came from the factory compound, the army and government offices. As a child, talking to my parents even felt like talking to outsiders. Only later did I understand that they had had little choice in sending me back: that was the predicament of a family with two working parents at the time.",
+              "zh": "生活在不同地方、文化中，有没有影响你们的说话或相处方式？\n\n可以说，我身上有一半来自湖北，来自爷爷奶奶教给我的老规矩；另一半来自工厂大院、部队和机关的教育。小时候与父母说话，甚至像在与外人交谈。后来才慢慢明白，他们当年把我送回去也是没有办法，是那个时代双职工家庭的无奈。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:07:15.700"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:07:39.250"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:08:01.775",
+              "speaker": "Conversation",
+              "en": "Did customs or ways of life cause disagreements with other generations? Could you give an example?\n\nI both respected and feared my elders. With my own children, I deliberately made sure they would not be left behind. I kept them with me, and we got along like friends. I did not want them to experience what I had: seeing their parents but being unable to call them Mum and Dad.",
+              "zh": "您是否因为风俗或生活方式，与父母、子女、祖辈产生过分歧？能否举例？\n\n我对长辈既尊敬又有些畏惧。对自己的孩子，我则刻意不让他们成为留守儿童，坚持带在身边，相处起来像朋友。我不想让他们再次经历我那种见到父母，却连“爸妈”都喊不出口的感觉。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:08:01.775"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:08:31.675"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:08:52.125",
+              "speaker": "Conversation",
+              "en": "Are there habits, dialects or customs from your hometown that you want to pass on? How do younger people respond?\n\nCould you repeat the question?\n\nFor example, do young people want to learn your hometown dialect?\n\nI want to pass on our hometown speech, Hubei dialect, and my grandparents' honesty and sense of responsibility. Their small-town and rural life had its seasonal customs and foods. I also want to pass on the hardships of our family's journey from Hubei to Sichuan, from the factory to the army and civilian work. The children listen willingly, as though hearing stories, but probably cannot speak a sentence of Xiaogan dialect. They speak Sichuan dialect and Mandarin fluently.\n\nWhen a dialect is not passed on, do you think that is regrettable or inevitable?",
+              "zh": "故乡有没有您希望传给下一代的生活习惯、方言或文化？年轻人怎样回应？\n\n不好意思，能再问一遍吗？\n\n例如，年轻人愿不愿意学习老家的方言？\n\n我想传下去的是乡音，也就是湖北话，还有爷爷奶奶那一辈做人的本分。他们生活在乡镇、农村的环境中，有节令、饮食等习俗。我也想让孩子们了解我们家从湖北到四川、从工厂到部队再到地方工作，一路走来的艰辛。孩子们都愿意听，把这些当作故事；但孝感话可能一句也不会说，四川话和普通话倒是很流利。\n\n像方言这样的东西没有继续传下来，您觉得可惜，还是在所难免？",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:08:52.125"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:09:14.300"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:09:35.025"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:09:57.050"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:10:22.550"
+                }
+              ],
+              "review_status": "edited_machine_draft",
+              "review_note": "Xiaogan dialect is a contextual reading of the ASR 小官话; neighbouring passages explicitly identify the hometown."
+            },
+            {
+              "t": "00:10:43.750",
+              "speaker": "Conversation",
+              "en": "I think it is both regrettable and inevitable. I ask only one thing: they need not speak the dialect, but must know that part of their roots lies in Hubei and understand how their great-grandparents and grandparents lived.\n\nHave your children chosen to return to your hometown or go further away? How do you feel about that?\n\nMy children studied and now work outside the province. I support them going further afield. At ten, I travelled a long way to Sichuan, and at eighteen or nineteen I joined the army. Our family is not afraid of leaving. They can go as far as they like, as long as they keep their family and the path they came from in their hearts.",
+              "zh": "我觉得既可惜，也难免。我只要求一点：话可以不会说，但必须知道自己的根有一部分在湖北，要知道太爷、太奶奶和爷爷奶奶是怎样走过来的。\n\n您的孩子有没有选择回老家或去更远的地方？您怎样看待？\n\n我的孩子从上大学到工作都在外省，我很支持他们往远处走。当年我十岁时远行来到四川，十八九岁又去当兵。我们家的人不怕远行。我只对孩子说，走多远都可以，只要心里装着家，记着来时的路。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:10:43.750"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:11:07.800"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:11:28.125"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:11:57.925",
+              "speaker": "Conversation",
+              "en": "When people ask where you are from, what do you say? Has your answer changed?\n\nThat is an interesting question for me. As a child in Xiaogan, I thought of myself as a Hubei boy. When I first arrived in Mianyang, I was the outsider in the factory compound whose speech people could not understand. In the army, I told fellow soldiers I was born in Hubei and raised in Sichuan. Now that I am retired, I usually say I am from Mianyang, then add that my hometown is Xiaogan, Hubei. I have lived in Mianyang for nearly fifty years. My accent, tastes, friends and working life are here. I am a Mianyang person, but my roots will always be in Xiaogan.\n\nWould your children or grandchildren answer the same way?\n\nNo. They immediately say they are from Mianyang. Hubei is the hometown their father talks about, where the older generation was born and lived. Each generation has its own hometown. I am comfortable with that.",
+              "zh": "别人问您是哪里人时，您怎样回答？这些年有没有变化？\n\n这个问题对我很有意思。小时候在孝感，我觉得自己是湖北孩子。刚到绵阳时，我是厂里那个外地来的、说话让人听不懂的孩子。当兵时，战友问起，我就说自己“湖北出生，四川长大”。现在退休了，我一般说是绵阳人，再补一句老家在湖北孝感。我在绵阳生活了快五十年，口音、口味、朋友、工作都在这里。我是绵阳人，但根永远在孝感、在湖北。\n\n孩子或孙辈的回答会与您一样吗？\n\n肯定不一样。他们开口就说是绵阳人。湖北对他们来说，是爸爸口中的老家，是父辈出生、生活的地方。一代有一代的家乡，这一点我看得很开。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:11:57.925"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:12:20.050"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:12:49.125"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:13:18.500"
+                }
+              ],
+              "review_status": "edited_machine_draft",
+              "review_note": "Born in Hubei and raised in Sichuan is the contextual reading of 湖北省四川长. Nearly fifty years is the narrator’s approximate recollection, not a calculated date."
+            },
+            {
+              "t": "00:13:38.500",
+              "speaker": "Conversation",
+              "en": "What in your hometown culture do you particularly identify with or feel attached to? What has become less important?\n\nThe Xiaogan dialect and the taste of my grandmother's cooking matter most. Hearing a Hubei accent or eating traditional foods such as lotus root soup, 'ma tang' [food name uncertain] or rice wine takes me straight back to childhood. I value the warmth and straightforwardness of people back home, too. Neighbours could borrow things without writing an IOU. I am less attached now to some burdensome old customs [word unclear] and old ideas.",
+              "zh": "老家的文化中，有什么让您特别认同、特别有感情？又有什么逐渐变得不那么重要？\n\n最有感情的是孝感话和奶奶做饭的味道。一听到湖北口音，或吃到藕汤、“麻汤”〔食物名称待核〕、米酒等传统食物，就仿佛回到了小时候。还有家乡人的人情味和本分：邻里借东西，不用写借条。这些都让我很有感情。如今比较看淡的，是一些过于繁重的旧习俗〔原词待核〕和旧观念。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:13:38.500"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:14:03.675"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:14:31.750"
+                }
+              ],
+              "review_status": "edited_machine_draft",
+              "review_note": "The food transcribed 麻汤 and the word transcribed 旧的理解 remain uncertain. Neither has been silently replaced by a specific dish or ritual."
+            },
+            {
+              "t": "00:14:55.250",
+              "speaker": "Conversation",
+              "en": "What was hardest to get used to: the climate, surroundings, housing or daily routine?\n\nLanguage came first. Hubei and Sichuan dialects are partly mutually understandable, but speaking and expressing myself was still very different. Food was easier: the two places were not so different. Mianyang's climate was another matter. It was damp, cold and overcast in winter, with little sunshine. Even the bedding often felt damp.\n\nLooking back, how has migration shaped you and your relationships with different generations?",
+              "zh": "来到新地方后，您最不适应的是气候、水土、住处，还是作息？\n\n首先是语言。湖北话和四川话有些能相互听懂，但自己说话、表达时，差别仍然很大。饮食的差别倒不太大，比较容易适应。另一个问题是气候：绵阳比较潮湿，冬天阴冷、少见阳光，连被子都经常是潮的。\n\n回头看，这段迁徙经历怎样影响了您，也怎样影响了您与家中不同辈分的关系？",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:14:55.250"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:15:24.575"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:15:49.925"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:16:12.600",
+              "speaker": "Conversation",
+              "en": "The effect runs very deep. At ten, I left the people closest to me and came to an unfamiliar place on my own. It made me more independent than other children my age, more attentive to people's moods and more attached to relationships. Three years in the army gave me discipline and the ability to shoulder responsibility. Later, at the industry and commerce bureau and the market supervision bureau, I dealt with people from many walks of life, including individual business owners and traders. I could get along well with them. Ultimately, I think that ability began with getting on a train at ten.\n\nWhat would you like younger family members to remember about this migration?",
+              "zh": "这种影响是深入骨子里的。十岁时离开最亲的人，独自来到陌生地方，让我比同龄人更独立，更会察言观色，也更重感情。三年的部队生活教会了我纪律和承担责任。后来在工商局、市场监督管理局工作，每天与个体经营者、商户等各类人打交道，我都能较好地处理关系。说到底，我觉得这种本事是从十岁那年上火车时开始练出来的。\n\n您希望晚辈记住这段迁徙经历中的什么？",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:16:12.600"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:16:36.925"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:17:05.975"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:17:33.500",
+              "speaker": "Conversation",
+              "en": "They should remember that we came from a small place in Xiaogan, Hubei. However small it was, our roots are there. Mianyang brought up our family, so our home is here. They should remember to behave honestly, be grateful, endure hardship and be able to make a life wherever they go.",
+              "zh": "首先要记住，我们从湖北孝感的一个小地方走出来。地方虽小，根在那里。绵阳养大了我们一家，所以家在这里。还要记住做人的本分，懂得感恩，能够吃苦，无论走到哪里都立得住。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:17:33.500"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:18:00.725",
+              "speaker": "Conversation",
+              "en": "Have you thought of returning to your hometown in old age?\n\nYes. Now that I am retired and have more time, that thought comes more often. I have stayed in Xiaogan near the places where my grandparents lived. But I will probably spend retirement in Mianyang. My working life, healthcare, spouse and colleagues are here. I plan to stay here and return to Xiaogan when I can, to walk around, stay a while and visit the family graves. Both places feel like home.\n\nBefore coming to Mianyang, how did you imagine life there? What differed most from your expectations?\n\nI had only a limited impression of Mianyang before arriving.",
+              "zh": "年老后，您有没有想过回故乡养老？\n\n想过。如今退休了，时间多了，这种念头反而更常出现。我也回孝感住过一阵，守着爷爷奶奶曾经生活的地方。但真正养老，可能还是在绵阳。工作、看病、老伴、同事都在这里。我打算在绵阳养老，有时间就回孝感走走、住住，祭扫亲人的坟墓。感觉两头都是家。\n\n来绵阳之前，您怎样想象这里的生活？来了之后，与想象最大的不同是什么？\n\n来之前，我对绵阳的印象很有限。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:18:00.725"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:18:27.050"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:18:53.725"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:19:20.600",
+              "speaker": "Conversation",
+              "en": "It came from a few lines in my parents' letters and the photographs they brought back: factories with tall chimneys, buildings, cars, films to watch and apparently delicious white rice. It seemed like a good place somewhere in the wider world. I scarcely dared imagine what living with my parents would feel like. They were familiar strangers.\n\nPlease, continue.\n\nYou also asked what was most different after I arrived, didn't you? Sorry, I have forgotten the question.\n\nWhat differed most from what you had imagined?\n\nThere were two things.",
+              "zh": "这些印象来自父母信里的几句话，以及他们带回来的照片：有大烟囱的工厂、楼房、汽车，能看电影，还有看起来很好吃的白米饭，像是外面一个很好的地方。但我甚至不太敢想象与父母一起生活是什么感受，他们更像熟悉的陌生人。\n\n您继续。\n\n您刚才还问，来了以后与想象有什么不同，对吗？不好意思，我有点忘了问题。\n\n来到这里后，什么与想象中最不一样？\n\n我觉得有两点。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:19:20.600"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:19:47.575"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:20:13.400"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:20:38.050",
+              "speaker": "Conversation",
+              "en": "First, I had not expected the factory compound to be so large and lively, with people from all over the country and endless conversation. It was much livelier than home. Second, I had not expected to feel so lonely and homesick. The buildings and surroundings were new, but I felt reserved with my parents. My grandmother was not beside me, and I often cried secretly at night.\n\nYou grew up with your grandparents in the countryside and joined your parents at ten. How do you understand home and family?",
+              "zh": "第一，没想到工厂大院那么大、那么热闹。天南海北的人聚在一起，有说不完的话，比老家热闹得多。第二，没想到自己会那么孤单、那么想家。虽然楼房和环境都是新的，与父母相处时却很拘谨。奶奶不在身边，晚上我经常偷偷地哭，这是来之前完全没有想到的。\n\n您在农村由爷爷奶奶带大，十岁才到绵阳与父母团聚。您怎样理解家和亲人？",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:20:38.050"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:20:59.850"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:21:27.325",
+              "speaker": "Conversation",
+              "en": "My understanding may differ from that of someone who always grew up with their parents. As a child, home was the old house in Xiaogan and its stove. Family meant my grandparents, especially my grandmother. Parents were the people who visited for a few days and sent money. They felt like family, but also far away.\n\nWhen I was taken away at ten, others may have thought I was going home. To me, it was like being weaned a second time. Legally and by blood, I was returning to my parents' home; emotionally, I was being transplanted from one home into another. It took years to recognise my parents and their surroundings as my own home. Now I think family means more than blood ties.",
+              "zh": "我的理解可能与一直在父母身边长大的人不同。小时候，家就是孝感的老房子和灶台；亲人就是爷爷奶奶，尤其是奶奶。“父母”这个词，联系着那些回来住几天、给家里寄钱的人。虽然是亲人，却又很遥远。\n\n十岁被接走时，别人可能觉得我是回家，但对我而言，更像第二次断奶。从法律和血缘上说，我回到了父母的家；从情感上说，我却是从一个家被移栽到另一个家。花了很多年，我才把父母和他们生活的环境认作自己的家。因此，我现在觉得，亲人不只取决于血缘。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:21:27.325"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:21:50.375"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:22:14.025"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:22:38.000"
+                }
+              ],
+              "review_status": "edited_machine_draft",
+              "review_note": "The ASR phrase describing parents’ visits is broken; the edited version preserves the clear sense of brief visits and remittances without adding frequency."
+            },
+            {
+              "t": "00:23:03.300",
+              "speaker": "Conversation",
+              "en": "It is the people who raise you day after day who become your family. Home is similar: it is not simply an address, but a place where someone is waiting, where you need not put on an act or feel constrained, and where you can sleep peacefully.\n\nMy grandmother gave me the feeling of home; Mianyang gave me a complete family again. I recognise both places: one is where I came from, and the other is where I belong. That is why I value companionship so deeply. However busy I am, I want to keep my children with me. I do not want them to know what it is like to feel like a guest in their parents' home.\n\nThat brings our interview to an end. Thank you.\n\nAll right, goodbye.",
+              "zh": "一天一天把你养大的人，才成为真正的亲人。家也是如此：它不只是一个地址，而是有人等你、让你不必刻意端着、不必拘束、能够踏实入睡的地方。\n\n奶奶给了我家的感觉，绵阳让我重新有了完整的家。两个地方我都认，一个是来处，一个是归处。正因为如此，我特别重视陪伴。再忙也要把孩子带在身边，不想让他们再体验我当年那种在父母家里做客的感觉。\n\n今天的访谈到这里结束，谢谢您。\n\n好的，再见。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:23:03.300"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:23:28.425"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:23:50.900"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "yuhan-younger-aunt": {
+    "slug": "yuhan-younger-aunt",
+    "story": {
+      "title": "Flower Buns at New Year",
+      "paragraphs": [
+        "YUHAN LI’s younger aunt moved from Nanyang, Shandong, to Mianyang, Sichuan, when she was a little over five. Her family came together there after her grandfather’s military service. She was eager to meet the grandfather she had never seen. Her clearest memories are changes: beds replaced heated sleeping platforms, and rice replaced wheat as the staple.",
+        "Her grandmother’s cooking kept familiar tastes close. At Lunar New Year, she steamed flower buns and observed family rituals. Today, the aunt still makes buns, dumplings and noodles by hand. Shandong remains part of her upbringing, although years among Sichuan friends, classmates and colleagues have made her feel local.",
+        "She expects to remain in Sichuan, returning to Shandong only for visits. She welcomes younger relatives keeping traditions, but does not insist. Whether they return to the ancestral home or travel further, she supports their choices and hopes they can see more of the world."
+      ],
+      "quotes": [
+        {
+          "en": "It is good if these traditions are passed on, but I do not insist if they are not.",
+          "session_id": 1,
+          "t": "00:06:32.900",
+          "source_refs": [
+            {
+              "session_id": 1,
+              "t": "00:06:32.900"
+            }
+          ]
+        },
+        {
+          "en": "If they can go further away and see more of the world, I support that too.",
+          "session_id": 1,
+          "t": "00:07:22.100",
+          "source_refs": [
+            {
+              "session_id": 1,
+              "t": "00:07:22.100"
+            }
+          ]
+        },
+        {
+          "en": "Every New Year, my grandmother would steam lots of Shandong flower buns.",
+          "session_id": 1,
+          "t": "00:09:32.325",
+          "source_refs": [
+            {
+              "session_id": 1,
+              "t": "00:09:32.325"
+            }
+          ]
+        },
+        {
+          "en": "Playing together brought us into that circle, and then we felt a sense of belonging.",
+          "session_id": 1,
+          "t": "00:13:53.125",
+          "source_refs": [
+            {
+              "session_id": 1,
+              "t": "00:13:53.125"
+            }
+          ]
+        }
+      ]
+    },
+    "transcript": {
+      "edition": "edited-for-clarity",
+      "note": "Edited for clarity · English translation and written Chinese.",
+      "sessions": [
+        {
+          "id": 1,
+          "segments": [
+            {
+              "t": "00:00:00.000",
+              "speaker": "Conversation",
+              "en": "Where did you grow up, and why did your family move?\n\nI lived in Nanyang, Shandong, until I was a little over five, then came to Mianyang with my grandmother, my father and other family members. My grandfather had served in the military and was sent south to work in Mianyang. I associate this with the period after the Korean War. The family later joined him so we could be together. [The exact migration chronology remains unconfirmed.]\n\nWhat happened to the house and land back home?\n\nMy grandfather’s younger brother and sister stayed there to look after the older relatives. We entrusted the house and land to them. Over the years, after the older generation died, those matters were gradually dealt with. I cannot say exactly how; we left the relatives to handle them.",
+              "zh": "您小时候在哪里长大？家里为什么搬迁？\n\n我五岁多以前一直在山东南阳生活，后来跟着奶奶、爸爸等家人来到绵阳。爷爷当过兵，后来作为南下干部到四川绵阳工作。我记得这与抗美援朝结束后的经历有关。家人后来为了团聚，也来到绵阳。[具体迁移时间仍待核实。]\n\n老家的房屋和土地后来怎样处理？\n\n爷爷的弟弟妹妹留在老家照顾老人，我们也把房屋和土地委托他们照看。时间久了，老人去世以后，这些事情逐渐处理了。具体怎样处理，我说不清楚，主要交给亲戚代办。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:00:00.000"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:00:25.325"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:00:49.250"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:01:13.550"
+                }
+              ],
+              "review_status": "edited_machine_draft",
+              "review_note": "The user confirmed Nanyang, Shandong (山东南阳) on 2026-10-29; no administrative classification is inferred. The family military and migration chronology is narrated from memory. The subject and unfinished sentence are clarified only where later windows provide context; no exact year is inferred."
+            },
+            {
+              "t": "00:01:39.100",
+              "speaker": "Conversation",
+              "en": "What do you remember most about moving as a child?\n\nI was only five, so my memories are not very clear. The living environment changed: in Shandong we slept on a heated kang platform, while in Sichuan we slept in beds. Shandong meals were based mainly on wheat foods; here, rice was the staple. I do not remember much else because I was so young.\n\nWhat did you miss, and what were you looking forward to?\n\nI probably missed the neighbours most, although I was too little to feel very strongly about it. [A brief phrase is unclear.] I had never met my grandfather. I remember him as having been away fighting and then being sent south. I was eager to see him and find out what he looked like.\n\nDid any relatives remain back home?\n\nYes, my grandfather’s younger brother and sister stayed there.",
+              "zh": "小时候，您对搬迁印象最深的是什么？\n\n当时才五岁，记忆并不深。主要是生活环境变了：在山东睡炕，到了四川睡床；山东以面食为主，这里以米饭为主。因为年纪太小，其他事情记得不多。\n\n您最舍不得老家的什么？又最期待什么？\n\n最舍不得的应该是邻居，不过那时小，感受也不算深。[有一句话未能辨清。] 我以前没有见过爷爷，记得他一直在外打仗，后来又南下了。我很期待见到他，想知道他是什么样子。\n\n还有亲人留在老家吗？\n\n有，爷爷的弟弟妹妹留在那里。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:01:39.100"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:01:59.175"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:02:21.525"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:02:50.350"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:03:10.575"
+                }
+              ],
+              "review_status": "edited_machine_draft",
+              "review_note": "ASR phrase 你要去结束 is unclear and not interpreted. The grandfather’s military chronology is retained as recollection, not independently verified history."
+            },
+            {
+              "t": "00:03:35.675",
+              "speaker": "Conversation",
+              "en": "Did you keep in touch, and how did relatives feel about the move?\n\nWe went back a few times, and they visited Mianyang once or twice. My grandfather had left to join the army, later transferred to civilian work and became a cadre. My grandmother was a homemaker. She joined him after he was sent south, and the family was reunited. They thought that was a good thing.\n\nDid you ever want to move back?\n\nI was so young that I probably did not think about it much. My grandparents may have considered it, but work, schooling and many other things made it complicated. Eventually, we stopped discussing it.",
+              "zh": "后来还有来往吗？留在老家的人怎样看待这次搬迁？\n\n我们回去过几次，他们也到绵阳来过一两次。爷爷当兵离开，后来转业、当了干部。奶奶是家庭妇女，爷爷南下以后，她也过来了，一家人得以团聚。大家觉得这样挺好。\n\n您后来想过搬回去吗？\n\n我那时小，应该没有想太多。爷爷奶奶可能考虑过，但工作、读书等各方面牵涉太多，后来也就不再提这件事了。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:03:35.675"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:04:04.925"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:04:27.200"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:04:49.225",
+              "speaker": "Conversation",
+              "en": "Did moving change relationships or communication across generations?\n\nMy father’s generation still kept in contact with relatives back home. Our generation has much less contact, but we still get together when we return to Shandong.\n\nHas living in different places affected how you get along or speak to one another?\n\nHow we get along has not changed, but our speech has. Outside the family, I use Sichuan dialect more often. Back home, I speak Shandong dialect with my grandparents. With my parents, I mostly speak Sichuan dialect and sometimes Mandarin.\n\nHave customs, values or ways of life caused disagreements in the family?",
+              "zh": "搬迁有没有改变不同辈分之间的关系或交流方式？\n\n爸爸那一代与老家的亲人还有联系，我们这一代联系就少得多了。不过，回山东时还是会相聚。\n\n生活在不同地方，有没有影响相处和说话的方式？\n\n相处模式没有改变，但说话方式有区别。在外面我说四川话比较多，回去跟爷爷奶奶说山东话；与爸爸妈妈主要说四川话，有时也说普通话。\n\n家里有没有因为风俗、观念或生活方式发生过分歧？",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:04:49.225"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:05:15.800"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:05:36.950"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:06:04.750",
+              "speaker": "Conversation",
+              "en": "No. There are many customs and rules back home in Shandong, and we grew up with them. We were used to them, so they did not cause disputes.\n\nAre there traditions, dialects or customs you want to pass on?\n\nThat depends mainly on the young people themselves. They can follow the family’s usual practices. It is good if these continue, but I do not insist if they do not.",
+              "zh": "没有。山东老家的规矩比较多，我们从小就熟悉这些规矩，已经习惯了，不会因此争执。\n\n有没有想传给下一代的文化、方言或风俗？\n\n主要看年轻人自己。家里平常怎样做，他们可以跟着做。能够传下去当然好，传不下去也不强求。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:06:04.750"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:06:32.900"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:06:53.900",
+              "speaker": "Conversation",
+              "en": "Can your children speak your hometown dialect? How do you feel about it if they cannot?\n\nI let it happen naturally. If they can speak it, that is fine; if not, that is all right too. Their generation mainly speaks Mandarin now.\n\nWould you support them returning to your hometown or moving further away?\n\nIt is their choice. If they want to return home, they can. If they can go further away and see more of the world, I support that too.",
+              "zh": "孩子会说老家的方言吗？如果不会，您怎么看？\n\n顺其自然。能说就说，不能说也没关系，现在他们这一代主要以普通话为主。\n\n如果孩子想回老家，或者去更远的地方，您会支持吗？\n\n看他们自己的选择。想回老家就回去；能够走得更远、见识更多，我也支持。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:06:53.900"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:07:22.100"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:07:42.775",
+              "speaker": "Conversation",
+              "en": "When people ask where you are from, what do you say? Has that changed?\n\nNo. I usually say I am from Sichuan. If they ask about my ancestral home, I say Nanyang, Shandong.\n\nDo you feel connected to more than one place or culture?\n\nYes. My Shandong background still influences me, including what I eat. Living in Sichuan for so many years has influenced my diet too. I have gradually become used to life here, while still keeping some Shandong food traditions and habits.",
+              "zh": "别人问您是哪里人时，您怎样回答？这些年有变化吗？\n\n没有。我一般说自己是四川人，问到祖籍时就说山东南阳。\n\n您觉得自己与不止一个地方或一种文化有联系吗？\n\n有。山东的背景仍然影响着我，包括饮食等方面。在四川生活这么多年，这里的饮食也产生了影响。慢慢习惯了这里的生活，同时仍保留着一些山东的饮食传统和习惯。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:07:42.775"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:08:10.025"
+                }
+              ],
+              "review_status": "edited_machine_draft",
+              "review_note": "The user confirmed Nanyang, Shandong (山东南阳) on 2026-10-29; no administrative classification is inferred."
+            },
+            {
+              "t": "00:08:39.900",
+              "speaker": "Conversation",
+              "en": "What helped you develop a sense of belonging in Sichuan?\n\nAfter living here for a long time, the colleagues and friends around you are from Sichuan, or they may come from elsewhere but all live here. Our habits and ways of speaking gradually blend together. Now, we basically feel that we are Sichuan people.\n\nWhich hometown customs or traditions do you feel especially attached to?",
+              "zh": "什么让您对四川产生归属感？\n\n生活久了，身边的同事、朋友都是四川人，或者虽然不是四川人，也都在这里生活。大家的习惯、语言慢慢融合，现在基本上就觉得自己是四川人了。\n\n老家的文化、方言或风俗中，有哪些让您特别有感情？",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:08:39.900"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:09:05.975"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:09:32.325",
+              "speaker": "Conversation",
+              "en": "Lunar New Year matters especially to me. Every year, my grandmother would steam lots of Shandong flower buns, huamo. New Year had a strong sense of ceremony, and we held simple ceremonial rituals.",
+              "zh": "特别有感情的是过年。每年春节，奶奶总要蒸很多山东花馍。过年的仪式感很强，也会做一些简单的祭祀活动。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:09:32.325"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:09:57.525",
+              "speaker": "Conversation",
+              "en": "I feel attached to all of those traditions.\n\nWhat was hardest to adjust to in Sichuan: the climate, daily routine or food?\n\nThe climate. Sichuan was very damp, and the winters were cold and damp. Food was easier because my grandmother cooked, so the change did not feel as strong.\n\nWould you tell younger relatives the story of the move?\n\nYes. I associate it with the Korean War and the cadres sent south. I see that as something honourable. I want the next generation to understand those people and learn from their good qualities.",
+              "zh": "这些传统我都有感情。\n\n刚到四川时，最不适应的是气候、作息还是饮食？\n\n主要是气候。四川很潮湿，冬天湿冷，不太适应。饮食还好，因为一直是奶奶做饭，所以变化的感觉不强。\n\n您会把当年搬迁的故事讲给晚辈听吗？\n\n会。这段经历与抗美援朝和南下干部有关，我觉得是很光荣的事。希望下一代理解那一代人，学习他们好的品质。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:09:57.525"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:10:19.500"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:10:47.425"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:11:10.250",
+              "speaker": "Conversation",
+              "en": "Looking back, how did migration shape you?\n\nMoving from Shandong to Sichuan changed the friends I knew, from children in Shandong to children here. The culture and some customs were different. Beyond that, the impact was not very great because I continued living with my grandmother.\n\nWould you return to your hometown in old age?\n\nProbably not. I have lived in Sichuan for close to fifty years, and my habits have gradually become more like those here. I could go back for a short stay at a suitable time, but I would not return to live there permanently.",
+              "zh": "回头看，这次迁徙怎样影响了您？\n\n从山东来到四川，接触的朋友变了，从山东的小朋友变成四川的小朋友；文化和一些传统风俗也有所不同。其他方面，因为一直跟奶奶生活，影响并不算大。\n\n年老以后，您会回老家养老吗？\n\n应该不会。我在四川生活了将近五十年，各种习惯慢慢向这里靠拢了。时间合适可以回去小住，但不会回去长期生活。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:11:10.250"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:11:38.100"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:11:59.425"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:12:19.450"
+                }
+              ],
+              "review_status": "edited_machine_draft",
+              "review_note": "Close to fifty years is the narrator’s approximation; no migration or birth year is calculated."
+            },
+            {
+              "t": "00:12:43.625",
+              "speaker": "Conversation",
+              "en": "Did your family still speak Shandong dialect when you first arrived?\n\nYes. My grandparents always spoke it, and we spoke it with them as children. After we grew up, we used it less, but they continued speaking it.\n\nHow did you learn Sichuan dialect?\n\nMy friends, classmates and colleagues all spoke it, so I gradually learned it naturally. I did not need to study it specially.",
+              "zh": "小时候刚到四川时，家里还说山东话吗？\n\n说。爷爷奶奶一直说山东话，我们小时候也跟他们说。长大以后，我们说得少了，但他们一直没有变。\n\n您怎样学会四川话的？\n\n周围的朋友、同学、同事都说四川话，慢慢自然就会了，不需要专门学习。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:12:43.625"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:13:07.325"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:13:27.900",
+              "speaker": "Conversation",
+              "en": "The environment teaches you naturally.\n\nDo you remember the first local person you met? Did that help you join the local community?\n\nWhen we arrived, our residential compound had many children. We played together and got to know one another. That certainly helped: playing brought us into the group, and with that came a sense of belonging.",
+              "zh": "在这样的环境里，自然而然就学会了。\n\n您记得最早认识的本地人吗？这有没有帮助您融入当地？\n\n刚到四川时，我们住的家属院里有很多小朋友。大家一起玩，慢慢就认识了。这肯定有帮助：融入这个圈子以后，也就有了认同感。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:13:27.900"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:13:53.125"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:14:13.300",
+              "speaker": "Conversation",
+              "en": "Which Shandong habits have you kept?\n\nWe still enjoy wheat foods. At home, we make steamed filled buns, plain steamed buns, dumplings and noodles rolled by hand. We also follow some of the New Year customs. In personality, I suppose I am rather easygoing and informal.\n\nThat concludes today’s interview. Thank you.",
+              "zh": "来到四川以后，您还保留了哪些山东生活习惯？\n\n我们仍然喜欢吃面食，在家蒸包子、馒头，包饺子，也做手擀面。过年的一些规矩仍然遵守。性格上，我可能属于比较大大咧咧的人。\n\n今天的采访到这里结束，谢谢您。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:14:13.300"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:14:34.475"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "yuhan-aunt-yunnan": {
+    "slug": "yuhan-aunt-yunnan",
+    "story": {
+      "title": "A Taste of Yunnan",
+      "paragraphs": [
+        "YUHAN LI’s aunt grew up in Chuxiong, Yunnan, before leaving at eighteen for university in Chengdu. After five years there, she pursued postgraduate studies in Macau. Her journey also included several years working in Kunming before returning to Macau, where opportunities, pay and quality of life encouraged her to stay.",
+        "Her parents and many relatives remain in Chuxiong. Calls, holiday visits and time together in Macau keep them close, although distance reduces daily contact. She misses family New Year gatherings, where elders take the central seats. At home in Macau, seasonings brought from Yunnan help familiar flavours cross the distance.",
+        "She calls Chuxiong her roots and Macau the place where she has settled. Her child grew up in Macau, and she accepts that dialect and customs may change. Kindness, respect and family affection matter most. Looking ahead, she imagines retirement divided between Macau and Yunnan, and supports her child’s choices."
+      ],
+      "quotes": [
+        {
+          "en": "Wherever they are, I hope they keep a kind heart and treat strangers with care and warmth.",
+          "session_id": 1,
+          "t": "00:05:34.900",
+          "source_refs": [
+            {
+              "session_id": 1,
+              "t": "00:05:34.900"
+            }
+          ]
+        },
+        {
+          "en": "Whether they return home or go farther away, I will fully support them, as long as it is what they like and suits them.",
+          "session_id": 1,
+          "t": "00:07:20.175",
+          "source_refs": [
+            {
+              "session_id": 1,
+              "t": "00:07:20.175"
+            }
+          ]
+        },
+        {
+          "en": "I was born in Chuxiong and lived there until I was eighteen. That is where my roots are.",
+          "session_id": 1,
+          "t": "00:08:02.875",
+          "source_refs": [
+            {
+              "session_id": 1,
+              "t": "00:08:02.875"
+            }
+          ]
+        },
+        {
+          "en": "I want to tell my children the story of moving, so they know where they came from and where they are now.",
+          "session_id": 1,
+          "t": "00:10:59.025",
+          "source_refs": [
+            {
+              "session_id": 1,
+              "t": "00:10:59.025"
+            }
+          ]
+        }
+      ]
+    },
+    "transcript": {
+      "edition": "edited-for-clarity",
+      "note": "Edited for clarity · English translation and written Chinese.",
+      "sessions": [
+        {
+          "id": 1,
+          "segments": [
+            {
+              "t": "00:00:00.000",
+              "speaker": "Conversation",
+              "en": "Hello. We are researching Chinese migration in South China. May we interview you?\n\nYes.\n\nWhere did you grow up, and how did you come to live where you are now?\n\nI was born and grew up in Chuxiong, Yunnan. I came to Macau for postgraduate studies, studied for a doctorate, then found work here and stayed.",
+              "zh": "您好，我们正在进行一项有关华南华人迁徙的研究，可以采访您吗？\n\n可以。\n\n您小时候在哪里长大？后来怎样来到现在居住的地方？\n\n我在云南省楚雄市出生、长大，后来到澳门读研究生、读博士，之后在这里找到工作并留了下来。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:00:00.000"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:00:27.725",
+              "speaker": "Conversation",
+              "en": "What happened to the house or land back home?\n\nMy parents and some relatives still live there, and the original house remains. We often go back and stay during holidays.\n\nDid anyone stay behind, and have you kept in touch?\n\nMany relatives are still in Chuxiong. We keep in regular contact by telephone and usually return every year during the holidays.\n\nHow did those who stayed feel about your departure?\n\nThey were reluctant to see us go because Macau is far from Chuxiong. But they understood and supported us: more relatives venturing out could broaden the family's opportunities.\n\nDid you ever consider returning?\n\nYes. After graduating from postgraduate studies, I went back to Kunming and worked there for a few years. But I found it difficult to readjust and returned to Macau.",
+              "zh": "老家的房子或土地后来怎样处理？\n\n父母和一些亲戚仍住在老家，原来的房子也还在。我们经常在假期回去住。\n\n当时有没有家人留在老家？你们后来还保持联系吗？\n\n很多亲戚仍在楚雄。我们经常打电话沟通，每年放假也通常会回去。\n\n留在老家的人怎样看待你们搬走？\n\n他们舍不得，因为澳门离楚雄比较远，但也很理解和支持。家里有更多亲戚走出去，也能拓宽一些出路。\n\n搬走后，您有没有想过回去？\n\n有。我研究生毕业后，曾回到云南昆明工作几年，但还是有些不习惯，后来又回到澳门。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:00:27.725"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:00:49.025"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:01:13.200"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:01:41.550",
+              "speaker": "Conversation",
+              "en": "What was the main reason you stayed in Macau?\n\nMacau offered me a better platform, job opportunities and pay, which could improve my quality of life.\n\nWhat are your relationships like with different generations, such as parents, children and grandparents? Has moving changed them?",
+              "zh": "是什么原因让您留在澳门？\n\n我觉得澳门有更好的平台、工作机会和薪资收入，能够提升生活质量。\n\n您与父母、子女、祖辈等不同辈分的家人关系怎样？搬迁有没有改变这些关系？",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:01:41.550"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:02:08.450",
+              "speaker": "Conversation",
+              "en": "We have very good relationships with our parents, older relatives and cousins. Moving to Macau did not really change that. We invite our parents to stay for a while and often go home to gather with relatives. Distance means we interact less often than when we lived together, but we remain close when we spend time together.\n\nWhat are the biggest cultural differences between Macau and Yunnan? Has living in different places affected how you communicate or get along with family?\n\nIn Yunnan, particularly Chuxiong, a Yi autonomous prefecture, many different ethnic communities live alongside one another.",
+              "zh": "我们与父母、长辈和表兄弟姐妹的关系都很好，来到澳门后也没有改变。我们会接父母过来住一段时间，也经常回老家与亲戚相聚。只是距离远了，互动不如以前住在一起时多，但有时间相处时，彼此仍然亲密。\n\n澳门与云南最大的文化差异是什么？生活在不同地方或文化中，有没有影响您与家人的交流方式和相处模式？\n\n云南，特别是楚雄彝族自治州，有许多不同的少数民族共同生活。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:02:08.450"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:02:34.950"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:03:02.650",
+              "speaker": "Conversation",
+              "en": "These communities have distinctive ways of life, customs, foods and festivals. Macau brings Chinese and Western cultures together, with newcomers, local residents and Portuguese people. It is also culturally diverse, but differs considerably from Yunnan.\n\nOne noticeable difference for me is food. People in Yunnan tend to enjoy spicy food. Macau offers food from around the world, with Cantonese cuisine particularly prominent. Prices in Macau are also higher than in Chuxiong. When we use Macau prices as our point of reference, relatives back home can find that hard to accept, so our ideas about spending sometimes differ or conflict.\n\nHave you ever disagreed with family members over customs or cultural differences? Can you give an example?",
+              "zh": "这些群体有各自的生活习惯，一些习俗、饮食和节日很有特色。澳门则是中西文化交汇的地方，有外来居民、本地居民和葡萄牙人，也非常多元，但与云南的差异很大。\n\n对我来说，一个明显区别是饮食。云南人比较喜欢吃辣，澳门有世界各地的美食，尤其以粤式饮食为主。另一个区别是物价：澳门的物价比楚雄高。我们有时以澳门的价格为参照，老家的亲人会不适应，因此消费观念上可能出现差异或冲突。\n\n您有没有因为风俗或文化差异与家人意见不合？能举一个例子吗？",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:03:02.650"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:03:27.900"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:03:49.025"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:04:18.350",
+              "speaker": "Conversation",
+              "en": "Yes. After living in Macau for a long time, we came to feel that very spicy, sour or salty food, including preserved foods, might not be good for our health. But people back home have distinctive traditions of making salted and pickled vegetables, cured ham and winter sour pickles.\n\nOur views differ: we might feel that we should not make and eat these preserved foods, while relatives back home have eaten them for generations and regard them as good foods and good practices. We have disagreed about that.",
+              "zh": "有。我们在澳门生活久了，会觉得太辣、太酸、太咸的食物，包括一些腌制品，可能不太有利于健康。但老家有自己的做法，比如腌咸菜、腌菜、腌火腿，以及冬天制作酸菜。\n\n这些独特的食物制作方式让我们的看法产生差异。我们可能觉得不应该制作、食用这些腌制品，但老家的人祖祖辈辈吃了多年，都认为这些方式和食物很好，因此会有不同意见。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:04:18.350"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:04:40.200"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:05:07.200",
+              "speaker": "Conversation",
+              "en": "Are there dialects, ways of life or cultural traditions from home that you would like to pass to the next generation? How do younger people respond?\n\nPeople back home are unpretentious, respect older people, care for children and are friendly even to strangers. I value those qualities and hope the next generation keeps a kind heart wherever they live, treating strangers with care and warmth and respecting both older and younger people.\n\nIs your child, growing up in Macau, willing to learn your hometown dialect?\n\nWe have taught it and taken our child home, but it is still difficult for our child to embrace it.",
+              "zh": "有没有家乡的方言、生活习惯或文化，是您想传给下一代的？年轻人怎样回应？\n\n我觉得老家民风淳朴，人们尊老爱幼，对陌生人也很友善。这些品质很难得，我希望传给下一代：无论身在何处，都保持善良的心，对陌生人关爱、热情，同时尊老爱幼。\n\n您的孩子在澳门长大，愿意学习老家的方言吗？\n\n我们教过，也带孩子回过老家，但孩子还是比较难接受。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:05:07.200"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:05:34.900"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:06:00.575",
+              "speaker": "Conversation",
+              "en": "How do you respond when younger people are unwilling to learn traditional dialects or culture?\n\nI respect their choices and attitudes. My child was born and grew up in Macau, with only brief contact with our hometown during holidays. If our child resists the dialect, I will not insist. We can speak Mandarin; what matters is that we can communicate.",
+              "zh": "年轻人不愿学习传统方言或文化时，您是什么态度？\n\n我会尊重下一代的选择。孩子在澳门出生、长大，只在假期短暂接触老家。如果孩子不愿学习方言，我不会强迫，仍然可以用普通话交流，只要彼此能够沟通就好。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:06:00.575"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:06:30.025",
+              "speaker": "Conversation",
+              "en": "Do you feel it is a pity when cultural elements are lost during migration, or is that inevitable?\n\nI think it is inevitable. Regions, climates and eating habits are different, so people adapt to local conditions. Wherever you live, you should try to become part of that place. I have deep feelings for my hometown, its culture and its ways of life. But now that I live in Macau, I should become more integrated here. I see that as a natural process.\n\nIf your child chooses to return home or move farther away, how would you feel?\n\nI would support either choice. As long as it is something our child likes and that suits them, I think it is a good choice and will give my full support.\n\nWhen people ask where you are from, what do you say? Has that answer changed?",
+              "zh": "一些文化在迁徙中逐渐失去，您觉得可惜，还是在所难免？\n\n我认为是在所难免的。地域、气候和饮食习惯本来就有差异，需要因地制宜。人生活在哪里，就应该尽快融入那里，一方水土养育一方人。我对故乡的文化、生活习惯和感情都很深，但既然来到澳门生活，就应该更好地融入当地。这是自然而然的过程。\n\n如果孩子将来选择回老家或去更远的地方，您怎么看？\n\n我都会支持。只要是孩子喜欢、适合自己的选择，无论回老家还是去更远的地方，我都会全力支持。\n\n别人问您是哪里人时，您一般怎样回答？这个答案有没有改变过？",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:06:30.025"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:06:51.725"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:07:20.175"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:07:40.800",
+              "speaker": "Conversation",
+              "en": "I say I am from Chuxiong, Yunnan. I tell people about Yuanmou Man and Lufeng Dinosaur Valley and introduce Chuxiong to them. That has never changed.\n\nDo you feel connected to more than one place or culture?\n\nYes. I was born in Chuxiong and lived there until eighteen. That is where my roots are. Then I went to university in Chengdu and stayed for five years. From Chengdu I came to Macau for master's and doctoral studies and settled here. At each stage, I became deeply involved in the place where I lived. It has been a process of belonging in different places at different stages.",
+              "zh": "我会说自己是云南楚雄人，还会介绍元谋猿人、禄丰恐龙谷，向别人宣传楚雄。这个答案从未改变。\n\n您是否觉得自己与不止一个地方或文化有联系？\n\n有。我在楚雄出生，一直生活到十八岁，那里是我的根。十八岁以后，我到成都上大学，待了五年，之后到澳门读硕士、博士，并在这里定居。每个阶段，我都与当地生活有了很深的联系，这是在不同阶段融入不同地方的过程。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:07:40.800"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:08:02.875"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:08:31.025",
+              "speaker": "Conversation",
+              "en": "Do you think your children or grandchildren would give the same answer about where they are from?\n\nI think they should. There are several ways to define it. Birthplace cannot change. Ancestral origin is another definition, and theirs is Chuxiong, Yunnan. Where they choose to work and live in future is a separate matter.\n\nWhat parts of your hometown's culture do you feel particularly attached to? What has gradually become less important?",
+              "zh": "您觉得子女或孙辈回答自己是哪里人时，会和您一样吗？\n\n我觉得应该一样。这个问题有几种定义：第一是出生地，这一点无法改变；第二是祖籍，他们的祖籍是云南楚雄；至于未来在哪里工作、生活，则是他们自己的选择。\n\n老家的文化中，哪些让您特别有感情、特别认同？哪些逐渐变得不那么重要？",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:08:31.025"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:08:56.600"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:09:18.650",
+              "speaker": "Conversation",
+              "en": "Respect for older people and care for children are especially meaningful to me. At Lunar New Year, elders take the principal seats and everyone else sits according to generation. The extended family shares New Year's Eve dinner, then offers New Year greetings to the elders. This custom continually reminds us to respect older family members and care for children. I think it is very important.\n\nWhen you first arrived in Macau, what was hardest to adjust to: climate, surroundings, housing or daily routine?",
+              "zh": "我特别有感情的是尊老爱幼。过年全家团聚时，长辈坐在主要位置，其他人依辈分入座，整个大家庭一起吃年夜饭，饭后再向长辈拜年。这些习俗时刻提醒我们尊重家中年长的一辈、关爱晚辈，我觉得很重要。\n\n刚到澳门时，您最不适应的是气候、水土、住处还是作息？",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:09:18.650"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:09:42.250"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:10:05.825",
+              "speaker": "Conversation",
+              "en": "The first thing was the climate. Yunnan feels like spring throughout the year; I remember Chuxiong as being around twenty-three degrees year-round. Macau is very hot and humid, especially in summer, and I found it difficult to adjust.\n\nWould you be willing to tell the next generation the story of your move?",
+              "zh": "首先是气候。云南四季如春，在我的印象中，楚雄全年气温都在二十三度左右。澳门则非常炎热，尤其夏天湿热，我很不适应。\n\n您愿意把当年搬迁的经历讲成故事，告诉下一代吗？",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:10:05.825"
+                }
+              ],
+              "review_status": "edited_machine_draft",
+              "review_note": "Approximate climate description retained as narrator recollection, not verified statistics."
+            },
+            {
+              "t": "00:10:31.300",
+              "speaker": "Conversation",
+              "en": "Yes. Chuxiong is an important part of my life: my happy childhood and secondary school years were there. It was my starting point for entering university and leaving home. Macau is where I have now put down roots and become part of local life; it has been almost twenty years. I want my children to know where they came from and where they are now.\n\nLooking back, how did migration shape who you are and affect relationships between generations in your family?",
+              "zh": "愿意。楚雄是我人生中很重要的一部分，那里有快乐的童年和中学生活，也是我考上大学、走出家乡的起点。澳门则是我现在扎根、融入生活的地方，已经接近二十年。我很想把搬迁的故事讲给子女听，让他们知道从哪里来、现在身处何处。\n\n回头看，迁徙怎样影响了今天的您，又怎样影响您与家中不同辈分的人的关系？",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:10:31.300"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:10:59.025"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:11:19.600",
+              "speaker": "Conversation",
+              "en": "Chuxiong is where I was born and grew up. My parents taught me to respect older people, care for children, treat others kindly and remain positive. Those principles, together with valuing family affection, have shaped my life and my sense of belonging.\n\nMacau marked the start of my career and opened a new world for me. It represents my efforts to work hard and become part of local life. My hometown and upbringing are my starting point and roots; Macau is my life today. That is the emotional journey I would share with the next generation.\n\nHave you thought about returning home in retirement?\n\nI have considered it.",
+              "zh": "楚雄是我出生、长大的地方。父母教我尊老爱幼、善待他人，保持积极向上、与人为善的态度。这些原则以及对亲情的重视，对我一生影响深远，也是重要的归属感来源。\n\n澳门是我事业的起点，也是崭新的天地，代表了我努力奋斗、融入当地的历程。故乡和成长经历是起点与根，澳门是我现在的生活。我会把这段情感历程讲给下一代。\n\n您想过回老家养老吗？\n\n想过。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:11:19.600"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:11:43.800"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:12:13.175"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:12:33.875",
+              "speaker": "Conversation",
+              "en": "I am used to life in Macau, but I also long for the peaceful life back home. Perhaps when I am older, I will spend half my time in Yunnan and half in Macau.\n\nWhen you first came to Macau, did you intend to settle or stay temporarily?\n\nAt first I planned to study here and return to mainland China for work after graduation. But Macau's rapid development, the warmth of its people and their openness to newcomers attracted me, so I eventually stayed.",
+              "zh": "我现在很习惯澳门的生活，同时也向往老家恬淡的生活状态。也许以后老了，会一半时间在云南养老，一半时间在澳门。\n\n最初来澳门时，您是打算定居，还是暂时停留？\n\n起初只是想来读书，毕业后回内地工作。但澳门快速发展的状态、人们的热情，以及对外来者的包容吸引了我，后来就留了下来。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:12:33.875"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:12:57.000"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:13:17.875",
+              "speaker": "Conversation",
+              "en": "Was there a moment when you strongly felt Macau was different from Yunnan?\n\nThe Christmas atmosphere stood out. The anniversary of Macau's return to China on the twentieth and Christmas on the twenty-fifth make this a major festive period. I remember Lunar New Year having only three days of holiday and feeling quieter, quite unlike home.\n\nAt Christmas, foreigners, people from mainland China and local residents all come together in a joyful atmosphere. Lunar New Year feels quieter by comparison and makes me want to go home.\n\nHave you kept any Yunnan habits while living in Macau?",
+              "zh": "有没有哪件事让您强烈感到澳门与云南不同？\n\n我觉得是圣诞节的气氛。每年二十日是澳门回归纪念日，二十五日是圣诞节，这段时间是一年中很隆重的节日。我记得春节反而只放三天假，感觉比较平淡，与家乡不同。\n\n澳门的圣诞节里，外国人、内地人和本地居民一起相聚，节日气氛很欢乐。相比之下，春节比较平淡，让我很想回老家。\n\n在澳门，您还保留哪些云南的生活习惯？",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:13:17.875"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:13:45.850"
+                }
+              ],
+              "review_status": "edited_machine_draft",
+              "review_note": "The holiday pattern is the narrator’s recollection, not a verified statement of current holiday regulations."
+            },
+            {
+              "t": "00:14:15.250",
+              "speaker": "Conversation",
+              "en": "Mostly habits of daily life and food. We like seasonings made with particular spices, or chilli and other condiments. We bring these from Yunnan and sometimes add them when cooking, giving the food a familiar Yunnan flavour.",
+              "zh": "主要是起居、饮食方面。我们喜欢一些用特有香料做成的调料，或辣椒之类的佐料，会从云南带来，做菜时偶尔添加，让食物有云南的风味。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:14:15.250"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:14:43.700",
+              "speaker": "Conversation",
+              "en": "Did language ever cause misunderstandings when you first arrived in Macau?\n\nAt first I could not understand Cantonese. The sounds for one or two were very different from our dialect, and I often misheard them. [The exact example involving the number one is unclear in the source draft.]\n\nThat brings today's interview to an end. Thank you.",
+              "zh": "刚到澳门时，有没有因为语言差异产生过误会？\n\n刚来时，我听不懂粤语。一、二这些数字的读音与我们的方言差别很大，经常听错。[原始转写中关于数字“一”的具体误听例子不清楚。]\n\n今天的采访到这里结束，谢谢。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:14:43.700"
+                }
+              ],
+              "review_status": "edited_machine_draft",
+              "review_note": "Exact Cantonese number-mishearing example remains unclear; no reconstructed phonetics."
+            }
+          ]
+        }
+      ]
+    }
   }
 };
 interviews.forEach(item => { if (readingEditions[item.slug]) item.readingEdition = readingEditions[item.slug]; });

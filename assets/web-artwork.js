@@ -30,6 +30,56 @@ const webArtwork = {
     "displayWidth": 1024,
     "displayHeight": 435
   },
+  "objects/yuhan-aunt-mandarin-pine-front.png": {
+    "originalWidth": 1024,
+    "originalHeight": 1536,
+    "thumbnail": "optimized/yuhan-aunt-mandarin-pine-front-320-f62c58239cc9.webp",
+    "thumbnailWidth": 320,
+    "thumbnailHeight": 480,
+    "display": "optimized/yuhan-aunt-mandarin-pine-front-1024-50169a71a959.webp",
+    "displayWidth": 1024,
+    "displayHeight": 1536
+  },
+  "objects/yuhan-aunt-yunnan-chilli-front.png": {
+    "originalWidth": 2172,
+    "originalHeight": 724,
+    "thumbnail": "optimized/yuhan-aunt-yunnan-chilli-front-320-1d80454153e1.webp",
+    "thumbnailWidth": 320,
+    "thumbnailHeight": 107,
+    "display": "optimized/yuhan-aunt-yunnan-chilli-front-1024-6f5ecba947cc.webp",
+    "displayWidth": 1024,
+    "displayHeight": 342
+  },
+  "objects/yuhan-grandmother-letter-front.png": {
+    "originalWidth": 1536,
+    "originalHeight": 1024,
+    "thumbnail": "optimized/yuhan-grandmother-letter-front-320-3b883e53899e.webp",
+    "thumbnailWidth": 320,
+    "thumbnailHeight": 214,
+    "display": "optimized/yuhan-grandmother-letter-front-1024-5a22b5c4afc0.webp",
+    "displayWidth": 1024,
+    "displayHeight": 683
+  },
+  "objects/yuhan-uncle-train-front.png": {
+    "originalWidth": 1149,
+    "originalHeight": 1369,
+    "thumbnail": "optimized/yuhan-uncle-train-front-320-ad28bcbc69b4.webp",
+    "thumbnailWidth": 320,
+    "thumbnailHeight": 382,
+    "display": "optimized/yuhan-uncle-train-front-1024-3344ea13dc5f.webp",
+    "displayWidth": 1024,
+    "displayHeight": 1221
+  },
+  "objects/yuhan-younger-aunt-flower-bun-front.png": {
+    "originalWidth": 1536,
+    "originalHeight": 1024,
+    "thumbnail": "optimized/yuhan-younger-aunt-flower-bun-front-320-93b1e62819ef.webp",
+    "thumbnailWidth": 320,
+    "thumbnailHeight": 214,
+    "display": "optimized/yuhan-younger-aunt-flower-bun-front-1024-260a9118147b.webp",
+    "displayWidth": 1024,
+    "displayHeight": 683
+  },
   "radio-australia-light.png": {
     "originalWidth": 1536,
     "originalHeight": 1024,

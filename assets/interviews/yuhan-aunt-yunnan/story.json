@@ -1,0 +1,35 @@
+{
+  "slug": "yuhan-aunt-yunnan",
+  "subtitle": "A Taste of Yunnan",
+  "narrator": {
+    "display_name": "YUHAN LI’s aunt (Yunnan dialect)",
+    "relation_zh": "姨妈",
+    "name": null
+  },
+  "interviewer": {
+    "name": "YUHAN LI"
+  },
+  "interview": {
+    "language": "Yunnan dialect",
+    "date": "2026-10-26",
+    "place": null
+  },
+  "object_reference": {
+    "name": "A Chilli Pepper",
+    "start_seconds": 855.25,
+    "end_seconds": 883.7,
+    "representative_symbol": true,
+    "note": "The narrator says they bring spices and seasonings, including chilli, from Yunnan and occasionally add them to food in Macau to retain hometown flavours. The pepper is a representative symbol, not a photograph of a documented family possession or an identified cultivar."
+  },
+  "review_status": "family_review_pending",
+  "publication_permission": "not_recorded",
+  "editorial_notes": [
+    "This is the Yunnan-dialect aunt in interview 5, a different person from the Mandarin-speaking aunt in interview 2, as confirmed by the user. The supplied DOCX has no summary for this narrator.",
+    "The narrator describes growing up in Chuxiong until eighteen, five years of university life in Chengdu, postgraduate studies in Macau, several years of work in Kunming and a return to Macau. No exact migration year, institution, profession or order of degree completion versus the Kunming period is inferred.",
+    "Almost twenty years in Macau and the description of local climate and holiday patterns are retained as personal recollections, not independently verified chronology or statistics.",
+    "The closing example of mishearing Cantonese numbers remains unclear in the ASR source. The reading edition preserves the general recollection without inventing a phonetic explanation.",
+    "The chilli represents spices and seasonings brought from Yunnan at 14:15.250–14:43.700. No particular cultivar, family-owned specimen or exact preparation is documented.",
+    "The opening records agreement to be interviewed; it does not establish separate permission for online publication. Source and translation review statuses remain unchanged.",
+    "English quotations are translated and edited for clarity from the cited narrator passages. Window timestamps are not verified word-level quotation boundaries. All translations and edited passages remain drafts pending family review."
+  ]
+}
