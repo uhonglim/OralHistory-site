@@ -1,0 +1,35 @@
+{
+  "slug": "yhsam-father",
+  "subtitle": "A Place to Return To",
+  "narrator": {
+    "display_name": "YHSAM’s father",
+    "relation_zh": "父亲",
+    "name": null
+  },
+  "interviewer": {
+    "name": "YHSAM"
+  },
+  "interview": {
+    "language": "Cantonese",
+    "date": null,
+    "place": null
+  },
+  "object_reference": {
+    "name": "Incense Sticks",
+    "start_seconds": 519.65,
+    "end_seconds": 542.675,
+    "representative_symbol": true,
+    "note": "The narrator remembers his mother burning incense at home and says he continues the practice where he lives. The image is a representative symbol of that family habit; no religion, denomination, specific incense, holder, or surviving object is documented."
+  },
+  "review_status": "family_review_pending",
+  "publication_permission": "not_recorded",
+  "editorial_notes": [
+    "Based on the complete Qwen3-ASR Cantonese machine draft; the bilingual edition and translated quotations remain pending family and human listening review.",
+    "The user requested YHSAM’s father; the source filename says Sam’s father. The website uses YHSAM as interviewer in the collection context, but the narrator’s personal name and recording date and location are unconfirmed.",
+    "The account of a possible move to Canada is retained as his own recollection: he says he returned to Macau and did not formally relocate, rather than asserting permanent settlement.",
+    "The narrator reflects that his own approach to physical discipline changed, and describes working on spending more time with and listening to his children. The Story summarizes his reflection without inventing specific events.",
+    "The narrator’s statements about citizenship, identity and historical developments are personal recollections in the audio, not independently verified claims; the Story does not expand or foreground those details.",
+    "Incense symbolizes his recollection of his mother’s practice and his continuation of it at home. No religion, denomination, specific object, household ownership or physical incense design is established.",
+    "English quotes are edited translations of narrator statements; their timestamps identify original ASR windows rather than verified word-level boundaries."
+  ]
+}

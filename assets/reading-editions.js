@@ -3753,6 +3753,480 @@ const readingEditions = {
         }
       ]
     }
+  },
+  "yhsam-father": {
+    "slug": "yhsam-father",
+    "story": {
+      "title": "A Place to Return To",
+      "paragraphs": [
+        "YHSAM’s father grew up in Macau, the youngest of five children. His parents worked hard, and his siblings cared for him. As the children grew up and began working, they supported the household. Even after the family lived apart, they continued to gather for festivals and meals.",
+        "After secondary school, he spent years working on the mainland before returning to Macau. He recalls long workdays and wishing for more time together as his children grew up. As a father, he reconsidered his approach to discipline and tried to listen to his children and spend more time with them.",
+        "He still keeps his mother’s habit of burning incense at home. He once considered settling in Canada, but returned to Macau, where his family and work gave him a sense of belonging. He hopes his children will choose their own paths, explore the world and still come home to share a meal."
+      ],
+      "quotes": [
+        {
+          "en": "I try to spend more time with them and listen to what they say. I am still working on it.",
+          "session_id": 1,
+          "t": "00:08:16.050",
+          "source_refs": [
+            {
+              "session_id": 1,
+              "t": "00:08:16.050"
+            },
+            {
+              "session_id": 1,
+              "t": "00:08:39.650"
+            }
+          ]
+        },
+        {
+          "en": "My mother used to burn incense at home. I still keep that habit where I live now.",
+          "session_id": 1,
+          "t": "00:08:39.650",
+          "source_refs": [
+            {
+              "session_id": 1,
+              "t": "00:08:39.650"
+            }
+          ]
+        },
+        {
+          "en": "Whenever I travel, I try to understand local customs and the way people think.",
+          "session_id": 1,
+          "t": "00:11:21.250",
+          "source_refs": [
+            {
+              "session_id": 1,
+              "t": "00:11:21.250"
+            }
+          ]
+        },
+        {
+          "en": "I hope they can go farther, but also make time to come back and share a meal with their parents.",
+          "session_id": 1,
+          "t": "00:14:15.650",
+          "source_refs": [
+            {
+              "session_id": 1,
+              "t": "00:14:15.650"
+            }
+          ]
+        }
+      ]
+    },
+    "transcript": {
+      "edition": "edited-for-clarity",
+      "note": "Edited for clarity · English translation and written Chinese.",
+      "sessions": [
+        {
+          "id": 1,
+          "segments": [
+            {
+              "t": "00:00:00.000",
+              "speaker": "Conversation",
+              "en": "Could you tell us where you grew up, how your family came to live here, and what your family was like?\n\nI grew up in Macau, the youngest of five children: two older brothers and two older sisters. My parents worked very hard. My mother worked at a factory, often until very late at night. I went to school and grew up like an ordinary child. As my older siblings finished school and went to work, they looked after me and our other brother.",
+              "zh": "您小时候在哪里长大？家人是怎样来到现在居住的地方的？能介绍一下家庭情况吗？\n\n我在澳门长大，是五个兄弟姐妹中最小的，有两个哥哥和两个姐姐。父母工作都很辛苦，母亲在工厂做工，常常忙到深夜。我一边读书一边长大，和普通孩子一样。哥哥姐姐们陆续毕业工作，也很照顾我和另一位哥哥。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:00:00.000"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:00:29.000"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:00:50.675"
+                }
+              ],
+              "review_status": "edited_machine_draft",
+              "review_note": "The exact kind of factory in the machine transcript is unclear."
+            },
+            {
+              "t": "00:01:14.925",
+              "speaker": "Conversation",
+              "en": "My siblings worked hard and gave their wages to our mother to help improve life at home. We moved from a poor neighbourhood into a concrete building in central Macau, although it was crowded there. My eldest brother went to Hong Kong, worked for many years as a bank manager, and settled there with his family. One sister married; another, who never married and did well at school, spent a lot of time helping us learn. When our family was poor, they transported or made firecrackers. I was the lucky one who did not have to do that work.",
+              "zh": "哥哥姐姐辛苦工作，把工资交给母亲，希望改善家里的生活。后来我们从贫困的住区搬到澳门中区的水泥楼，那里也比较拥挤。大哥到香港发展，在银行做了多年经理，后来在那里成家生活。一位姐姐结了婚；另一位姐姐没有结婚，她读书很好，也花了很多时间教我们功课。家里困难的时候，家人需要运送或制作炮竹，我是最幸运的那个，不用做这些工作。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:01:14.925"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:01:36.475"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:01:57.725"
+                }
+              ],
+              "review_status": "edited_machine_draft",
+              "review_note": "The former housing type is unclear in the machine transcript; a specific building type is not inferred."
+            },
+            {
+              "t": "00:02:23.050",
+              "speaker": "Conversation",
+              "en": "One older sister introduced me to a job. After taking that job, I met your mother. It was work on a construction site. I was not afraid of hard work, although I had not studied much and my grades were ordinary. [A short expression about his attitude to work is unclear.]\n\nWhat stands out most about growing up in this family?\n\nWhen anything happened, the five of us would come together. Even after we had jobs and lived separately, we gathered at festivals. After meeting my wife, I moved out, and we later had three children.",
+              "zh": "一位姐姐给我介绍了工作，之后我认识了你妈妈。当时是在工地工作。我不怕辛苦，虽然读书不多，成绩也比较普通。[关于自己做事态度的一句短语识别不清。]\n\n在这样的家庭中长大，什么让您印象最深？\n\n我们五个兄弟姐妹遇到事情都会聚在一起。即使后来大家工作、分开居住，过节时也会相聚。认识太太后，我搬出来住，后来我们有了三个孩子。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:02:23.050"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:02:52.825"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:03:20.875"
+                }
+              ],
+              "review_status": "edited_machine_draft",
+              "review_note": "One short expression at approximately 02:53 is unclear in the machine transcript."
+            },
+            {
+              "t": "00:03:43.975",
+              "speaker": "Conversation",
+              "en": "What I remember most is that we kept gathering for holidays, even though one sibling was in Hong Kong and another travelled for work. More than ten years ago, one of my older sisters died. I still miss her. My mother died afterwards. Both losses affected me deeply and made me want to do better.",
+              "zh": "让我印象最深的是，即使家人分隔两地，有人在香港，有人因工作四处奔波，我们逢年过节还是会相聚。十多年前，我的一位姐姐去世了，直到现在我仍然很怀念她。后来母亲也去世了。这两件事对我打击很大，也让我希望自己做得更好。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:03:43.975"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:04:09.625"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:04:32.350"
+                }
+              ],
+              "review_status": "edited_machine_draft",
+              "review_note": "The sister is identified by family order in the draft; no cause of death is established."
+            },
+            {
+              "t": "00:04:52.900",
+              "speaker": "Conversation",
+              "en": "How would you describe your relationships with family members of different generations? Did moving change them?\n\nI used to think in a traditional way. When we were children, my parents used corporal punishment when they thought we had done something wrong. When my own children were young, I also used corporal punishment, believing it could work. My wife knew how to teach the children, and over time she helped change my view. I came to believe that corporal punishment does not solve the problem.",
+              "zh": "您怎样描述自己与不同辈分家人的关系？迁移经历有没有改变这些关系？\n\n我以前的想法比较传统。小时候，父母认为我们做错事时，会用体罚的方式教育我们。我的孩子还小时，我也曾使用体罚，以为这样是可行的。太太更懂得教育孩子，她后来逐渐改变了我的想法，让我认识到体罚不能解决问题。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:04:52.900"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:05:17.125"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:05:43.100"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:06:09.525",
+              "speaker": "Conversation",
+              "en": "My children have grown: the older two are in their twenties, and the youngest is still a teenager. I want to spend more time with them. After secondary school I worked in mainland China for fifteen or sixteen years, then returned to Macau, where I have worked for a little over twenty years. I have always worked hard. If I could not finish something in eight hours, I might work twelve or more to complete it. I wanted to provide for my family, but later I also tried to make more time for them.",
+              "zh": "孩子们慢慢长大了：大儿子和二儿子都已经二十多岁，小儿子还在十几岁。我希望能多花时间陪伴他们。中学毕业后，我在内地工作了十五六年，后来回到澳门，又工作了二十多年。我一直很勤力，如果八小时做不完，就可能工作十二小时甚至更久，希望把事情完成。我努力工作是为了家庭，但后来也希望能多留时间陪家人。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:06:09.525"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:06:29.925"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:06:59.475"
+                }
+              ],
+              "review_status": "edited_machine_draft",
+              "review_note": "Durations and the children’s ages are the narrator’s approximate recollections at the time of recording."
+            },
+            {
+              "t": "00:07:28.950",
+              "speaker": "Conversation",
+              "en": "As I changed my attitude, my relationship with my three sons gradually became closer.\n\nHave differences in traditions, values or ways of life ever caused disagreements with your family? Can you give an example?\n\nAs I mentioned, I once thought corporal punishment would work. Instead, I realised it made my sons more afraid of me and pushed them farther away. I began to spend more time with them and listen to what they had to say. I still do not always do it well enough, but I am trying, so that we can feel closer to one another.",
+              "zh": "改变心态后，我和三个儿子的关系也慢慢拉近了。\n\n您有没有因为传统习俗、价值观或生活方式，与家人发生过分歧？能举一个例子吗？\n\n正如刚才所说，我曾经以为体罚有用，后来发现它反而让孩子更害怕我、与我疏远。我开始尽量多花时间陪他们，也倾听他们说的话。现在有时仍然做得不够好，但我一直在努力，希望彼此都能感受到这份亲近。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:07:28.950"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:07:52.950"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:08:16.050"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:08:39.650",
+              "speaker": "Conversation",
+              "en": "I am still working on it. As for traditions, my mother used to burn incense at home, and I have kept that habit in my own home. I still live in Macau. As our children arrived, we moved two or three times, eventually finding a more comfortable flat where everyone could have a room. That gives me a great deal of satisfaction.",
+              "zh": "我还在努力。至于传统习惯，母亲以前在家上香，如今我在自己的住处也保留了这个习惯。我仍然住在澳门。随着孩子一个个出生，我们搬过两三次家，后来住进一间更舒适、能让大家都有房间的房子。这让我感到很欣慰。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:08:39.650"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:09:02.675"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:09:23.675",
+              "speaker": "Conversation",
+              "en": "When people ask where you are from, what do you say? Has your answer changed?\n\nWhen I was young, I thought Macau was distinctive because of its history. Hong Kong had been administered by Britain, and Macau by Portugal. I obtained Portuguese nationality and travel documents; my three sons also have them. At the time, I compared Macau, Hong Kong and the mainland in ways that reflected how I saw them then. Later, after working on the mainland for more than ten years, I saw how rapidly China was developing and changing.",
+              "zh": "别人问您来自哪里时，您通常怎样回答？这个答案有没有随时间改变？\n\n小时候，我觉得澳门因历史而独特：香港曾由英国管理，澳门则由葡萄牙管理。我取得了葡萄牙国籍，也有旅行证件；我的三个儿子也有。那时我会比较澳门、香港和内地的生活。后来我在内地工作了十多年，看到了中国迅速发展和变化。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:09:23.675"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:09:47.300"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:10:07.825"
+                }
+              ],
+              "review_status": "edited_machine_draft",
+              "review_note": "Nationality and documents are the narrator’s self-report; the exact comparison among places is indistinct in the machine transcript."
+            },
+            {
+              "t": "00:10:31.975",
+              "speaker": "Conversation",
+              "en": "I felt that development in Macau was slower. Now, when I travel, I tell people that I am Chinese and was born in Macau, China.\n\nDo you feel connected to more than one place or culture?\n\nI think people and cultures influence one another. When I have the chance to travel abroad, for example to Japan, I try to understand local customs, ways of life and ways of thinking. My son has also studied in Britain. I also hope people will not misunderstand Chinese visitors.",
+              "zh": "我觉得澳门的发展相对缓慢。现在到世界各地旅行时，我会告诉别人，我是中国人，出生在中国澳门。\n\n您是否觉得自己与不止一个地方或一种文化有联系？\n\n我觉得世界上的人和文化是互相交融的。如果有机会去国外，例如去日本旅行，我会尝试了解当地的风土人情、生活习惯和思考方式。我的儿子也曾在英国读书。我也希望别人不要误解中国旅客。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:10:31.975"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:10:54.750"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:11:21.250"
+                }
+              ],
+              "review_status": "edited_machine_draft",
+              "review_note": "The comparison of development is the narrator’s recollection and opinion."
+            },
+            {
+              "t": "00:11:46.175",
+              "speaker": "Conversation",
+              "en": "For me, travelling is about living happily and learning from one another.\n\nCan you recall a moment when you felt a strong sense of belonging? [Part of the question is unclear in the machine transcript.]\n\nAt work, when I am discouraged or something has gone badly, colleagues support and protect me. At home, even when I return exhausted or unhappy, seeing my wife and three children makes many worries feel unimportant. I feel comfortable there.",
+              "zh": "我觉得旅行是为了让大家生活得更开心，也能互相学习。\n\n您能回忆一个让自己特别有归属感的时刻吗？[问题的一部分在机器转写中不清楚。]\n\n在公司，如果我沮丧、事情没有做好，或发生了大事，同事都会支持和维护我。在家里，即使我疲惫或不开心，回去见到太太和三个孩子，很多烦恼也会变得不重要。我在家里感到很舒服。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:11:46.175"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:12:09.300"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:12:37.675"
+                }
+              ],
+              "review_status": "edited_machine_draft",
+              "review_note": "The latter part of the interviewer’s belonging/outsider question is unclear."
+            },
+            {
+              "t": "00:12:58.925",
+              "speaker": "Conversation",
+              "en": "At home I can rest as though I were apart from the world. When I have recovered my energy, the problems no longer feel so overwhelming.\n\nAre there parts of your family’s culture or customs that are especially important to you, or less important now?\n\nEating a meal together remains important to me. Even after my siblings and I grew up, married and worked in different places, we gathered with our parents at festivals. Since my mother died, we still get together for my father’s birthday, Father’s Day, New Year and other occasions.",
+              "zh": "在家里休息时，就像暂时与外界隔开一样。等精神恢复后，原来的烦恼也不会显得那么严重。\n\n家里的文化或习惯中，有哪些对您特别重要，或者现在已经不那么重要？\n\n一家人一起吃饭，对我一直很重要。即使兄弟姐妹长大、结婚、在不同地方工作，我们过节时也会和父母相聚。母亲去世后，我们仍会在父亲生日、父亲节、新年等日子聚在一起。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:12:58.925"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:13:28.875"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:13:49.025"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:14:15.650",
+              "speaker": "Conversation",
+              "en": "My siblings and our children meet for meals. I hope we keep doing that, even as the younger generation goes farther away to develop their own lives. I hope they can still find time to return and eat with their parents.\n\nHow do your views differ from older or younger family members’ views?\n\nThere are differences. My eldest brother is eight years older than me and can be more conservative. As the youngest, I tend to take a more open view.",
+              "zh": "兄弟姐妹和孩子们都会一起吃饭。我希望这个习惯能延续下去。将来晚辈也许会到更远的地方发展，但我希望他们仍能抽时间回来，和父母一起吃顿饭。\n\n您的看法与年长或年轻的家人有什么不同？\n\n大家的想法确实有差别。大哥比我大八岁，有些观念可能比较保守；我作为家中最小的，通常会抱比较开放的态度。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:14:15.650"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:14:40.525"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:15:07.500"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:15:30.350",
+              "speaker": "Conversation",
+              "en": "Some traditional ideas say that parents should buy a home for a son, while a daughter who marries is treated as though she has left the family. Although I have three sons and no daughters, I think that view needs to change. I want my children to choose their own paths. Whether they make a lot of money, have a partner or marry is less important to me than their happiness. I hope they can go out and see the world; some things can be left to chance.",
+              "zh": "有些传统观念认为，父母有儿子就一定要替他买房；女儿嫁出去后，就像“泼出去的水”。虽然我有三个儿子、没有女儿，我仍觉得这样的观念需要改变。我希望孩子自己选择发展方向。无论他们挣多少钱、有没有伴侣、是否结婚，我觉得最重要的是他们开心，也希望他们能出去看看；有些事情可以随缘。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:15:30.350"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:15:59.150"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:16:20.750",
+              "speaker": "Conversation",
+              "en": "What stories about your family’s movements have older relatives told you, or would you pass on to the next generation?\n\nI worked away from home for more than ten years and could seldom return. I wanted to return more often. My mother is gone and my father is now elderly; I am grateful for the time I can still spend with him. My parents’ generation felt it was best for the family to live together for life. I do not think my children have to. They can go wherever they wish and build their lives there.",
+              "zh": "关于家庭的迁移经历，有哪些故事是长辈告诉您的，或者您想传给下一代的？\n\n我曾离开家乡工作十多年，很少回来。我希望能多回家探望。母亲已经不在了，父亲年纪也大了；现在还能多见他、陪他，我很感恩。父母那一代觉得一家人一辈子住在一起最好，但我不认为孩子必须这样。他们想去哪里发展，都可以自己选择。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:16:20.750"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:16:42.050"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:17:07.775"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:17:32.500",
+              "speaker": "Conversation",
+              "en": "Looking back, how has your family’s migration shaped who you are and your relationships with other generations?\n\nWhat do you mean by generations?\n\nDifferent generations within the family.\n\nI understand. If we only follow old ideas, there may be little progress. We build on what came before, make changes and step outside the framework. People often call that leaving your “comfort zone”. Family can be warm and comfortable, but I think we also need to go out and explore in order to grow.",
+              "zh": "回头看，家庭的迁移经历怎样影响了今天的您，以及您和不同辈分家人的关系？\n\n“不同辈分”是什么意思？\n\n就是家里不同的世代。\n\n我明白了。如果我们只照着旧观念走，进步可能不多。世界是在原有基础上不断改变的，人也要走出原来的框框。人们常说要走出“舒适区”：家庭固然温暖、舒服，但我觉得也需要向外探索，才能成长。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:17:32.500"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:17:59.775"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:18:23.100"
+                }
+              ],
+              "review_status": "edited_machine_draft"
+            },
+            {
+              "t": "00:18:46.500",
+              "speaker": "Conversation",
+              "en": "Going out can make life richer and allow a person to contribute to society as well as to the family.\n\nWhat do you know about your family’s past movements between places—for example, from Zhongshan to Macau? Did historical events influence your sense of identity?\n\nWhen Hong Kong returned to China, I began to worry about the future.",
+              "zh": "走出去可以让自己的一生更精彩，除了照顾家庭，也有机会为社会作出贡献。\n\n关于家人过去在不同地方之间的迁移，例如从中山到澳门，您知道多少？历史事件有没有影响您对自己身份的认识？\n\n香港回归的时候，我开始担心未来。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:18:46.500"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:19:10.200"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:19:33.200"
+                }
+              ],
+              "review_status": "edited_machine_draft",
+              "review_note": "Zhongshan-to-Macau appears as an interviewer example; a specific family migration route is not independently established."
+            },
+            {
+              "t": "00:19:56.825",
+              "speaker": "Conversation",
+              "en": "At the time I worried about how Macau would develop, because I did not yet understand the mainland very well. Since then, I have seen China develop rapidly and become more open over the past twenty or thirty years. Back then, some friends in Hong Kong and one of my sisters had emigrated to Canada. I went there and found a very different world and a pleasant environment. But my family, the city where I grew up, and my work were in Macau. Although I could find work in Canada and people were kind, I did not feel the same sense of belonging, so I decided to return.",
+              "zh": "当时我担心澳门未来的环境和发展，因为自己对内地还不够了解。后来我看到，中国在过去二三十年里发展得很快，也更加开放。那时，香港的一些朋友和我的一位姐姐移居了加拿大。我也去过那里，觉得那是一个很不一样的世界，环境也很好。但我的家人、成长的城市和工作都在澳门。虽然在加拿大能找到工作，当地人也很好，我却没有同样的归属感，所以决定回来。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:19:56.825"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:20:21.650"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:20:42.850"
+                }
+              ],
+              "review_status": "edited_machine_draft",
+              "review_note": "Which sister went to Canada is unclear in the machine transcript. Timing and views about development are the narrator’s recollections."
+            },
+            {
+              "t": "00:21:11.600",
+              "speaker": "Conversation",
+              "en": "Although I was granted Canadian residence, I never formally moved there. I chose to live in Macau, be with my family and watch my children grow up, which has been a source of happiness. Some friends remained abroad. When we meet after many years, they still speak of wanting to return to Macau; seeing familiar people can feel like being with family. Times have changed, though. If my three sons want to develop their lives overseas or on the mainland, I want them to choose for themselves. That is what I think is best.",
+              "zh": "虽然我获批了加拿大居留权，但并没有正式搬过去。我选择回澳门生活，与家人在一起，看着孩子们长大，这让我感到很欣慰。有些朋友留在国外，相隔多年再相聚时，他们仍会说想回澳门；见到熟悉的人，就像一家人一样。不过时代已经变了。将来三个儿子无论想去国外还是内地发展，我都愿意让他们自己选择。我觉得这才是最理想的。",
+              "source_refs": [
+                {
+                  "session_id": 1,
+                  "t": "00:21:11.600"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:21:33.075"
+                },
+                {
+                  "session_id": 1,
+                  "t": "00:22:00.625"
+                }
+              ],
+              "review_status": "edited_machine_draft",
+              "review_note": "The precise identities of friends or relatives in the closing remarks are unclear. The recording ends with an unfinished phrase, which is not completed here."
+            }
+          ]
+        }
+      ]
+    }
   }
 };
 interviews.forEach(item => { if (readingEditions[item.slug]) item.readingEdition = readingEditions[item.slug]; });

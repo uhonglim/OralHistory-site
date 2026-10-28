@@ -30,6 +30,16 @@ const webArtwork = {
     "displayWidth": 1024,
     "displayHeight": 435
   },
+  "objects/yhsam-father-incense-front.png": {
+    "originalWidth": 1024,
+    "originalHeight": 1536,
+    "thumbnail": "optimized/yhsam-father-incense-front-320-9a772be92f82.webp",
+    "thumbnailWidth": 320,
+    "thumbnailHeight": 480,
+    "display": "optimized/yhsam-father-incense-front-1024-b1190439cb7f.webp",
+    "displayWidth": 1024,
+    "displayHeight": 1536
+  },
   "objects/yuhan-aunt-mandarin-pine-front.png": {
     "originalWidth": 1024,
     "originalHeight": 1536,

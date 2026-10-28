@@ -1,6 +1,6 @@
 {
-  "source_commit": "99ff2ff6f0239a67a286d34681d0a222cf991b25",
-  "created_at": "2026-10-28T17:23:25.414931+00:00",
+  "source_commit": "0f3366ea887076a533138a471717156b9eeb017e",
+  "created_at": "2026-10-28T18:21:46.556295+00:00",
   "files": {
     ".nojekyll": {
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -81,6 +81,26 @@
     "assets/interviews/wang-grandfather/transcript.json": {
       "sha256": "0894edc92c4b7e5a139630c631246d8b74a19a4528362449503453b4fd8e04c9",
       "bytes": 41895
+    },
+    "assets/interviews/yhsam-father/audio/interview-stream-57bf3da52568.mp3": {
+      "sha256": "57bf3da52568573377ac6188f288b4612cd4a6dd598919e38a975b0cec744729",
+      "bytes": 10741868
+    },
+    "assets/interviews/yhsam-father/audio/interview.mp3": {
+      "sha256": "dc162296055669795235629b9288006c6050b66603db1ed35bfb5201fe1b66f8",
+      "bytes": 16112492
+    },
+    "assets/interviews/yhsam-father/interview.js": {
+      "sha256": "2769069615f3908df9d2504223b1ddf56c54700571098c089a41d1aa209fea16",
+      "bytes": 52931
+    },
+    "assets/interviews/yhsam-father/story.json": {
+      "sha256": "b26d018b62e44b507e0867b121b5a5ca73bded1515b7b644d2b9630d9e8caceb",
+      "bytes": 2256
+    },
+    "assets/interviews/yhsam-father/transcript.json": {
+      "sha256": "a3bbc383f31669795d2521834c694c64057e9ac16fe245a124c6af357083a444",
+      "bytes": 48289
     },
     "assets/interviews/yufeng-great-uncle/audio/interview-stream-9ff7386b46f3.mp3": {
       "sha256": "9ff7386b46f33e530853214f74ce892bc71cb0002955f1c3bbec8459d16f882e",
@@ -218,6 +238,10 @@
       "sha256": "fc0caad53d8b46f7cb8c5f8333a5fdd2c7daea7a0055d87c00c5cf3c16cfdcc8",
       "bytes": 1339625
     },
+    "assets/objects/yhsam-father-incense-front.png": {
+      "sha256": "37bda6a69e05d96dc8f6e6169caecc25d178dc569016f66811396cfe48c2649e",
+      "bytes": 1835685
+    },
     "assets/objects/yuhan-aunt-mandarin-pine-front.png": {
       "sha256": "5574d8268ab8c6666c47277dede1ac9d7b4217c0c5e020810c9622231dedade0",
       "bytes": 1933797
@@ -342,6 +366,14 @@
       "sha256": "57487a2f9d2fccf238ebbac55842e8db3da2f745ab643bb37c37e28089f251b6",
       "bytes": 10890
     },
+    "assets/optimized/yhsam-father-incense-front-1024-b1190439cb7f.webp": {
+      "sha256": "b1190439cb7f709e3dc8919f88b8241bf12ad371a7e8cbbe41162abf96703af1",
+      "bytes": 166562
+    },
+    "assets/optimized/yhsam-father-incense-front-320-9a772be92f82.webp": {
+      "sha256": "9a772be92f82917a0a7dcedc41f796eeff40d929930348da01f49adf4ce93ba9",
+      "bytes": 18206
+    },
     "assets/optimized/yuhan-aunt-mandarin-pine-front-1024-50169a71a959.webp": {
       "sha256": "50169a71a95998809dad3102e50bfaacbfed09fd07074e9a02f769b64f5d004c",
       "bytes": 382812
@@ -431,8 +463,8 @@
       "bytes": 1883984
     },
     "assets/reading-editions.js": {
-      "sha256": "2c12f395eb0cf7142d7b4dad7191724dfaaf0e2c9bd4f5fae84d2a4a9d797f64",
-      "bytes": 251091
+      "sha256": "2d50f1ef6808f6a49d22e30a69e49c86fdabd90a69f4e8382a013fe1c2ba92a8",
+      "bytes": 283134
     },
     "assets/site.css": {
       "sha256": "4f2f83d7a0fdcc20e7fc131e704a68cd035705bd433f46fadedbb075a4692f75",
@@ -447,20 +479,20 @@
       "bytes": 19165
     },
     "assets/web-artwork.js": {
-      "sha256": "e989e2d83e26e88f2faf5f14c8cc961329c3b4775869513d2a57f4d51c5e8505",
-      "bytes": 6379
+      "sha256": "2b75e78d5f6b46d23871b04edd6ca24fd0478604e73f35f0045c2380a66235a1",
+      "bytes": 6749
     },
     "assets/web-audio.js": {
-      "sha256": "25330f3947fd7afc0a55284fc45be0352852b75faa8b82aa1b4c1b55b831bc1c",
-      "bytes": 2021
+      "sha256": "5e1ffba15c2695893554fe96ff42871832c1cbfb5cce576d6a1638f2c291a9ea",
+      "bytes": 2251
     },
     "index.html": {
-      "sha256": "db32b8d7423eb4d886a429337228899411a3d9701f3c521383c3004385687ea2",
-      "bytes": 1853
+      "sha256": "549df10cb20c757b27e50f4174c0d6d89c3f991ecf5cf62e758ead21a439ba11",
+      "bytes": 1944
     },
     "listen.html": {
-      "sha256": "7fec1459f990d0ddafdcd45b0b20146076ae72e6c958f54a45dfbfa787a8e4df",
-      "bytes": 5892
+      "sha256": "cbe8afdd0fee6513e0c950ece9511aa4d7ac19d70a6c87cdc3d5c861ae75f1f4",
+      "bytes": 5983
     },
     "robots.txt": {
       "sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",

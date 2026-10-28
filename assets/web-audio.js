@@ -12,6 +12,12 @@ const webAudioSources = {
     "durationSeconds": 2149.38,
     "bytes": 17195372
   },
+  "assets/interviews/yhsam-father/audio/interview.mp3": {
+    "file": "assets/interviews/yhsam-father/audio/interview-stream-57bf3da52568.mp3",
+    "type": "audio/mpeg",
+    "durationSeconds": 1342.692,
+    "bytes": 10741868
+  },
   "assets/interviews/yufeng-great-uncle/audio/interview.mp3": {
     "file": "assets/interviews/yufeng-great-uncle/audio/interview-stream-9ff7386b46f3.mp3",
     "type": "audio/mpeg",
