@@ -3759,7 +3759,7 @@ const readingEditions = {
     "story": {
       "title": "A Place to Return To",
       "paragraphs": [
-        "YHSAM’s father grew up in Macau, the youngest of five children. His parents worked hard, and his siblings cared for him. As the children grew up and began working, they supported the household. Even after the family lived apart, they continued to gather for festivals and meals.",
+        "HOU SAM YEUNG’s father grew up in Macau, the youngest of five children. His parents worked hard; his siblings cared for him. As the children grew up and began working, they supported the household. Even after they lived apart, they continued to gather for festivals and meals.",
         "After secondary school, he spent years working on the mainland before returning to Macau. He recalls long workdays and wishing for more time together as his children grew up. As a father, he reconsidered his approach to discipline and tried to listen to his children and spend more time with them.",
         "He still keeps his mother’s habit of burning incense at home. He once considered settling in Canada, but returned to Macau, where his family and work gave him a sense of belonging. He hopes his children will choose their own paths, explore the world and still come home to share a meal."
       ],

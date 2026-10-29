@@ -1,6 +1,6 @@
 {
-  "source_commit": "0f3366ea887076a533138a471717156b9eeb017e",
-  "created_at": "2026-10-28T18:21:46.556295+00:00",
+  "source_commit": "d6b04c857609caac32cb09b7d8a7ad1ceb637bd3",
+  "created_at": "2026-10-29T01:38:20.785279+00:00",
   "files": {
     ".nojekyll": {
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -91,12 +91,12 @@
       "bytes": 16112492
     },
     "assets/interviews/yhsam-father/interview.js": {
-      "sha256": "2769069615f3908df9d2504223b1ddf56c54700571098c089a41d1aa209fea16",
-      "bytes": 52931
+      "sha256": "69e2f4a92301a8f08fa0f606bc0104e3b7e36a7de56d2ce9ebe9b8b130c427c6",
+      "bytes": 53086
     },
     "assets/interviews/yhsam-father/story.json": {
-      "sha256": "b26d018b62e44b507e0867b121b5a5ca73bded1515b7b644d2b9630d9e8caceb",
-      "bytes": 2256
+      "sha256": "75e23e3422d06b3b599067c8ecc898fbcc4770a12f94e64eb72972c3abf64747",
+      "bytes": 2379
     },
     "assets/interviews/yhsam-father/transcript.json": {
       "sha256": "a3bbc383f31669795d2521834c694c64057e9ac16fe245a124c6af357083a444",
@@ -463,8 +463,8 @@
       "bytes": 1883984
     },
     "assets/reading-editions.js": {
-      "sha256": "2d50f1ef6808f6a49d22e30a69e49c86fdabd90a69f4e8382a013fe1c2ba92a8",
-      "bytes": 283134
+      "sha256": "8b27fe1d08d24e83c27ff7408b93c0256cfe9b02f5a476c5f2e5df83153a46e6",
+      "bytes": 283132
     },
     "assets/site.css": {
       "sha256": "4f2f83d7a0fdcc20e7fc131e704a68cd035705bd433f46fadedbb075a4692f75",
@@ -487,11 +487,11 @@
       "bytes": 2251
     },
     "index.html": {
-      "sha256": "549df10cb20c757b27e50f4174c0d6d89c3f991ecf5cf62e758ead21a439ba11",
+      "sha256": "f9e03e7b2601aba7b94785106c76c9846c86703c306f6a821d2e96a3ddf6da90",
       "bytes": 1944
     },
     "listen.html": {
-      "sha256": "cbe8afdd0fee6513e0c950ece9511aa4d7ac19d70a6c87cdc3d5c861ae75f1f4",
+      "sha256": "7b1fd3f6301ae23fc1d3e57a30760963e67a9ea17c4270f2052427837a15844b",
       "bytes": 5983
     },
     "robots.txt": {

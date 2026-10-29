@@ -7,8 +7,8 @@ interviews.push({
   "audio": "assets/interviews/yhsam-father/audio/interview.mp3",
   "durationSeconds": 1342.634667,
   "demo": false,
-  "interviewer": "YHSAM",
-  "narrator": "YHSAM’s father",
+  "interviewer": "HOU SAM YEUNG",
+  "narrator": "HOU SAM YEUNG’s father",
   "language": "Cantonese",
   "description": "A Macau childhood, years of work away, and the family ties and habits he hopes to keep.",
   "object": {
@@ -25,12 +25,12 @@ interviews.push({
     "slug": "yhsam-father",
     "subtitle": "A Place to Return To",
     "narrator": {
-      "display_name": "YHSAM’s father",
+      "display_name": "HOU SAM YEUNG’s father",
       "relation_zh": "父亲",
       "name": null
     },
     "interviewer": {
-      "name": "YHSAM"
+      "name": "HOU SAM YEUNG"
     },
     "interview": {
       "language": "Cantonese",
@@ -48,7 +48,7 @@ interviews.push({
     "publication_permission": "not_recorded",
     "editorial_notes": [
       "Based on the complete Qwen3-ASR Cantonese machine draft; the bilingual edition and translated quotations remain pending family and human listening review.",
-      "The user requested YHSAM’s father; the source filename says Sam’s father. The website uses YHSAM as interviewer in the collection context, but the narrator’s personal name and recording date and location are unconfirmed.",
+      "The user first referred to YHSAM’s father and subsequently corrected the name to HOU SAM YEUNG; the source filename says Sam’s father. The website credits HOU SAM YEUNG as interviewer in the collection context, but the interviewer’s voice, the narrator’s personal name, and the recording date and location remain unconfirmed.",
       "The account of a possible move to Canada is retained as his own recollection: he says he returned to Macau and did not formally relocate, rather than asserting permanent settlement.",
       "The narrator reflects that his own approach to physical discipline changed, and describes working on spending more time with and listening to his children. The Story summarizes his reflection without inventing specific events.",
       "The narrator’s statements about citizenship, identity and historical developments are personal recollections in the audio, not independently verified claims; the Story does not expand or foreground those details.",
@@ -553,7 +553,7 @@ interviews.push({
   ]
 });
 contributors.push({
-  "name": "YHSAM",
+  "name": "HOU SAM YEUNG",
   "role": "Interviewer",
-  "bio": "An interview with YHSAM’s father about his life and family."
+  "bio": "An interview with HOU SAM YEUNG’s father about his life and family."
 });
