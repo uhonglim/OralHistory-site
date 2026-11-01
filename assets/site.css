@@ -12,18 +12,21 @@
   --header-space: 40px;
   --radius-control: 12px;
   --radius-panel: 24px;
-  --nav-color: #ffffff;
-  --nav-hover: #f6faf5;
-  --nav-current: #eef5ec;
-  --nav-line: #284e44;
-  --nav-border: rgba(40, 78, 68, 0.18);
+  --nav-color: #bff2dd;
+  --nav-hover: #a9ecd3;
+  --nav-current: #f9c6e4;
+  --nav-current-hover: #f6b1d9;
+  --nav-line: #17171a;
+  --nav-border: #e3e3e6;
   --paper: #ffffff;
-  --ink: #1e2220;
-  --muted: #686d66;
-  --blue: #254d47;
-  --sky: #eef5ec;
+  --ink: #1c1c1e;
+  --ink-soft: #3d3d40;
+  --muted: #6a6a6e;
+  --blue: #4a4a4e;
+  --pink: #f2a9d4;
+  --sky: #bff2dd;
   --sun: #f8e7ab;
-  --line: #e4ebe0;
+  --line: #e3e3e6;
   --coral: #d78468;
 }
 
@@ -143,6 +146,10 @@ input:focus-visible,
   background: var(--nav-current);
   font-weight: 600;
   text-decoration: underline;
+}
+
+.top-nav a[aria-current]:hover {
+  background: var(--nav-current-hover);
 }
 
 .home-logo:focus-visible,

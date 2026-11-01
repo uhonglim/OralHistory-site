@@ -1,6 +1,6 @@
 {
-  "source_commit": "016ae21fb70e5e779daf8a3bc468ae81066eff86",
-  "created_at": "2026-11-01T09:03:21.991390+00:00",
+  "source_commit": "84d19160b252f9e8a351c78656f9e6c40f0cb5fa",
+  "created_at": "2026-11-01T09:35:57.418312+00:00",
   "files": {
     ".nojekyll": {
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -11,8 +11,8 @@
       "bytes": 25
     },
     "assets/cabinet.css": {
-      "sha256": "e81ff74b0a722585e41f2102691f240e420c94b87fad136c6f257da77322dc05",
-      "bytes": 3990
+      "sha256": "ecaee921ad5b93fe3ff598210d504a49073ca3e7bb85ae81fbe306392e29b7f3",
+      "bytes": 3946
     },
     "assets/content.js": {
       "sha256": "f06aeb48970cc901bf12d21f72cf1d40960e0e233d2f51bfe0e00681eb83c344",
@@ -223,8 +223,8 @@
       "bytes": 25762
     },
     "assets/landing.js": {
-      "sha256": "867d0aceba1674ce3b8480395a2b25a06dcbbe42712aed764ad134e86c6df890",
-      "bytes": 2866
+      "sha256": "4d89f1f8b89bf896f59b06eb097580cd5781272cc03445360ff87a44c23b036f",
+      "bytes": 2462
     },
     "assets/objects/english-bible-front.png": {
       "sha256": "19bc47da3dcdc0f282092f667074b811d27300f24bf3be1619644fcf5fb24ab8",
@@ -439,7 +439,7 @@
       "bytes": 2264569
     },
     "assets/radio-logo.svg": {
-      "sha256": "29f5065dd54a66198c6172c23996a54b876b77454f7000c60d9aa2fba0214a83",
+      "sha256": "b921e918a4d3ab644c2ba2b5db59f59dbbe1bfe7b04fe2e2aa61de31cd0a5b73",
       "bytes": 347
     },
     "assets/radio-mainland-light.png": {
@@ -467,12 +467,12 @@
       "bytes": 283132
     },
     "assets/site.css": {
-      "sha256": "2ab0caad791e3fb4433a34ad56c1160cdb72f69e7313ee2b7ad9a526554ec634",
-      "bytes": 3003
+      "sha256": "bd8dfa7c141c9b78ff6cb18d514866daf9c78335cd0d29e68fad0d5f5ed4f826",
+      "bytes": 3138
     },
     "assets/studio.css": {
-      "sha256": "18aaa8e0c291c4b7f96f74528041880b34357943af54759592bc7f599a1f5b4c",
-      "bytes": 14545
+      "sha256": "e6a32f64a1d18d398b0e6646417050b17d62d04a6e92ec134d84b456c23ae4a0",
+      "bytes": 14667
     },
     "assets/studio.js": {
       "sha256": "b5851c2068898c274cffbcbb676e7ce2c7036e03567b7f57485d25d8d045ab34",
@@ -487,11 +487,11 @@
       "bytes": 2251
     },
     "index.html": {
-      "sha256": "e5ceb888a318a62657623bb0faf20dd25e4e75b6b0163b71eb0cc3b02e58965d",
+      "sha256": "b7ebbf8ba5dd8bcb608ff820da1d1afd6795dd0d49c580d60bbba5ad07fe2927",
       "bytes": 1944
     },
     "listen.html": {
-      "sha256": "24705f15d14b243f1c39a50567fbf51ae0541c6498d47a3a88d44936b9437107",
+      "sha256": "ee92138252afd3c93ce3d76e861a20defbfaaa890d69f8d3e2ede3678f3a41fb",
       "bytes": 5983
     },
     "robots.txt": {

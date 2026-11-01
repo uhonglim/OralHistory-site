@@ -1,18 +1,10 @@
-// One object is one narrator's complete interview. Unassigned artwork is
-// decorative until real interview content is supplied.
-const wallDesigns = ['nanyang', 'hongkong', 'mainland', 'taiwan', 'usa', 'uk', 'canada', 'australia', 'france', 'japan'];
+// Only show objects with an interview; do not fill the collection with placeholders.
 const interviewSlug = item => item.slug || item.source?.slug || item.id;
 const narratorName = item => item.narrator?.display_name || (typeof item.narrator === 'string' ? item.narrator : '') || item.source?.narrator?.display_name || item.name;
 const wallSlots = interviews.filter(item => !item.demo && interviewSlug(item)).map(interview => ({
   radio: Object.hasOwn(radioCatalog, interview.radio) ? interview.radio : 'mainland',
   interview
 }));
-const assignedDesigns = new Set(wallSlots.map(slot => slot.radio));
-for (const radio of wallDesigns) {
-  if (wallSlots.length >= wallDesigns.length) break;
-  if (!assignedDesigns.has(radio)) wallSlots.push({ radio, interview: null });
-}
-
 const wall = document.getElementById('radios');
 const collection = document.createElement('div');
 collection.className = 'radio-collection';
