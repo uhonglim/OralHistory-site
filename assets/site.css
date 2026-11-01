@@ -7,7 +7,11 @@
 }
 
 :root {
-  --header-height: 72px;
+  --header-height: 64px;
+  --page-gutter: 24px;
+  --header-space: 40px;
+  --radius-control: 12px;
+  --radius-panel: 24px;
   --nav-color: #ffffff;
   --nav-hover: #f6faf5;
   --nav-current: #eef5ec;
@@ -73,18 +77,23 @@ input:focus-visible,
   z-index: 20;
   display: flex;
   align-items: stretch;
-  width: 100%;
+  width: calc(100% - var(--page-gutter) * 2);
+  max-width: 1280px;
+  margin: 20px auto;
+  padding: 6px;
+  gap: 6px;
   background: #ffffff;
-  border-bottom: 1px solid var(--nav-border);
+  border: 1px solid var(--nav-border);
+  border-radius: 20px;
 }
 
 .home-logo {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex: 0 0 104px;
+  flex: 0 0 76px;
   background: #ffffff;
-  border-right: 1px solid var(--nav-border);
+  border-radius: var(--radius-control);
   transition: background 0.18s ease, opacity 0.18s ease;
 }
 
@@ -103,10 +112,12 @@ input:focus-visible,
   flex: 1;
   min-width: 0;
   display: flex;
+  gap: 6px;
 }
 
 .top-nav a {
   flex: 1;
+  border-radius: var(--radius-control);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -121,10 +132,6 @@ input:focus-visible,
   font-weight: 500;
   letter-spacing: 0.15px;
   transition: background 0.18s ease, color 0.18s ease;
-}
-
-.top-nav a + a {
-  border-left: 1px solid var(--nav-border);
 }
 
 .top-nav a:hover {
@@ -145,11 +152,19 @@ input:focus-visible,
 
 @media (max-width: 700px) {
   :root {
-    --header-height: 62px;
+    --header-height: 60px;
+    --page-gutter: 16px;
+    --header-space: 24px;
+    --radius-panel: 20px;
+  }
+
+  .site-header {
+    margin-block: 12px;
+    border-radius: 18px;
   }
 
   .home-logo {
-    flex-basis: 78px;
+    flex-basis: 56px;
   }
 
   .home-logo img {
