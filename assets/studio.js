@@ -174,6 +174,27 @@ function recordingMeta(item) {
   if (interviewer) parent.append(node('p', `Interview by ${interviewer}`));
 }
 
+function scriptTurns(segment) {
+  const speakers = segment.paragraph_speakers;
+  if (!Array.isArray(speakers)) return [segment];
+  const en = (segment.en || '').split(/\n\s*\n/);
+  const zh = (segment.zh || '').split(/\n\s*\n/);
+  // Only split explicitly attributed, aligned bilingual paragraphs.
+  if (speakers.length !== en.length || speakers.length !== zh.length ||
+      !speakers.every(role => ['interviewer', 'interviewee'].includes(role))) return [segment];
+  const turns = [];
+  speakers.forEach((role, index) => {
+    const previous = turns[turns.length - 1];
+    if (previous?.role === role) {
+      previous.en += '\n\n' + en[index];
+      previous.zh += '\n\n' + zh[index];
+    } else {
+      turns.push({ role, en: en[index], zh: zh[index] });
+    }
+  });
+  return turns;
+}
+
 function scriptReading(item) {
   const content = $('script-content');
   content.replaceChildren();
@@ -187,24 +208,36 @@ function scriptReading(item) {
   sessions.forEach(session => {
     (session.segments || []).forEach(segment => {
       const passage = node('section', undefined, 'script-passage');
-      const heading = node('div', undefined, 'script-heading');
       const seconds = recordingSeconds(item, session.id, segment.t);
-      const speaker = segment.speaker === item.source?.interviewer?.name
-        ? item.interviewer || segment.speaker : segment.speaker;
-      heading.append(node('span', speaker, 'script-speaker'));
-      const button = listenButton(item, seconds, speaker);
-      if (button) heading.append(button);
-      passage.append(heading);
-      if (segment.en) {
-        const translation = node('p', segment.en, 'script-translation');
-        translation.lang = 'en';
-        passage.append(translation);
-      }
-      if (segment.zh) {
-        const original = node('p', segment.zh, 'script-original');
-        original.lang = 'zh-Hans';
-        passage.append(original);
-      }
+      scriptTurns(segment).forEach((turn, index) => {
+        const block = node('div', undefined, 'script-turn');
+        if (turn.role) block.classList.add(`script-turn--${turn.role}`);
+        const heading = node('div', undefined, 'script-heading');
+        const interviewer = item.interviewer || item.source?.interviewer?.name;
+        const speaker = turn.role === 'interviewer'
+          ? `Interviewer${interviewer ? ` · ${interviewer}` : ''}`
+          : turn.role === 'interviewee' ? 'Interviewee'
+          : segment.speaker === item.source?.interviewer?.name
+            ? item.interviewer || segment.speaker : segment.speaker;
+        heading.append(node('span', speaker, 'script-speaker'));
+        // The preserved timestamp belongs to the whole source passage.
+        if (index === 0) {
+          const button = listenButton(item, seconds, turn.role ? 'Passage start' : speaker);
+          if (button) heading.append(button);
+        }
+        block.append(heading);
+        if (turn.en) {
+          const translation = node('p', turn.en, 'script-translation');
+          translation.lang = 'en';
+          block.append(translation);
+        }
+        if (turn.zh) {
+          const original = node('p', turn.zh, 'script-original');
+          original.lang = 'zh-Hans';
+          block.append(original);
+        }
+        passage.append(block);
+      });
       content.append(passage);
     });
   });

@@ -551,6 +551,34 @@ input:disabled {
   white-space: pre-line;
 }
 
+.script-turn + .script-turn {
+  margin-top: 24px;
+}
+
+.script-turn--interviewer {
+  --speaker-color: #245b78;
+}
+
+.script-turn--interviewee {
+  --speaker-color: #81512b;
+}
+
+.script-turn--interviewer,
+.script-turn--interviewee {
+  border-left: 3px solid var(--speaker-color);
+  padding-left: 14px;
+}
+
+.script-turn--interviewer :is(.script-speaker, .script-translation, .script-original),
+.script-turn--interviewee :is(.script-speaker, .script-translation, .script-original) {
+  color: var(--speaker-color);
+}
+
+.script-turn--interviewer .script-speaker,
+.script-turn--interviewee .script-speaker {
+  font-weight: 600;
+}
+
 .editorial {
   min-height: calc(100svh - var(--header-height) - var(--header-space));
   width: calc(100% - var(--page-gutter) * 2);

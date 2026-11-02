@@ -1,6 +1,6 @@
 {
-  "source_commit": "84d19160b252f9e8a351c78656f9e6c40f0cb5fa",
-  "created_at": "2026-11-01T09:35:57.418312+00:00",
+  "source_commit": "800e6f572b8ea20a11a243ff2fa68463eee170a2",
+  "created_at": "2026-11-02T03:28:57.461698+00:00",
   "files": {
     ".nojekyll": {
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -463,20 +463,20 @@
       "bytes": 1883984
     },
     "assets/reading-editions.js": {
-      "sha256": "8b27fe1d08d24e83c27ff7408b93c0256cfe9b02f5a476c5f2e5df83153a46e6",
-      "bytes": 283132
+      "sha256": "e7cb82841e49eeb91757e5e583036a964e1a807d03856ee57e67670f16ecae0b",
+      "bytes": 285074
     },
     "assets/site.css": {
       "sha256": "bd8dfa7c141c9b78ff6cb18d514866daf9c78335cd0d29e68fad0d5f5ed4f826",
       "bytes": 3138
     },
     "assets/studio.css": {
-      "sha256": "e6a32f64a1d18d398b0e6646417050b17d62d04a6e92ec134d84b456c23ae4a0",
-      "bytes": 14667
+      "sha256": "d47447d3dea04b60264ea3b526e87b0fb3d340d605da9f19ebd417f6e06d49cc",
+      "bytes": 15284
     },
     "assets/studio.js": {
-      "sha256": "b5851c2068898c274cffbcbb676e7ce2c7036e03567b7f57485d25d8d045ab34",
-      "bytes": 19165
+      "sha256": "0ba566a8bfa5a3be6008eafebd067a0673b36b0b77f2b379d0238f43cab2b7e8",
+      "bytes": 20588
     },
     "assets/web-artwork.js": {
       "sha256": "2b75e78d5f6b46d23871b04edd6ca24fd0478604e73f35f0045c2380a66235a1",
@@ -491,7 +491,7 @@
       "bytes": 1944
     },
     "listen.html": {
-      "sha256": "ee92138252afd3c93ce3d76e861a20defbfaaa890d69f8d3e2ede3678f3a41fb",
+      "sha256": "17a834c364566bdb7aec134351cf72b64ec690e921965f611db2bda2a5e61d21",
       "bytes": 5983
     },
     "robots.txt": {
