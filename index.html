@@ -3,12 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Family oral histories, in their own voices.">
+  <meta name="description" content="Family oral histories from China and Macau, with full recordings, English stories and bilingual scripts.">
   <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#ffffff">
   <link rel="icon" type="image/svg+xml" href="assets/radio-logo.svg">
-  <title>Home · Southern Voices</title>
-  <link rel="stylesheet" href="assets/site.css?v=bd8dfa7c141c">
-  <link rel="stylesheet" href="assets/cabinet.css?v=ecaee921ad5b">
+  <title>Southern Voices</title>
+  <link rel="stylesheet" href="assets/site.css?v=e7e18dafa789">
+  <link rel="stylesheet" href="assets/cabinet.css?v=29ac3e73e6e8">
   <script src="assets/content.js?v=f06aeb48970c" defer></script>
   <script src="assets/interviews/yufeng-great-uncle/interview.js?v=aacdf5d113ce" defer></script>
   <script src="assets/interviews/leanna-grandparent/interview.js?v=b8d1abe23f21" defer></script>
@@ -18,17 +19,50 @@
   <script src="assets/interviews/yuhan-younger-aunt/interview.js?v=a37359d562d2" defer></script>
   <script src="assets/interviews/yuhan-aunt-yunnan/interview.js?v=2d50e676a156" defer></script>
   <script src="assets/interviews/yhsam-father/interview.js?v=69e2f4a92301" defer></script>
+  <script src="assets/reading-editions.js?v=e7cb82841e49" defer></script>
   <script src="assets/web-artwork.js?v=2b75e78d5f6b" defer></script>
-  <script src="assets/landing.js?v=4d89f1f8b89b" defer></script>
+  <script src="assets/web-audio.js?v=5e1ffba15c26" defer></script>
+  <script src="assets/collection.js?v=c7114263a502" defer></script>
+  <script src="assets/landing.js?v=12b205d18466" defer></script>
 </head>
 <body class="home-page">
   <header class="site-header">
-    <a class="home-logo" href="./" aria-label="Home"><img src="assets/radio-logo.svg" width="30" height="23" alt=""></a>
+    <a class="home-logo" href="./" aria-label="Southern Voices home">
+      <img src="assets/radio-logo.svg" width="34" height="26" alt="">
+      <span class="wordmark">Southern Voices</span>
+    </a>
     <nav class="top-nav" aria-label="Main navigation">
       <a href="listen.html" data-nav="listen">Listen</a>
       <a href="listen.html?view=about" data-nav="about">About</a>
     </nav>
   </header>
-  <main class="radio-wall" id="radios" aria-label="Interviews"></main>
+  <main id="main">
+    <section class="intro" aria-labelledby="intro-title">
+      <div class="intro-text">
+        <h1 id="intro-title">Family oral histories from China and&nbsp;Macau</h1>
+        <p class="intro-lede">Each interviewer recorded one of their own relatives talking about moving, work, schooling and home. Every interview has the full recording in the narrator’s own language, a short English story, selected quotes and a script in English and Chinese.</p>
+        <div class="intro-actions">
+          <a class="button button--primary" id="start-listening" href="listen.html">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4 21 12 7 20Z"></path></svg>
+            Start listening
+          </a>
+          <a class="button" href="listen.html?view=about">About the project</a>
+        </div>
+        <p class="intro-credit" id="intro-credit" hidden></p>
+      </div>
+      <div class="intro-objects" id="intro-objects" aria-hidden="true"></div>
+      <dl class="stats intro-stats" id="collection-stats" aria-label="The collection in numbers"></dl>
+    </section>
+    <section class="collection" aria-labelledby="collection-title">
+      <div class="collection-heading">
+        <h2 id="collection-title">Interviews</h2>
+        <p>Choose an object to hear its story.</p>
+      </div>
+      <div class="radio-wall" id="radios"></div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <p>Objects are representative illustrations, not the families’ own belongings. Stories, quotes and scripts are translated and edited for reading.</p>
+  </footer>
 </body>
 </html>

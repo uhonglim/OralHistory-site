@@ -1,6 +1,6 @@
 {
-  "source_commit": "800e6f572b8ea20a11a243ff2fa68463eee170a2",
-  "created_at": "2026-11-02T03:28:57.461698+00:00",
+  "source_commit": "bca8d5f9937fa0c9f0c8a407719754a5e62c6099",
+  "created_at": "2026-11-06T01:39:32.806275+00:00",
   "files": {
     ".nojekyll": {
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -11,8 +11,12 @@
       "bytes": 25
     },
     "assets/cabinet.css": {
-      "sha256": "ecaee921ad5b93fe3ff598210d504a49073ca3e7bb85ae81fbe306392e29b7f3",
-      "bytes": 3946
+      "sha256": "29ac3e73e6e845ec4aa52987a4b3f28f0f317ae73ebb057a4d5fdfee40fb0a43",
+      "bytes": 6535
+    },
+    "assets/collection.js": {
+      "sha256": "c7114263a502a58028ba031e397f77873193e4574fbc1ba54987d84585758024",
+      "bytes": 2961
     },
     "assets/content.js": {
       "sha256": "f06aeb48970cc901bf12d21f72cf1d40960e0e233d2f51bfe0e00681eb83c344",
@@ -223,8 +227,8 @@
       "bytes": 25762
     },
     "assets/landing.js": {
-      "sha256": "4d89f1f8b89bf896f59b06eb097580cd5781272cc03445360ff87a44c23b036f",
-      "bytes": 2462
+      "sha256": "12b205d18466a57fb45d6f14e32de77bd3387ffe1464bd4121f3751ca80834c2",
+      "bytes": 4793
     },
     "assets/objects/english-bible-front.png": {
       "sha256": "19bc47da3dcdc0f282092f667074b811d27300f24bf3be1619644fcf5fb24ab8",
@@ -467,16 +471,16 @@
       "bytes": 285074
     },
     "assets/site.css": {
-      "sha256": "bd8dfa7c141c9b78ff6cb18d514866daf9c78335cd0d29e68fad0d5f5ed4f826",
-      "bytes": 3138
+      "sha256": "e7e18dafa789e7d41ea0c0caa6dc340dcf0900357c88c74e885eda0cfd5724cf",
+      "bytes": 5406
     },
     "assets/studio.css": {
-      "sha256": "d47447d3dea04b60264ea3b526e87b0fb3d340d605da9f19ebd417f6e06d49cc",
-      "bytes": 15284
+      "sha256": "9e1f0f3f21b8017784abdaf2a08e4c64b79834f8f39fa75a741b9d39e8e9b060",
+      "bytes": 16817
     },
     "assets/studio.js": {
-      "sha256": "0ba566a8bfa5a3be6008eafebd067a0673b36b0b77f2b379d0238f43cab2b7e8",
-      "bytes": 20588
+      "sha256": "38d659ba9470827d5f98a7ec708adac3bc954b31c7ebf6d4e79dd0c6a192a240",
+      "bytes": 22218
     },
     "assets/web-artwork.js": {
       "sha256": "2b75e78d5f6b46d23871b04edd6ca24fd0478604e73f35f0045c2380a66235a1",
@@ -487,12 +491,12 @@
       "bytes": 2251
     },
     "index.html": {
-      "sha256": "b7ebbf8ba5dd8bcb608ff820da1d1afd6795dd0d49c580d60bbba5ad07fe2927",
-      "bytes": 1944
+      "sha256": "3085710607cbd89fb83c055c864ffe48542e0c3d11c4c388602ba6e547ad190c",
+      "bytes": 3856
     },
     "listen.html": {
-      "sha256": "17a834c364566bdb7aec134351cf72b64ec690e921965f611db2bda2a5e61d21",
-      "bytes": 5983
+      "sha256": "361130066f0bb41927a862b7f90b23e7e4b60c68e2d944a627731d3553e9fdd7",
+      "bytes": 6676
     },
     "robots.txt": {
       "sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",

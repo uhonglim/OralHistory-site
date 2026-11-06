@@ -167,11 +167,27 @@ function reading(item) {
   selectReader('story');
 }
 
+// The helpers in collection.js are optional so the player still runs on its own.
+const shared = name => typeof globalThis[name] === 'function' ? globalThis[name] : null;
+
+function recordingDetails(item) {
+  const language = shared('interviewLanguage')?.(item) || item.language || '';
+  const minutes = shared('minutesLabel')?.(recordingSecondsFor(item)) || '';
+  const place = typeof interviewPlaces === 'undefined' ? '' : interviewPlaces[item.slug] || '';
+  return [place, language, minutes].filter(Boolean);
+}
+
 function recordingMeta(item) {
   const parent = $('recording-meta');
   const interviewer = item.interviewer || item.source?.interviewer?.name;
   parent.replaceChildren();
-  if (interviewer) parent.append(node('p', `Interview by ${interviewer}`));
+  if (interviewer) parent.append(node('p', `Interviewed by ${interviewer}`, 'recording-interviewer'));
+  const details = recordingDetails(item);
+  if (details.length) {
+    const list = node('ul', undefined, 'recording-details');
+    details.forEach(detail => list.append(node('li', detail)));
+    parent.append(list);
+  }
 }
 
 function scriptTurns(segment) {
@@ -261,13 +277,17 @@ function selectReader(mode, focus = false) {
 }
 
 function about() {
+  shared('renderStats')?.($('about-stats'));
   const parent = $('about-credits');
   parent.replaceChildren();
   if (typeof contributors === 'undefined') return;
   contributors.forEach(person => {
-    const paragraph = node('p', undefined, 'about-credit');
-    paragraph.append(node('span', person.name), node('span', person.role, 'credit-role'));
-    parent.append(paragraph);
+    const entry = node('div', undefined, 'about-credit');
+    const heading = node('p', undefined, 'credit-heading');
+    heading.append(node('span', person.name, 'credit-name'), node('span', person.role, 'credit-role'));
+    entry.append(heading);
+    if (person.bio) entry.append(node('p', person.bio, 'credit-bio'));
+    parent.append(entry);
   });
 }
 
@@ -360,6 +380,10 @@ function streamingSource(item) {
   return typeof webAudioSources === 'undefined' ? null : webAudioSources[item.audio];
 }
 
+function recordingSecondsFor(item) {
+  return streamingSource(item)?.durationSeconds || item.durationSeconds || 0;
+}
+
 function recordingDuration() {
   if (Number.isFinite(audio.duration)) return audio.duration;
   const item = collection[selected];
@@ -399,7 +423,9 @@ function controls() {
 function render() {
   const item = collection[selected];
   const artwork = item.object || radioCatalog[item.radio];
-  document.title = `${view === 'about' ? 'About' : 'Listen'} — Southern Voices`;
+  const storyTitle = item.readingEdition?.story?.title || item.source?.subtitle || '';
+  document.title = view === 'about' ? 'About · Southern Voices'
+    : `${storyTitle ? storyTitle + ' · ' : ''}Southern Voices`;
   document.querySelectorAll('[data-nav]').forEach(link => {
     link.removeAttribute('aria-current');
     if (link.dataset.nav === view) link.setAttribute('aria-current', 'page');
@@ -408,12 +434,18 @@ function render() {
   views.forEach(name => $(name + '-view').hidden = name !== view);
   document.body.classList.toggle('about-open', view === 'about');
   $('recording-title').textContent = title(item);
+  const pad = value => String(value).padStart(2, '0');
+  $('recording-position').textContent = `${pad(selected + 1)} of ${pad(collection.length)}`;
   recordingMeta(item);
   document.querySelectorAll('[data-interview-direction]').forEach(button => {
     const direction = Number(button.dataset.interviewDirection);
     const next = (selected + direction + collection.length) % collection.length;
     button.hidden = collection.length < 2;
     button.setAttribute('aria-label', `${direction < 0 ? 'Previous' : 'Next'} interview: ${title(collection[next])}`);
+  });
+  [['previous', -1], ['next', 1]].forEach(([name, direction]) => {
+    const next = collection[(selected + direction + collection.length) % collection.length];
+    $(`pager-${name}-title`).textContent = next.readingEdition?.story?.title || title(next);
   });
   if (artwork && view === 'listen') {
     const image = $('selected-radio');
