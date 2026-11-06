@@ -7,8 +7,8 @@
   <meta name="description" content="Family journeys, in their own voices.">
   <title>Listen — Southern Voices</title>
   <link rel="icon" type="image/svg+xml" href="assets/radio-logo.svg">
-  <link rel="stylesheet" href="assets/site.css?v=e7e18dafa789">
-  <link rel="stylesheet" href="assets/studio.css?v=9e1f0f3f21b8">
+  <link rel="stylesheet" href="assets/site.css?v=d889b276959a">
+  <link rel="stylesheet" href="assets/studio.css?v=8f2cca3c9c4c">
   <script src="assets/content.js?v=f06aeb48970c" defer></script>
   <script src="assets/interviews/yufeng-great-uncle/interview.js?v=aacdf5d113ce" defer></script>
   <script src="assets/interviews/leanna-grandparent/interview.js?v=b8d1abe23f21" defer></script>
@@ -22,8 +22,8 @@
   <script src="assets/photos.js?v=9cd7c44532ad" defer></script>
   <script src="assets/web-artwork.js?v=2b75e78d5f6b" defer></script>
   <script src="assets/web-audio.js?v=5e1ffba15c26" defer></script>
-  <script src="assets/collection.js?v=c7114263a502" defer></script>
-  <script src="assets/studio.js?v=38d659ba9470" defer></script>
+  <script src="assets/collection.js?v=ec2447880f34" defer></script>
+  <script src="assets/studio.js?v=1fde30b09efc" defer></script>
 </head>
 <body class="studio-page">
   <header class="site-header">
@@ -38,26 +38,24 @@
   </header>
   <main id="main">
     <section id="listen-view" class="view listen-layout" aria-label="Interview">
+      <button class="interview-arrow interview-arrow--previous desktop-interview-arrow" type="button" data-interview-direction="-1" aria-label="Previous interview">
+        <svg viewBox="0 0 24 40" aria-hidden="true"><path d="M19 4 5 20 19 36"></path></svg>
+      </button>
       <div class="listening-side">
         <div class="session-heading">
-          <p class="recording-position" id="recording-position"></p>
           <h1 id="recording-title" tabindex="-1">RONGXUAN WANG’s grandfather</h1>
           <div id="recording-meta" class="recording-meta"></div>
         </div>
         <div class="radio-panel">
+          <button class="interview-arrow interview-arrow--previous mobile-interview-arrow" type="button" data-interview-direction="-1" aria-label="Previous interview">
+            <svg viewBox="0 0 24 40" aria-hidden="true"><path d="M19 4 5 20 19 36"></path></svg>
+          </button>
           <img id="selected-radio" alt="" width="1659" height="948">
+          <button class="interview-arrow interview-arrow--next mobile-interview-arrow" type="button" data-interview-direction="1" aria-label="Next interview">
+            <svg viewBox="0 0 24 40" aria-hidden="true"><path d="M5 4 19 20 5 36"></path></svg>
+          </button>
         </div>
         <div id="session-player"></div>
-        <nav class="pager" aria-label="Other interviews">
-          <button class="pager-link pager-link--previous" type="button" data-interview-direction="-1">
-            <span class="pager-direction">Previous</span>
-            <span class="pager-title" id="pager-previous-title"></span>
-          </button>
-          <button class="pager-link pager-link--next" type="button" data-interview-direction="1">
-            <span class="pager-direction">Next</span>
-            <span class="pager-title" id="pager-next-title"></span>
-          </button>
-        </nav>
       </div>
       <div class="reading-side">
         <div class="reader-tabs" role="tablist" aria-label="Read interview">
@@ -75,21 +73,15 @@
           <div id="script-content" class="script-content"></div>
         </article>
       </div>
+      <button class="interview-arrow interview-arrow--next desktop-interview-arrow" type="button" data-interview-direction="1" aria-label="Next interview">
+        <svg viewBox="0 0 24 40" aria-hidden="true"><path d="M5 4 19 20 5 36"></path></svg>
+      </button>
     </section>
     <section id="about-view" class="view editorial" hidden>
-      <h1>About the project</h1>
-      <p id="about-intro">Southern Voices is a collection of family oral histories. Each interviewer recorded one of their own relatives talking about moving, work, schooling and home in China and Macau.</p>
-      <dl class="stats about-stats" id="about-stats" aria-label="The collection in numbers"></dl>
-      <h2>What each interview includes</h2>
-      <dl class="about-includes">
-        <div><dt>Recording</dt><dd>The full interview in the narrator’s own language.</dd></div>
-        <div><dt>Story</dt><dd>A short English account of the narrator’s life, written from the interview.</dd></div>
-        <div><dt>Quotes</dt><dd>Passages translated and edited for clarity, each linked to its moment in the recording.</dd></div>
-        <div><dt>Script</dt><dd>An edited reading version in English and Chinese, with a timestamp for every passage.</dd></div>
-      </dl>
-      <h2>Contributors</h2>
+      <h1>About</h1>
+      <p id="about-intro">Southern Voices is a collection of family oral histories. Each interviewer recorded one of their own relatives talking about moving, work, schooling and home in China and Macau. Every interview has the full recording, a short English story, quotes and a script in English and Chinese.</p>
       <div id="about-credits" class="about-credits"></div>
-      <p class="about-note">The objects shown with each interview are representative illustrations chosen for its story, not the families’ own belongings.</p>
+      <p class="about-note">The objects are representative illustrations, not the families’ own belongings.</p>
     </section>
     <div id="continuing-player"></div>
   </main>

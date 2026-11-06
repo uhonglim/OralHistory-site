@@ -159,85 +159,6 @@ input:focus-visible,
   background: var(--accent-soft);
 }
 
-/* ---------- Shared pieces ---------- */
-
-.button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  min-height: 46px;
-  padding: 0 22px;
-  border: 1px solid var(--line-strong);
-  border-radius: var(--radius-control);
-  background: #ffffff;
-  color: var(--ink);
-  font-size: 15px;
-  font-weight: 500;
-  text-decoration: none;
-  transition: background 0.18s ease, border-color 0.18s ease, color 0.18s ease, transform 0.18s ease;
-}
-
-.button:hover {
-  background: var(--hover);
-  border-color: var(--faint);
-}
-
-.button--primary {
-  border-color: var(--accent);
-  background: var(--accent);
-  color: #ffffff;
-}
-
-.button--primary:hover {
-  border-color: var(--accent-hover);
-  background: var(--accent-hover);
-}
-
-.button svg {
-  width: 14px;
-  height: 14px;
-  fill: currentColor;
-}
-
-.stats {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  margin: 0;
-  padding: 0;
-  border-top: 1px solid var(--line);
-  border-bottom: 1px solid var(--line);
-}
-
-.stat {
-  display: flex;
-  flex-direction: column-reverse;
-  justify-content: flex-end;
-  padding: 18px 20px 16px 0;
-}
-
-.stat + .stat {
-  padding-left: 20px;
-  border-left: 1px solid var(--line);
-}
-
-.stat dd {
-  margin: 0;
-  font-family: var(--serif);
-  font-size: 32px;
-  font-weight: 600;
-  line-height: 1.1;
-  letter-spacing: -0.5px;
-  font-variant-numeric: lining-nums tabular-nums;
-}
-
-.stat dt {
-  margin-top: 6px;
-  color: var(--muted);
-  font-size: 13px;
-  line-height: 1.4;
-}
-
 @media (max-width: 700px) {
   :root {
     --header-height: 60px;
@@ -263,33 +184,6 @@ input:focus-visible,
     padding: 0 12px;
     font-size: 14px;
   }
-
-  .stats {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .stat,
-  .stat + .stat {
-    padding: 14px 12px 12px 0;
-    border-left: 0;
-  }
-
-  .stat:nth-child(even) {
-    padding-left: 16px;
-    border-left: 1px solid var(--line);
-  }
-
-  .stat:nth-child(n + 3) {
-    border-top: 1px solid var(--line);
-  }
-
-  .stat dd {
-    font-size: 26px;
-  }
-
-  .stat dt {
-    font-size: 12px;
-  }
 }
 
 @media (max-width: 360px) {
@@ -303,8 +197,7 @@ input:focus-visible,
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .top-nav a,
-  .button {
+  .top-nav a {
     transition: none;
   }
 }

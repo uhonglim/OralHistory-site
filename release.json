@@ -1,6 +1,6 @@
 {
-  "source_commit": "bca8d5f9937fa0c9f0c8a407719754a5e62c6099",
-  "created_at": "2026-11-06T01:39:32.806275+00:00",
+  "source_commit": "587fdb66ad79389c672311871a1623d033618b52",
+  "created_at": "2026-11-06T02:33:05.918695+00:00",
   "files": {
     ".nojekyll": {
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -11,12 +11,12 @@
       "bytes": 25
     },
     "assets/cabinet.css": {
-      "sha256": "29ac3e73e6e845ec4aa52987a4b3f28f0f317ae73ebb057a4d5fdfee40fb0a43",
-      "bytes": 6535
+      "sha256": "81dedc9e1c369873ec97dcd750f0bff390d8290154c51b923c6e9121d7a3367c",
+      "bytes": 2800
     },
     "assets/collection.js": {
-      "sha256": "c7114263a502a58028ba031e397f77873193e4574fbc1ba54987d84585758024",
-      "bytes": 2961
+      "sha256": "ec2447880f348fd99690de03f39495cdbbdd0bf52bc5837ec777a5917577b797",
+      "bytes": 620
     },
     "assets/content.js": {
       "sha256": "f06aeb48970cc901bf12d21f72cf1d40960e0e233d2f51bfe0e00681eb83c344",
@@ -227,8 +227,8 @@
       "bytes": 25762
     },
     "assets/landing.js": {
-      "sha256": "12b205d18466a57fb45d6f14e32de77bd3387ffe1464bd4121f3751ca80834c2",
-      "bytes": 4793
+      "sha256": "669e5fcd2f734a60e43933bd377818ba9ab9ac7da99c7dcf731718d056611057",
+      "bytes": 2515
     },
     "assets/objects/english-bible-front.png": {
       "sha256": "19bc47da3dcdc0f282092f667074b811d27300f24bf3be1619644fcf5fb24ab8",
@@ -471,16 +471,16 @@
       "bytes": 285074
     },
     "assets/site.css": {
-      "sha256": "e7e18dafa789e7d41ea0c0caa6dc340dcf0900357c88c74e885eda0cfd5724cf",
-      "bytes": 5406
+      "sha256": "d889b276959a4c39243f143a33c43cd62e2b28ddfea1c77f621b548515d58bbb",
+      "bytes": 3509
     },
     "assets/studio.css": {
-      "sha256": "9e1f0f3f21b8017784abdaf2a08e4c64b79834f8f39fa75a741b9d39e8e9b060",
-      "bytes": 16817
+      "sha256": "8f2cca3c9c4c7e9f7a03cfd5e227092c30abef143bd96365db1bec2d658d8eee",
+      "bytes": 15765
     },
     "assets/studio.js": {
-      "sha256": "38d659ba9470827d5f98a7ec708adac3bc954b31c7ebf6d4e79dd0c6a192a240",
-      "bytes": 22218
+      "sha256": "1fde30b09efce153d184b25afca7c508ee329c84f565596655ddecf6e2bbf6fc",
+      "bytes": 21308
     },
     "assets/web-artwork.js": {
       "sha256": "2b75e78d5f6b46d23871b04edd6ca24fd0478604e73f35f0045c2380a66235a1",
@@ -491,12 +491,12 @@
       "bytes": 2251
     },
     "index.html": {
-      "sha256": "3085710607cbd89fb83c055c864ffe48542e0c3d11c4c388602ba6e547ad190c",
-      "bytes": 3856
+      "sha256": "b3401dcccdf608ceb1eab30d7c3ff737b0e2e27ab50d114d2ff5ef43b79c7689",
+      "bytes": 2439
     },
     "listen.html": {
-      "sha256": "361130066f0bb41927a862b7f90b23e7e4b60c68e2d944a627731d3553e9fdd7",
-      "bytes": 6676
+      "sha256": "f8546106e08e62d99478b52b81f5fc4707dd92ebfa616451a08a61f54bd6b6e2",
+      "bytes": 6492
     },
     "robots.txt": {
       "sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
