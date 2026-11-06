@@ -621,20 +621,12 @@ input:disabled {
 }
 
 .editorial h1 {
-  margin: 0 0 20px;
+  margin: 0 0 32px;
   font-family: var(--serif);
   font-size: clamp(34px, 4.4vw, 48px);
   font-weight: 600;
   line-height: 1.12;
   letter-spacing: -0.9px;
-}
-
-.editorial > p:first-of-type {
-  max-width: 640px;
-  margin: 0 0 40px;
-  color: var(--ink-soft);
-  font-size: 18px;
-  line-height: 1.75;
 }
 
 .about-credits {
@@ -657,13 +649,6 @@ input:disabled {
 .credit-role {
   color: var(--muted);
   font-size: 13.5px;
-}
-
-.about-note {
-  margin: 32px 0 0;
-  color: var(--muted);
-  font-size: 13.5px;
-  line-height: 1.65;
 }
 
 /* ---------- Player that follows you to About ---------- */
@@ -900,10 +885,6 @@ input:disabled {
 
   .editorial {
     padding-bottom: 190px;
-  }
-
-  .editorial > p:first-of-type {
-    font-size: 16.5px;
   }
 
 
